@@ -1,13 +1,13 @@
-﻿Log file open, 09/17/17 21:08:22
+﻿Log file open, 09/18/17 14:52:01
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: FamersVsAliens
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2027391908) SRandInit(2027391909).
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.168378
+LogInit: Display: RandInit(44973747) SRandInit(44973747).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.159337
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -104,163 +104,1348 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: F:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.18-00.08.22:815][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.18-00.08.22:815][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.18-00.08.22:822][  0]LogInit: Computer: DESKTOP-CICTV3V
-[2017.09.18-00.08.22:822][  0]LogInit: User: Smailin
-[2017.09.18-00.08.22:822][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.18-00.08.22:822][  0]LogInit: High frequency timer resolution =3.312782 MHz
-[2017.09.18-00.08.22:822][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.09.18-00.08.22:822][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.18-00.08.22:822][  0]LogMemory: Process Physical Memory: 278.27 MB used, 278.27 MB peak
-[2017.09.18-00.08.22:822][  0]LogMemory: Process Virtual Memory: 274.36 MB used, 274.36 MB peak
-[2017.09.18-00.08.22:822][  0]LogMemory: Physical Memory: 5294.96 MB used,  2859.71 MB free, 8154.68 MB total
-[2017.09.18-00.08.22:822][  0]LogMemory: Virtual Memory: 654.70 MB used,  2859.71 MB free, 134217728.00 MB total
-[2017.09.18-00.08.22:952][  0]LogInit: Overriding language with editor language configuration option (en).
-[2017.09.18-00.08.22:952][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2017.09.18-00.08.23:662][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.18-00.08.24:223][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
-[2017.09.18-00.08.24:223][  0]LogD3D11RHI:       2015/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.09.18-00.08.24:225][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.18-00.08.24:225][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.18-00.08.24:225][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.18-00.08.24:230][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.18-00.08.24:230][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.18-00.08.24:230][  0]LogWindows: EnumDisplayDevices:
-[2017.09.18-00.08.24:230][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:0 D:1)
-[2017.09.18-00.08.24:230][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:1 D:1)
-[2017.09.18-00.08.24:231][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2017.09.18-00.08.24:231][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2017.09.18-00.08.24:231][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.09.18-00.08.24:231][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
-[2017.09.18-00.08.24:231][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
-[2017.09.18-00.08.24:231][  0]LogD3D11RHI:      Driver Date: 8-21-2017
-[2017.09.18-00.08.24:231][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.18-00.08.24:752][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.18-00.08.24:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.09.18-00.08.24:895][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Projetos Unreal/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/1316/).
-[2017.09.18-00.08.24:896][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Smailin/AppData/Local/Temp/UnrealShaderWorkingDir/210C7819493228A3653D3089CC939619/'.
-[2017.09.18-00.08.24:896][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.18-00.08.25:836][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.18-00.08.25:884][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.18-00.08.25:931][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.18-00.08.25:978][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.18-00.08.26:026][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.18-00.08.26:073][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.18-00.08.26:120][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.18-00.08.26:167][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.18-00.08.26:208][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.18-00.08.26:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.18-00.08.26:305][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.18-00.08.26:352][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.18-00.08.26:399][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.18-00.08.26:444][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.18-00.08.26:489][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.18-00.08.26:583][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.18-00.08.26:583][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.18-00.08.26:619][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.18-00.08.26:710][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.18-00.08.26:736][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.18-00.08.26:783][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.18-00.08.26:829][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.18-00.08.26:874][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.18-00.08.26:921][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.18-00.08.26:921][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.18-00.08.27:335][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.18-00.08.27:426][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.18-00.08.27:426][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.18-00.08.27:426][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.18-00.08.27:426][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.18-00.08.27:426][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.18-00.08.27:426][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.18-00.08.27:441][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.18-00.08.27:453][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Smailin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.18-00.08.27:465][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.18-00.08.27:465][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.18-00.08.27:466][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.18-00.08.27:466][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.18-00.08.27:774][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
-[2017.09.18-00.08.27:906][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.18-00.08.28:062][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.18-00.08.28:375][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.18-00.08.28:415][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.18-00.08.28:415][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.18-00.08.28:415][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.18-00.08.28:415][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.18-00.08.28:415][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.18-00.08.28:801][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
-[2017.09.18-00.08.28:996][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.019985 seconds
-[2017.09.18-00.08.29:006][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.18-00.08.29:006][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.18-00.08.29:006][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.18-00.08.29:057][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.18-00.08.31:852][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.18-00.08.31:894][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.18-00.08.32:532][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.18-00.08.32:907][  0]SourceControl: Source control is disabled
-[2017.09.18-00.08.32:907][  0]SourceControl: Source control is disabled
-[2017.09.18-00.08.32:951][  0]SourceControl: Source control is disabled
-[2017.09.18-00.08.32:995][  0]SourceControl: Source control is disabled
-[2017.09.18-00.08.33:518][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.18-00.08.33:743][  0]LogOcInput: OculusInput pre-init called
-[2017.09.18-00.08.33:980][  0]LogEngine: Initializing Engine...
-[2017.09.18-00.08.33:982][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.18-00.08.34:209][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.18-00.08.34:209][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.18-00.08.34:327][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.18-00.08.34:337][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.18-00.08.34:352][  0]LogInit: FAudioDevice initialized.
-[2017.09.18-00.08.34:615][  0]LogDerivedDataCache: Saved boot cache 0.26s 93MB C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.18-00.08.34:621][  0]LogInit: Texture streaming: Enabled
-[2017.09.18-00.08.34:712][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.18-00.08.34:909][  0]LogInit: Transaction tracking system initialized
-[2017.09.18-00.08.35:181][  0]BlueprintLog: New page: Editor Load
-[2017.09.18-00.08.36:008][  0]LocalizationService: Localization service is disabled
-[2017.09.18-00.08.36:619][  0]LogConsoleResponse: Display: 
-[2017.09.18-00.08.36:791][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/' took 0.01s
-[2017.09.18-00.08.36:791][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.18-00.08.36:791][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.18-00.08.36:791][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.18-00.08.37:725][  0]SourceControl: Source control is disabled
-[2017.09.18-00.08.37:725][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.18-00.08.37:726][  0]LightingResults: New page: Lighting Build
-[2017.09.18-00.08.37:762][  0]MapCheck: New page: Map Check
-[2017.09.18-00.08.37:763][  0]LightingResults: New page: Lighting Build
-[2017.09.18-00.08.37:967][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.09.18-00.08.37:973][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.18-00.08.37:983][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.18-00.08.38:047][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.053ms to complete.
-[2017.09.18-00.08.38:047][  0]LogFileHelpers: Loading map 'Template_Default' took 0.322
-[2017.09.18-00.08.38:138][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.18-00.08.38:243][  0]LogCollectionManager: Loaded 0 collections in 0.001294 seconds
-[2017.09.18-00.08.38:317][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Saved/Collections/' took 0.01s
-[2017.09.18-00.08.38:317][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Developers/Smailin/Collections/' took 0.01s
-[2017.09.18-00.08.38:317][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Collections/' took 0.01s
-[2017.09.18-00.08.38:317][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.09.18-00.08.38:327][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2386 classes and 500 folders.
-[2017.09.18-00.08.38:381][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.09.18-00.08.38:433][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.09.18-00.08.38:471][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.09.18-00.08.39:366][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.18-00.08.39:370][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.18-00.08.39:377][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.18-00.08.39:538][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FamersVsAliens
-[2017.09.18-00.08.39:538][  0]LogTemp: CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.18-00.08.39:538][  0]LogTemp: Initial Dir: F:\UE_4.17
-[2017.09.18-00.08.39:538][  0]LogTemp: Env CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.18-00.08.39:538][  0]LogTemp: BranchPath = DESKTOP-CICTV3V/F/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-CICTV3V/F/UE_4.17/Engine/Binaries
-[2017.09.18-00.08.39:538][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Smailin\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.09.18-00.08.39:538][  0]LogRenderer: Reallocating scene render targets to support 816x456 Format 10 NumSamples 1 (Frame:1).
-[2017.09.18-00.08.39:699][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.09.18-00.08.39:700][  0]LogLoad: (Engine Initialization) Total time: 18.47 seconds
-[2017.09.18-00.08.39:700][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.18-00.08.39:700][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.18-00.08.39:743][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.18-00.08.39:789][  1]LogAssetRegistry: Asset discovery search completed in 12.0373 seconds
-[2017.09.18-00.08.39:791][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.18-00.08.39:791][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2017.09.18-17.52.06:837][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.18-17.52.06:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.18-17.52.06:967][  0]LogInit: Computer: DESKTOP-H9VC9LG
+[2017.09.18-17.52.06:967][  0]LogInit: User: mari
+[2017.09.18-17.52.06:967][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.18-17.52.06:967][  0]LogInit: High frequency timer resolution =2.338331 MHz
+[2017.09.18-17.52.06:968][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.18-17.52.06:968][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.18-17.52.06:968][  0]LogMemory: Process Physical Memory: 278.68 MB used, 278.68 MB peak
+[2017.09.18-17.52.06:968][  0]LogMemory: Process Virtual Memory: 275.61 MB used, 275.61 MB peak
+[2017.09.18-17.52.06:968][  0]LogMemory: Physical Memory: 3765.13 MB used,  4332.79 MB free, 8097.92 MB total
+[2017.09.18-17.52.06:968][  0]LogMemory: Virtual Memory: 666.80 MB used,  4332.79 MB free, 134217728.00 MB total
+[2017.09.18-17.52.08:557][  0]LogInit: Using OS detected language (pt-BR).
+[2017.09.18-17.52.08:557][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.09.18-17.52.17:674][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.18-17.52.17:728][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.09.18-17.52.17:728][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.09.18-17.52.17:731][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.18-17.52.17:731][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.18-17.52.17:731][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.18-17.52.17:781][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.18-17.52.17:782][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.18-17.52.17:782][  0]LogWindows: EnumDisplayDevices:
+[2017.09.18-17.52.17:782][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.09.18-17.52.17:783][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.09.18-17.52.17:783][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.09.18-17.52.17:783][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.09.18-17.52.17:783][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2017.09.18-17.52.17:783][  0]LogD3D11RHI:   Driver Version: 20.19.15.4624 (internal:20.19.15.4624, unified:20.19.15.4624)
+[2017.09.18-17.52.17:783][  0]LogD3D11RHI:      Driver Date: 3-8-2017
+[2017.09.18-17.52.17:783][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.18-17.52.17:828][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.18-17.52.18:236][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.09.18-17.52.18:542][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/12268/).
+[2017.09.18-17.52.18:542][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mari_/AppData/Local/Temp/UnrealShaderWorkingDir/9A16E80245CC55302DC217A201B790DA/'.
+[2017.09.18-17.52.18:542][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.18-17.52.25:411][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.18-17.52.25:670][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.18-17.52.25:821][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.18-17.52.25:945][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.18-17.52.26:118][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.18-17.52.26:273][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.18-17.52.26:462][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.18-17.52.26:617][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.18-17.52.26:799][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.18-17.52.26:961][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.18-17.52.27:094][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.18-17.52.27:244][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.18-17.52.27:368][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.18-17.52.27:516][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.18-17.52.27:676][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.18-17.52.27:981][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.18-17.52.27:981][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.18-17.52.28:121][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.18-17.52.28:499][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.18-17.52.28:576][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.18-17.52.28:720][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.18-17.52.28:902][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.18-17.52.29:104][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.18-17.52.29:304][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.18-17.52.29:304][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.18-17.52.32:025][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.18-17.52.33:448][  0]LogDerivedDataCache: Loaded boot cache 1.42s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.18-17.52.33:448][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.18-17.52.33:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.18-17.52.33:448][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.18-17.52.33:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.18-17.52.33:448][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.18-17.52.33:592][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.18-17.52.33:607][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mari_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.18-17.52.33:665][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.18-17.52.33:720][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.18-17.52.33:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.18-17.52.33:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.18-17.52.47:016][  0]LogAssetRegistry: FAssetRegistry took 0.0391 seconds to start up
+[2017.09.18-17.52.47:631][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.18-17.52.49:754][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.18-17.52.51:764][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.18-17.52.51:977][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.18-17.52.51:992][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.18-17.52.51:992][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.18-17.52.51:992][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.18-17.52.51:992][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.18-17.52.55:174][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
+[2017.09.18-17.52.57:203][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.180624 seconds
+[2017.09.18-17.52.57:212][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.18-17.52.57:212][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.18-17.52.57:212][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.18-17.52.57:413][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.18-17.53.36:445][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.18-17.53.36:585][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.18-17.53.39:698][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.18-17.53.41:425][  0]SourceControl: Controle de origem desativado
+[2017.09.18-17.53.47:298][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.18-17.53.48:257][  0]LogOcInput: OculusInput pre-init called
+[2017.09.18-17.53.49:565][  0]LogEngine: Initializing Engine...
+[2017.09.18-17.53.49:622][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.18-17.53.50:977][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.18-17.53.51:032][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.027 s
+[2017.09.18-17.53.51:921][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.18-17.53.52:407][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-17.53.52:502][  0]LogInit: FAudioDevice initialized.
+[2017.09.18-17.53.53:213][  0]LogDerivedDataCache: Saved boot cache 0.70s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.18-17.53.53:263][  0]LogInit: Texture streaming: Enabled
+[2017.09.18-17.53.53:739][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.18-17.53.56:192][  0]LogInit: Transaction tracking system initialized
+[2017.09.18-17.53.57:432][  0]BlueprintLog: New page: Carregar Editor
+[2017.09.18-17.54.01:606][  0]LocalizationService: Localization service is disabled
+[2017.09.18-17.54.04:534][  0]LogConsoleResponse: Display: 
+[2017.09.18-17.54.08:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' took 0.12s
+[2017.09.18-17.54.08:690][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.18-17.54.08:690][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.18-17.54.08:746][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.18-17.54.13:571][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-17.54.13:634][  0]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-17.54.13:776][  0]MapCheck: New page: Verificação de Mapa
+[2017.09.18-17.54.13:776][  0]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-17.54.15:159][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.18-17.54.15:275][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-17.54.15:344][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-17.54.15:464][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119,413ms to complete.
+[2017.09.18-17.54.15:464][  0]LogFileHelpers: Loading map 'Template_Default' took 1.894
+[2017.09.18-17.54.17:349][  0]LogCollectionManager: Loaded 0 collections in 0.002388 seconds
+[2017.09.18-17.54.17:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' took 0.01s
+[2017.09.18-17.54.17:591][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' took 0.01s
+[2017.09.18-17.54.17:591][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' took 0.01s
+[2017.09.18-17.54.17:591][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.18-17.54.17:617][  0]LogContentBrowser: Native class hierarchy populated in 0.0253 seconds. Added 2386 classes and 500 folders.
+[2017.09.18-17.54.17:796][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.09.18-17.54.19:300][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.09.18-17.54.19:507][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.18-17.54.20:392][  0]LogSlate: Took 0.073514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.18-17.54.20:435][  0]LogSlate: Took 0.041462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.18-17.54.20:509][  0]LogSlate: Took 0.016011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.18-17.54.20:842][  0]LogRenderer: Reallocating scene render targets to support 480x340 Format 10 NumSamples 1 (Frame:1).
+[2017.09.18-17.54.22:790][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.18-17.54.22:790][  0]LogLoad: (Engine Initialization) Total time: 150.98 seconds
+[2017.09.18-17.54.22:790][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.18-17.54.22:802][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.18-17.54.22:884][  0]SourceControl: On branch master
+[2017.09.18-17.54.22:884][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.18-17.54.22:884][  0]SourceControl: Changes not staged for commit:
+[2017.09.18-17.54.22:884][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.09.18-17.54.22:884][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.18-17.54.22:884][  0]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
+[2017.09.18-17.54.22:884][  0]SourceControl: Untracked files:
+[2017.09.18-17.54.22:884][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/1c1156c6.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/252ea18c.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/311563bb.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/3d26461c.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/7a1554cf.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/9f653f2c.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/b4b2f441.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/b648818b.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/bc231332.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/ca9391c3.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Intermediate/AssetRegistryCache/ee85c077.bin
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/AutoScreenshot.png
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/Autosaves/
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-0B1F74654D117BAF815F1B9EFCD19A52/
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-AC3013ED419AF5777CA91BAA672BC5CD/
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/Config/Windows/SourceControlSettings.ini
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/Config/WorldState/
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.17-21.53.37.log
+[2017.09.18-17.54.22:884][  0]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.18-14.52.01.log
+[2017.09.18-17.54.22:884][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.18-17.54.22:885][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.18-17.54.22:999][  0]LogSlate: Took 0.022888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.18-17.54.23:147][  2]LogAssetRegistry: Asset discovery search completed in 96.1542 seconds
+[2017.09.18-17.54.23:181][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.18-17.54.23:181][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2017.09.18-18.17.40:010][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-18.24.29:669][436]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.18-18.24.29:703][436]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Untitled_BuiltData”
+[2017.09.18-18.24.29:703][436]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Untitled.umap” ao carregar /Game/Untitled_BuiltData.
+[2017.09.18-18.24.29:703][436]LoadErrors: Error: /Game/Untitled : Não é possível encontrar o arquivo do ativo. /Game/Untitled_BuiltData
+[2017.09.18-18.24.29:706][436]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Untitled_BuiltData”
+[2017.09.18-18.24.29:706][436]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Untitled.umap” ao carregar /Game/Untitled_BuiltData.
+[2017.09.18-18.24.29:715][436]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Untitled_BuiltData”
+[2017.09.18-18.24.29:715][436]LoadErrors: Falha ao carregar /Game/Untitled_BuiltData.Untitled_BuiltData Referenciado por PersistentLevel
+[2017.09.18-18.24.29:715][436]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Untitled_BuiltData.
+[2017.09.18-18.24.29:790][436]LogAIModule: Creating AISystem for world Untitled
+[2017.09.18-18.24.29:837][436]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.24.29:837][436]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.29:838][436]LoadErrors: New page: Carregando mapa: Untitled.umap
+[2017.09.18-18.24.29:839][436]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.24.29:839][436]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.29:952][436]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.24.30:035][436]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.24.30:150][436]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114,745ms to complete.
+[2017.09.18-18.24.30:150][436]LogFileHelpers: Loading map 'Untitled' took 0.314
+[2017.09.18-18.24.38:154][668]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.18-18.24.38:188][668]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.24.38:188][668]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.38:190][668]LoadErrors: New page: Carregando mapa: MapaBasico.umap
+[2017.09.18-18.24.38:211][668]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.24.38:211][668]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.38:285][668]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.24.38:331][668]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.24.38:444][668]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112,382ms to complete.
+[2017.09.18-18.24.38:445][668]LogFileHelpers: Loading map 'MapaBasico' took 0.257
+[2017.09.18-18.24.40:364][728]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.24.40:365][728]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.24.40:365][728]LoadErrors: Error: /Game/Maps/MapaBasico02 : Não é possível encontrar o arquivo do ativo. /Game/Maps/MapaBasico02_BuiltData
+[2017.09.18-18.24.40:368][728]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.24.40:368][728]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.24.40:374][728]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.24.40:375][728]LoadErrors: Falha ao carregar /Game/Maps/MapaBasico02_BuiltData.MapaBasico02_BuiltData Referenciado por PersistentLevel
+[2017.09.18-18.24.40:376][728]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.24.40:380][728]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-18.24.40:404][728]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.24.40:405][728]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.40:405][728]LoadErrors: New page: Carregando mapa: MapaBasico02.umap
+[2017.09.18-18.24.40:406][728]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.24.40:406][728]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.40:492][728]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.24.40:536][728]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.24.40:638][728]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102,04ms to complete.
+[2017.09.18-18.24.40:640][728]LogFileHelpers: Loading map 'MapaBasico02' took 0.236
+[2017.09.18-18.24.44:580][839]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.18-18.24.44:603][839]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.24.44:603][839]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.44:604][839]LoadErrors: New page: Carregando mapa: MapaBasico.umap
+[2017.09.18-18.24.44:604][839]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.24.44:604][839]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.24.44:693][839]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.24.44:737][839]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.24.44:844][839]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106,995ms to complete.
+[2017.09.18-18.24.44:845][839]LogFileHelpers: Loading map 'MapaBasico' took 0.244
+[2017.09.18-18.25.04:341][369]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Untitled_BuiltData”
+[2017.09.18-18.25.04:341][369]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Untitled.umap” ao carregar /Game/Untitled_BuiltData.
+[2017.09.18-18.25.04:341][369]LoadErrors: Error: /Game/Untitled : Não é possível encontrar o arquivo do ativo. /Game/Untitled_BuiltData
+[2017.09.18-18.25.04:344][369]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Untitled_BuiltData”
+[2017.09.18-18.25.04:345][369]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Untitled.umap” ao carregar /Game/Untitled_BuiltData.
+[2017.09.18-18.25.04:349][369]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Untitled_BuiltData”
+[2017.09.18-18.25.04:349][369]LoadErrors: Falha ao carregar /Game/Untitled_BuiltData.Untitled_BuiltData Referenciado por PersistentLevel
+[2017.09.18-18.25.04:349][369]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Untitled_BuiltData.
+[2017.09.18-18.25.04:352][369]LogAIModule: Creating AISystem for world Untitled
+[2017.09.18-18.25.10:231][369]SourceControl: rm 'Content/Untitled.umap'
+[2017.09.18-18.25.21:406][738]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.25.21:406][738]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.25.21:406][738]LoadErrors: Error: /Game/Maps/MapaBasico02 : Não é possível encontrar o arquivo do ativo. /Game/Maps/MapaBasico02_BuiltData
+[2017.09.18-18.25.21:411][738]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.25.21:411][738]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.25.21:415][738]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.25.21:415][738]LoadErrors: Falha ao carregar /Game/Maps/MapaBasico02_BuiltData.MapaBasico02_BuiltData Referenciado por PersistentLevel
+[2017.09.18-18.25.21:415][738]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.25.21:422][738]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-18.25.21:448][738]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.25.21:449][738]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.25.21:450][738]LoadErrors: New page: Carregando mapa: MapaBasico02.umap
+[2017.09.18-18.25.21:450][738]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.25.21:451][738]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.25.21:538][738]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.25.21:595][738]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.25.21:695][738]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100,157ms to complete.
+[2017.09.18-18.25.21:697][738]LogFileHelpers: Loading map 'MapaBasico02' took 0.249
+[2017.09.18-18.25.29:087][949]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.18-18.25.29:112][949]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.25.29:112][949]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.25.29:113][949]LoadErrors: New page: Carregando mapa: MapaBasico.umap
+[2017.09.18-18.25.29:113][949]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.25.29:113][949]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.25.29:195][949]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.25.29:241][949]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.25.29:344][949]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102,161ms to complete.
+[2017.09.18-18.25.29:345][949]LogFileHelpers: Loading map 'MapaBasico' took 0.234
+[2017.09.18-18.25.33:532][109]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-18.25.33:730][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-18.25.33:782][109]PIE: New page: Sessão de PIE : MapaBasico (18/09/2017 12:25:33)
+[2017.09.18-18.25.33:804][109]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico
+[2017.09.18-18.25.33:861][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057290s)
+[2017.09.18-18.25.33:861][109]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.18-18.25.33:862][109]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2017.09.18-18.25.33:887][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico.MapaBasico to /Game/Maps/UEDPIE_0_MapaBasico.MapaBasico (0.083407s)
+[2017.09.18-18.25.33:903][109]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-18.25.33:920][109]LogInit: FAudioDevice initialized.
+[2017.09.18-18.25.34:003][109]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-18.25.34:229][109]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico.MapaBasico up for play (max tick rate 60) at 2017.09.18-15.25.34
+[2017.09.18-18.25.34:427][109]LogWorld: Bringing up level for play took: 0.217047
+[2017.09.18-18.25.34:921][109]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.09.18-18.25.34:969][109]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico 0,653
+[2017.09.18-18.25.49:948][599]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.25.49:948][599]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.25.49:948][599]LoadErrors: Error: /Game/Maps/MapaBasico02 : Não é possível encontrar o arquivo do ativo. /Game/Maps/MapaBasico02_BuiltData
+[2017.09.18-18.25.49:960][599]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.25.49:960][599]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.25.49:969][599]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.25.49:969][599]LoadErrors: Falha ao carregar /Game/Maps/MapaBasico02_BuiltData.MapaBasico02_BuiltData Referenciado por PersistentLevel
+[2017.09.18-18.25.49:969][599]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.25.49:972][599]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-18.25.50:000][599]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.25.50:000][599]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.25.50:001][599]LoadErrors: New page: Carregando mapa: MapaBasico02.umap
+[2017.09.18-18.25.50:002][599]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.25.50:002][599]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.25.50:094][599]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.25.50:143][599]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.25.50:259][599]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 115,952ms to complete.
+[2017.09.18-18.25.50:260][599]LogFileHelpers: Loading map 'MapaBasico02' took 0.261
+[2017.09.18-18.25.52:792][661]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-18.25.52:835][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-18.25.52:836][661]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 12:25:52)
+[2017.09.18-18.25.52:836][661]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-18.25.52:840][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003721s)
+[2017.09.18-18.25.52:840][661]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-18.25.52:841][661]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2017.09.18-18.25.52:841][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.005655s)
+[2017.09.18-18.25.52:874][661]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-18.25.52:892][661]LogInit: FAudioDevice initialized.
+[2017.09.18-18.25.52:930][661]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-18.25.52:932][661]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 60) at 2017.09.18-15.25.52
+[2017.09.18-18.25.52:932][661]LogWorld: Bringing up level for play took: 0.001692
+[2017.09.18-18.25.52:934][661]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,618
+[2017.09.18-18.26.44:294][188]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.26.44:294][188]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.26.44:295][188]LoadErrors: New page: Carregando mapa: MapaBasico02.umap
+[2017.09.18-18.26.44:322][188]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.26.44:322][188]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.26.44:341][188]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.26.44:341][188]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.26.44:341][188]LoadErrors: Error: /Game/Maps/MapaBasico02 : Não é possível encontrar o arquivo do ativo. /Game/Maps/MapaBasico02_BuiltData
+[2017.09.18-18.26.44:344][188]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.26.44:344][188]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.26.44:348][188]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.26.44:348][188]LoadErrors: Falha ao carregar /Game/Maps/MapaBasico02_BuiltData.MapaBasico02_BuiltData Referenciado por PersistentLevel
+[2017.09.18-18.26.44:348][188]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.26.44:351][188]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-18.26.44:399][188]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.26.44:618][188]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.26.44:719][188]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101,114ms to complete.
+[2017.09.18-18.26.44:723][188]LogFileHelpers: Loading map 'MapaBasico02' took 0.430
+[2017.09.18-18.26.50:029][350]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.18-18.26.50:054][350]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.26.50:054][350]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.26.50:055][350]LoadErrors: New page: Carregando mapa: MapaBasico.umap
+[2017.09.18-18.26.50:055][350]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.26.50:055][350]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.26.50:131][350]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.26.50:172][350]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.26.50:259][350]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86,749ms to complete.
+[2017.09.18-18.26.50:260][350]LogFileHelpers: Loading map 'MapaBasico' took 0.207
+[2017.09.18-18.26.53:657][473]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.26.53:657][473]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.26.53:657][473]LoadErrors: Error: /Game/Maps/MapaBasico02 : Não é possível encontrar o arquivo do ativo. /Game/Maps/MapaBasico02_BuiltData
+[2017.09.18-18.26.53:662][473]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.26.53:662][473]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.26.53:666][473]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/Maps/MapaBasico02_BuiltData”
+[2017.09.18-18.26.53:666][473]LoadErrors: Falha ao carregar /Game/Maps/MapaBasico02_BuiltData.MapaBasico02_BuiltData Referenciado por PersistentLevel
+[2017.09.18-18.26.53:666][473]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Maps/MapaBasico02_BuiltData.
+[2017.09.18-18.26.53:671][473]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-18.26.53:692][473]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-18.26.53:692][473]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.26.53:693][473]LoadErrors: New page: Carregando mapa: MapaBasico02.umap
+[2017.09.18-18.26.53:693][473]MapCheck: New page: Verificação de Mapa
+[2017.09.18-18.26.53:693][473]LightingResults: New page: Compilação de Iluminação
+[2017.09.18-18.26.53:765][473]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-18.26.53:805][473]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-18.26.53:889][473]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83,379ms to complete.
+[2017.09.18-18.26.53:891][473]LogFileHelpers: Loading map 'MapaBasico02' took 0.200
+[2017.09.18-18.27.15:347][183]LogAIModule: Creating AISystem for world MapaBasico03
+[2017.09.18-18.27.15:639][183]LogSavePackage: Save=47.45ms
+[2017.09.18-18.27.15:639][183]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico03D7B4BB8C4411ABB1D03C988196D5F827.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap'
+[2017.09.18-18.27.15:644][183]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap
+[2017.09.18-18.27.15:914][183]LogFileHelpers: Saving map 'MapaBasico03' took 0.431
+[2017.09.18-18.28.00:514][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-18.28.40:201][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-18.28.47:520][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-18.28.48:174][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-18.29.41:173][762]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.18-18.29.41:549][762]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
+[2017.09.18-18.29.55:666][ 75]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.18-18.30.27:978][612]LogSlate: Took 0.013745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.18-18.31.04:159][531]LogSlate: Took 0.126475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.18-18.31.48:607][290]LogRenderer: Reallocating scene render targets to support 760x424 Format 10 NumSamples 1 (Frame:1).
+[2017.09.18-18.33.19:303][634]LogEditorViewport: Clicking on Actor (LMB): Jogador_C (Jogador)
+[2017.09.18-18.37.27:867][544]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.18-18.37.37:070][571]LogSavePackage: Save=66.94ms
+[2017.09.18-18.37.37:070][571]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_Auto1558581DF4ACC9A744F7DF389597865B4.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto1.umap'
+[2017.09.18-18.37.37:074][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto1.umap
+[2017.09.18-18.37.37:084][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.142
+[2017.09.18-18.37.37:084][571]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2017.09.18-18.37.37:088][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_Vacas] ([1] browsable assets)...
+[2017.09.18-18.37.37:204][571]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Vacas.BP_Vacas]
+[2017.09.18-18.37.37:204][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Vacas]
+[2017.09.18-18.37.37:262][571]LogSavePackage: Save=35.57ms
+[2017.09.18-18.37.37:262][571]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/BP_Vacas_Auto19194569D4BEECE0D4D036EA3C5F3FC95.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/BP_Vacas_Auto1.uasset'
+[2017.09.18-18.37.37:265][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/BP_Vacas_Auto1.uasset
+[2017.09.18-18.37.37:265][571]LogFileHelpers: Auto-saving content packages took 0.180
+[2017.09.18-18.41.08:441][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Vacas" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_Vacas.uasset" SILENT=true
+[2017.09.18-18.41.08:479][247]LogSavePackage: Save=29.48ms
+[2017.09.18-18.41.08:479][247]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/BP_Vacas19C6CF4A4DB7D13ECDDC7CAF7B50A98E.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_Vacas.uasset'
+[2017.09.18-18.41.08:496][247]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_Vacas.uasset
+[2017.09.18-18.41.13:001][318]BlueprintLog: New page: Compilar BP_Vacas
+[2017.09.18-18.41.48:915][679]SourceControl: On branch master
+[2017.09.18-18.41.48:915][679]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.18-18.41.48:915][679]SourceControl: Changes to be committed:
+[2017.09.18-18.41.48:915][679]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.09.18-18.41.48:915][679]SourceControl: 	renamed:    Content/Untitled.umap -> Content/Maps/MapaBasico03.umap
+[2017.09.18-18.41.48:915][679]SourceControl: Changes not staged for commit:
+[2017.09.18-18.41.48:915][679]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.09.18-18.41.48:915][679]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Content/BP_Vacas.uasset
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.18-18.41.48:915][679]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
+[2017.09.18-18.41.48:915][679]SourceControl: Untracked files:
+[2017.09.18-18.41.48:915][679]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/1c1156c6.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/252ea18c.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/311563bb.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/3d26461c.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/7a1554cf.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/9f653f2c.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/b4b2f441.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/b648818b.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/bc231332.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/ca9391c3.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Intermediate/AssetRegistryCache/ee85c077.bin
+[2017.09.18-18.41.48:915][679]SourceControl: 	Saved/AutoScreenshot.png
+[2017.09.18-18.41.48:915][679]SourceControl: 	Saved/Autosaves/
+[2017.09.18-18.41.48:915][679]SourceControl: 	Saved/Backup/
+[2017.09.18-18.41.48:915][679]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-0B1F74654D117BAF815F1B9EFCD19A52/
+[2017.09.18-18.41.48:916][679]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-AC3013ED419AF5777CA91BAA672BC5CD/
+[2017.09.18-18.41.48:916][679]SourceControl: 	Saved/Config/Windows/SourceControlSettings.ini
+[2017.09.18-18.41.48:916][679]SourceControl: 	Saved/Config/WorldState/
+[2017.09.18-18.41.48:916][679]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.17-21.53.37.log
+[2017.09.18-18.41.48:916][679]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.18-14.52.01.log
+[2017.09.18-18.41.49:468][679]LogMetaData: Removing '/Game/Andar.Andar_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2017.09.18-18.41.49:468][679]LogMetaData: Removing '/Game/Andar.SKEL_Andar_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2017.09.18-18.41.49:506][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset" SILENT=true
+[2017.09.18-18.41.49:531][679]LogSavePackage: Save=16.31ms
+[2017.09.18-18.41.49:531][679]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar13DF22754C444937D64DF68970E2904A.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset'
+[2017.09.18-18.41.49:538][679]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset
+[2017.09.18-18.41.49:841][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/NewBlueprint.uasset" SILENT=true
+[2017.09.18-18.41.49:863][679]LogSavePackage: Save=10.20ms
+[2017.09.18-18.41.49:863][679]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/NewBlueprint873CD8554F7FA6661C4A84860D324EB1.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/NewBlueprint.uasset'
+[2017.09.18-18.41.49:873][679]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/NewBlueprint.uasset
+[2017.09.18-18.42.26:447][953]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.18-18.43.11:322][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vacas_Blackboard" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_Blackboard.uasset" SILENT=true
+[2017.09.18-18.43.11:342][399]LogSavePackage: Save=7.42ms
+[2017.09.18-18.43.11:342][399]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Vacas_BlackboardD3F1A0A24B718E4C5EDC3981842C44A6.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_Blackboard.uasset'
+[2017.09.18-18.43.11:351][399]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_Blackboard.uasset
+[2017.09.18-18.44.03:327][860]LogSlate: Took 0.021006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.18-18.45.02:866][769]LogClass: Warning: Property Destination of Destination has a struct type mismatch (tag Vector != prop BlackboardKeySelector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.09.18-18.47.38:595][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.051
+[2017.09.18-18.47.38:602][ 68]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Andar] ([1] browsable assets)...
+[2017.09.18-18.47.38:602][ 68]OBJ SavePackage: Finished generating thumbnails for package [/Game/Andar]
+[2017.09.18-18.47.38:602][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.18-18.47.38:680][ 68]LogSavePackage: Save=45.48ms
+[2017.09.18-18.47.38:680][ 68]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar_Auto2052659A84F009DE1904BFFAD108F760A.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto2.uasset'
+[2017.09.18-18.47.38:690][ 68]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto2.uasset
+[2017.09.18-18.47.38:690][ 68]LogFileHelpers: Auto-saving content packages took 0.093
+[2017.09.18-18.56.35:580][313]BlueprintLog: New page: Compilar Andar
+[2017.09.18-18.56.37:677][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset" SILENT=true
+[2017.09.18-18.56.37:716][342]LogSavePackage: Save=28.03ms
+[2017.09.18-18.56.37:716][342]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar936EF3574F144B9DE71D9E85E8DEA5D5.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset'
+[2017.09.18-18.56.37:724][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset
+[2017.09.18-18.58.53:615][989]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.18-18.58.55:563][ 23]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.07:103][222]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.10:497][280]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.11:204][293]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.14:641][353]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.14:641][353]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.17:612][404]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.21:934][478]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.23:801][510]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.24:619][525]LogBlackboardEditor: Error: Trying to delete an entry from a blackboard while no Blackboard Asset is set!
+[2017.09.18-18.59.28:819][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vacas_BehaviorTree" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset" SILENT=true
+[2017.09.18-18.59.28:845][593]LogSavePackage: Save=14.87ms
+[2017.09.18-18.59.28:846][593]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Vacas_BehaviorTree933DD53D4F7659C24B956CA907438C1E.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset'
+[2017.09.18-18.59.28:856][593]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset
+[2017.09.18-19.01.18:815][615]BlueprintLog: New page: Compilar VacasController
+[2017.09.18-19.01.20:661][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VacasController" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/VacasController.uasset" SILENT=true
+[2017.09.18-19.01.20:696][640]LogSavePackage: Save=20.40ms
+[2017.09.18-19.01.20:696][640]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/VacasControllerC3FD5FB94827DAA7B3ED57A23E4A4626.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/VacasController.uasset'
+[2017.09.18-19.01.20:704][640]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/VacasController.uasset
+[2017.09.18-19.01.42:457][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VacasController" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/VacasController.uasset" SILENT=true
+[2017.09.18-19.01.42:488][796]LogSavePackage: Save=22.23ms
+[2017.09.18-19.01.42:488][796]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/VacasController59418BCE492C93B92E073FB80F221946.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/VacasController.uasset'
+[2017.09.18-19.01.42:496][796]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/VacasController.uasset
+[2017.09.18-19.02.08:012][ 80]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.02.08:066][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.02.08:066][ 80]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:02:08)
+[2017.09.18-19.02.08:066][ 80]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.02.08:071][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004573s)
+[2017.09.18-19.02.08:072][ 80]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.02.08:073][ 80]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2017.09.18-19.02.08:073][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.006387s)
+[2017.09.18-19.02.08:114][ 80]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.02.08:135][ 80]LogInit: FAudioDevice initialized.
+[2017.09.18-19.02.08:172][ 80]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.02.08:175][ 80]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.02.08
+[2017.09.18-19.02.08:175][ 80]LogWorld: Bringing up level for play took: 0.002465
+[2017.09.18-19.02.08:193][ 80]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 -0,124
+[2017.09.18-19.03.11:661][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-19.03.20:985][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-19.03.23:092][263]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.03.23:133][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.03.23:133][263]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:03:23)
+[2017.09.18-19.03.23:133][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.03.23:138][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004894s)
+[2017.09.18-19.03.23:139][263]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.03.23:140][263]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2017.09.18-19.03.23:140][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.006773s)
+[2017.09.18-19.03.23:172][263]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.03.23:186][263]LogInit: FAudioDevice initialized.
+[2017.09.18-19.03.23:223][263]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.03.23:225][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.03.23
+[2017.09.18-19.03.23:225][263]LogWorld: Bringing up level for play took: 0.002064
+[2017.09.18-19.03.23:227][263]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,911
+[2017.09.18-19.03.40:060][760]MapCheck: New page: Verificação de Mapa
+[2017.09.18-19.03.40:193][760]Cmd: MAP REBUILD ALLVISIBLE
+[2017.09.18-19.03.40:194][760]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.09.18-19.03.40:556][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.09.18-19.03.40:664][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.09.18-19.03.40:678][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.09.18-19.03.40:687][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.09.18-19.03.40:694][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialBase, compiling. 
+[2017.09.18-19.03.40:700][760]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.09.18-19.03.42:546][760]TextureStreamingBuild: Display: Compiling optional shaders took 2.020 seconds.
+[2017.09.18-19.03.42:705][760]LogLevel: Display: Export Material TexCoord Scales took 0.159 seconds.
+[2017.09.18-19.03.42:712][760]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2017.09.18-19.03.42:752][760]LightingResults: New page: Compilação de Iluminação - 18/09/2017 13:03:42
+[2017.09.18-19.03.43:027][760]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.18-19.03.43:216][760]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.18-19.03.43:308][760]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.18-19.03.45:650][760]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.18-19.03.45:650][760]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12268
+[2017.09.18-19.03.54:872][760]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.18-19.03.54:873][760]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.18-19.03.54:873][760]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.18-19.03.54:873][760]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.18-19.03.54:873][760]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.18-19.03.54:873][760]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.18-19.03.55:709][760]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.09.18-19.03.55:709][760]MapCheck: New page: MapaBasico02 - 18/09/2017 13:03:55
+[2017.09.18-19.03.55:710][760]MapCheck: Warning: BP_Vacas_106 Static mesh actor has NULL StaticMesh property 
+[2017.09.18-19.03.55:718][760]MapCheck: Error: WorldSettings_1 O mapa precisa de recompilação de iluminação 
+[2017.09.18-19.03.55:876][760]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 166,592ms to complete.
+[2017.09.18-19.03.55:900][760]LogEditorBuildUtils: Build time 0:15
+[2017.09.18-19.03.56:629][761]LogSavePackage: Save=103.22ms
+[2017.09.18-19.03.56:629][761]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_Auto32955EF3641D1712EDC4713BA592EE6F7.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto3.umap'
+[2017.09.18-19.03.56:635][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto3.umap
+[2017.09.18-19.03.56:648][761]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.247
+[2017.09.18-19.03.56:648][761]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.247
+[2017.09.18-19.04.00:879][772]Job is a success!
+[2017.09.18-19.04.01:497][773]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.09.18-19.04.01:497][773]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.09.18-19.04.01:498][773]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.09.18-19.04.01:498][773]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.09.18-19.04.01:550][773]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X128)
+[2017.09.18-19.04.01:550][773]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.09.18-19.04.01:642][773]Lightmass on DESKTOP-H9VC9LG: 2.13 sec total, 401 ms importing, 144 ms setup, 263 ms photons, 1.28 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 5.11 sec total, 389 ms processing.
+[2017.09.18-19.04.01:694][773]LogStaticLightingSystem: Illumination: 18.6 sec (59 ms encoding lightmaps, 189 ms encoding shadowmaps)
+[2017.09.18-19.04.01:694][773]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.18-19.04.01:694][773]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.18-19.04.01:873][773]DumpUnbuiltLightIteractions
+[2017.09.18-19.04.01:873][773]Lights with unbuilt interactions: 0
+[2017.09.18-19.04.01:873][773]
+[2017.09.18-19.04.01:873][773]Primitives with unbuilt interactions: 0
+[2017.09.18-19.04.01:897][774]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.18-19.04.01:897][774]MapCheck: New page: MapaBasico02 - 18/09/2017 13:04:01
+[2017.09.18-19.04.01:898][774]MapCheck: Warning: BP_Vacas_106 Static mesh actor has NULL StaticMesh property 
+[2017.09.18-19.04.02:036][774]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 139,418ms to complete.
+[2017.09.18-19.05.19:361][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-19.05.56:424][403]MapCheck: New page: Verificação de Mapa
+[2017.09.18-19.05.56:444][403]Cmd: MAP REBUILD ALLVISIBLE
+[2017.09.18-19.05.56:444][403]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.09.18-19.05.56:632][403]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.09.18-19.05.56:641][403]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.09.18-19.05.56:649][403]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.09.18-19.05.56:655][403]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialBase, compiling. 
+[2017.09.18-19.05.56:661][403]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.09.18-19.05.56:668][403]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.09.18-19.05.57:825][403]TextureStreamingBuild: Display: Compiling optional shaders took 1.198 seconds.
+[2017.09.18-19.05.57:844][403]LogLevel: Display: Export Material TexCoord Scales took 0.018 seconds.
+[2017.09.18-19.05.57:849][403]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2017.09.18-19.05.57:874][403]LightingResults: New page: Compilação de Iluminação - 18/09/2017 13:05:57
+[2017.09.18-19.05.57:886][403]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.18-19.05.57:888][403]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.18-19.05.57:888][403]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.18-19.05.57:890][403]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.18-19.05.57:890][403]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12268
+[2017.09.18-19.06.02:399][403]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.18-19.06.02:399][403]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.18-19.06.02:399][403]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.18-19.06.02:399][403]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.18-19.06.02:399][403]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.18-19.06.02:399][403]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.18-19.06.02:734][403]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.09.18-19.06.02:734][403]MapCheck: New page: MapaBasico02 - 18/09/2017 13:06:02
+[2017.09.18-19.06.02:738][403]MapCheck: Warning: BP_Vacas_106 Static mesh actor has NULL StaticMesh property 
+[2017.09.18-19.06.03:045][403]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 310,772ms to complete.
+[2017.09.18-19.06.03:074][403]LogEditorBuildUtils: Build time 0:06
+[2017.09.18-19.06.06:275][413]Job is a success!
+[2017.09.18-19.06.06:881][414]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.09.18-19.06.06:881][414]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.09.18-19.06.06:881][414]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.09.18-19.06.06:881][414]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.09.18-19.06.06:957][414]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2017.09.18-19.06.06:957][414]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.09.18-19.06.07:083][414]Lightmass on DESKTOP-H9VC9LG: 1.86 sec total, 233 ms importing, 27 ms setup, 296 ms photons, 1.28 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 5.10 sec total, 622 ms processing.
+[2017.09.18-19.06.07:089][414]LogStaticLightingSystem: Illumination: 8.87 sec (18 ms encoding lightmaps, 253 ms encoding shadowmaps)
+[2017.09.18-19.06.07:090][414]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.18-19.06.07:090][414]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.18-19.06.07:411][414]DumpUnbuiltLightIteractions
+[2017.09.18-19.06.07:411][414]Lights with unbuilt interactions: 0
+[2017.09.18-19.06.07:411][414]
+[2017.09.18-19.06.07:411][414]Primitives with unbuilt interactions: 0
+[2017.09.18-19.06.07:424][415]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.18-19.06.07:424][415]MapCheck: New page: MapaBasico02 - 18/09/2017 13:06:07
+[2017.09.18-19.06.07:425][415]MapCheck: Warning: BP_Vacas_106 Static mesh actor has NULL StaticMesh property 
+[2017.09.18-19.06.07:627][415]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 203,147ms to complete.
+[2017.09.18-19.09.59:057][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-19.10.48:575][732]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.18-19.10.52:939][861]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.10.52:987][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.10.52:987][861]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:10:52)
+[2017.09.18-19.10.52:987][861]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.10.53:098][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110889s)
+[2017.09.18-19.10.53:101][861]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.10.53:101][861]LogPlayLevel: PIE: World Init took: (0.002863s)
+[2017.09.18-19.10.53:101][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.114215s)
+[2017.09.18-19.10.53:136][861]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.10.53:152][861]LogInit: FAudioDevice initialized.
+[2017.09.18-19.10.53:186][861]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.10.53:188][861]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.10.53
+[2017.09.18-19.10.53:189][861]LogWorld: Bringing up level for play took: 0.002364
+[2017.09.18-19.10.53:191][861]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,875
+[2017.09.18-19.12.19:712][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vacas_BehaviorTree" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset" SILENT=true
+[2017.09.18-19.12.19:737][130]LogSavePackage: Save=16.23ms
+[2017.09.18-19.12.19:737][130]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Vacas_BehaviorTree0DAFC5F346679FF75310CD9BCC341BFA.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset'
+[2017.09.18-19.12.19:745][130]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset
+[2017.09.18-19.12.28:569][376]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.12.28:599][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.12.28:599][376]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:12:28)
+[2017.09.18-19.12.28:599][376]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.12.28:604][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004688s)
+[2017.09.18-19.12.28:605][376]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.12.28:605][376]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2017.09.18-19.12.28:606][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.006457s)
+[2017.09.18-19.12.28:637][376]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.12.28:651][376]LogInit: FAudioDevice initialized.
+[2017.09.18-19.12.28:683][376]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.12.28:686][376]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.12.28
+[2017.09.18-19.12.28:686][376]LogWorld: Bringing up level for play took: 0.002195
+[2017.09.18-19.12.28:690][376]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,374
+[2017.09.18-19.14.15:558][550]LogSavePackage: Save=56.95ms
+[2017.09.18-19.14.15:558][550]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_Auto4BBF6D3814F3172F8DCDE78A52C630B97.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto4.umap'
+[2017.09.18-19.14.15:639][550]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto4.umap
+[2017.09.18-19.14.15:651][550]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.198
+[2017.09.18-19.14.15:652][550]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.198
+[2017.09.18-19.14.15:657][550]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MapaBasico02_BuiltData] ([1] browsable assets)...
+[2017.09.18-19.14.15:657][550]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MapaBasico02_BuiltData]
+[2017.09.18-19.14.15:680][550]LogSavePackage: Save=16.85ms
+[2017.09.18-19.14.15:680][550]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_BuiltData_Auto4D8CF61874DAD9AAA8A9344B9C3998E5E.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_BuiltData_Auto4.uasset'
+[2017.09.18-19.14.15:685][550]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_BuiltData_Auto4.uasset
+[2017.09.18-19.14.15:685][550]LogFileHelpers: Auto-saving content packages took 0.031
+[2017.09.18-19.15.35:783][578]BlueprintLog: New page: Compilar Andar
+[2017.09.18-19.15.36:957][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset" SILENT=true
+[2017.09.18-19.15.37:001][600]LogSavePackage: Save=24.96ms
+[2017.09.18-19.15.37:001][600]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar7A7FEC244DF030BE1960358F0C830290.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset'
+[2017.09.18-19.15.37:009][600]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset
+[2017.09.18-19.15.40:417][693]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.15.40:461][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.15.40:461][693]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:15:40)
+[2017.09.18-19.15.40:461][693]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.15.40:466][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004550s)
+[2017.09.18-19.15.40:468][693]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.15.40:468][693]LogPlayLevel: PIE: World Init took: (0.001835s)
+[2017.09.18-19.15.40:468][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.006801s)
+[2017.09.18-19.15.40:500][693]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.15.40:514][693]LogInit: FAudioDevice initialized.
+[2017.09.18-19.15.40:547][693]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.15.40:549][693]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.15.40
+[2017.09.18-19.15.40:549][693]LogWorld: Bringing up level for play took: 0.002088
+[2017.09.18-19.15.40:552][693]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,236
+[2017.09.18-19.17.24:581][311]BlueprintLog: New page: Compilar Andar
+[2017.09.18-19.17.26:429][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset" SILENT=true
+[2017.09.18-19.17.26:461][349]LogSavePackage: Save=25.12ms
+[2017.09.18-19.17.26:461][349]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar5E362F7D4E888460148B20B97C637BF7.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset'
+[2017.09.18-19.17.26:472][349]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset
+[2017.09.18-19.17.31:408][477]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.17.31:430][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.17.31:430][477]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:17:31)
+[2017.09.18-19.17.31:430][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.17.31:437][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006773s)
+[2017.09.18-19.17.31:438][477]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.17.31:438][477]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2017.09.18-19.17.31:438][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.008249s)
+[2017.09.18-19.17.31:468][477]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.17.31:483][477]LogInit: FAudioDevice initialized.
+[2017.09.18-19.17.31:516][477]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.17.31:518][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.17.31
+[2017.09.18-19.17.31:518][477]LogWorld: Bringing up level for play took: 0.001795
+[2017.09.18-19.17.31:520][477]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 -0,796
+[2017.09.18-19.23.41:909][262]Cmd: DELETE
+[2017.09.18-19.23.41:909][262]Cmd: ACTOR DELETE
+[2017.09.18-19.23.41:988][262]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2017.09.18-19.23.42:015][262]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2017.09.18-19.23.45:302][367]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2017.09.18-19.23.45:328][367]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.09.18-19.24.45:355][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-19.24.47:844][925]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.18-19.25.10:488][652]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.25.10:529][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.25.10:529][652]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:25:10)
+[2017.09.18-19.25.10:529][652]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.25.10:537][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006963s)
+[2017.09.18-19.25.10:538][652]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.25.10:538][652]LogPlayLevel: PIE: World Init took: (0.001545s)
+[2017.09.18-19.25.10:539][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.009101s)
+[2017.09.18-19.25.10:590][652]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.25.10:612][652]LogInit: FAudioDevice initialized.
+[2017.09.18-19.25.10:651][652]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.25.10:654][652]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.25.10
+[2017.09.18-19.25.10:654][652]LogWorld: Bringing up level for play took: 0.002842
+[2017.09.18-19.25.10:657][652]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,341
+[2017.09.18-19.25.46:453][340]LogSavePackage: Save=49.20ms
+[2017.09.18-19.25.46:453][340]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_Auto5632EA9D84B1D3DC0A4DDD581A5368105.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto5.umap'
+[2017.09.18-19.25.46:456][340]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto5.umap
+[2017.09.18-19.25.46:460][340]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.101
+[2017.09.18-19.25.46:460][340]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2017.09.18-19.25.47:173][362]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.18-19.35.52:955][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.028
+[2017.09.18-19.35.52:958][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Andar] ([1] browsable assets)...
+[2017.09.18-19.35.52:958][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Andar]
+[2017.09.18-19.35.52:958][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.18-19.35.53:003][769]LogSavePackage: Save=24.42ms
+[2017.09.18-19.35.53:003][769]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar_Auto647F46D134E4E22DFF1CADC8552C7AA0B.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto6.uasset'
+[2017.09.18-19.35.53:005][769]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto6.uasset
+[2017.09.18-19.35.53:005][769]LogFileHelpers: Auto-saving content packages took 0.049
+[2017.09.18-19.36.14:111][104]BlueprintLog: New page: Compilar Andar
+[2017.09.18-19.36.17:248][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset" SILENT=true
+[2017.09.18-19.36.17:283][180]LogSavePackage: Save=26.56ms
+[2017.09.18-19.36.17:283][180]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/AndarAF6AEC074D31FAF30FDF609A13634A98.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset'
+[2017.09.18-19.36.17:291][180]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset
+[2017.09.18-19.36.21:984][313]MapCheck: New page: Verificação de Mapa
+[2017.09.18-19.36.22:017][313]Cmd: MAP REBUILD ALLVISIBLE
+[2017.09.18-19.36.22:017][313]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.09.18-19.36.22:206][313]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.09.18-19.36.22:215][313]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.09.18-19.36.22:223][313]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2017.09.18-19.36.22:232][313]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.09.18-19.36.22:238][313]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialBase, compiling. 
+[2017.09.18-19.36.22:244][313]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.09.18-19.36.23:385][313]TextureStreamingBuild: Display: Compiling optional shaders took 1.184 seconds.
+[2017.09.18-19.36.23:403][313]LogLevel: Display: Export Material TexCoord Scales took 0.018 seconds.
+[2017.09.18-19.36.23:410][313]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2017.09.18-19.36.23:440][313]LightingResults: New page: Compilação de Iluminação - 18/09/2017 13:36:23
+[2017.09.18-19.36.23:451][313]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.18-19.36.23:454][313]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.18-19.36.23:454][313]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.18-19.36.23:455][313]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.18-19.36.23:455][313]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12268
+[2017.09.18-19.36.27:967][313]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.18-19.36.27:967][313]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.18-19.36.27:967][313]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.18-19.36.27:967][313]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.18-19.36.27:967][313]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.18-19.36.27:967][313]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.18-19.36.28:233][313]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.09.18-19.36.28:233][313]MapCheck: New page: MapaBasico02 - 18/09/2017 13:36:28
+[2017.09.18-19.36.28:234][313]MapCheck: Warning: BP_Vacas_106 Static mesh actor has NULL StaticMesh property 
+[2017.09.18-19.36.28:336][313]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 102,846ms to complete.
+[2017.09.18-19.36.28:358][313]LogEditorBuildUtils: Build time 0:06
+[2017.09.18-19.36.31:539][374]Job is a success!
+[2017.09.18-19.36.31:829][375]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.09.18-19.36.31:829][375]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.09.18-19.36.31:829][375]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.09.18-19.36.31:829][375]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.09.18-19.36.31:829][375]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2017.09.18-19.36.31:829][375]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.09.18-19.36.31:884][375]Lightmass on DESKTOP-H9VC9LG: 1.79 sec total, 469 ms importing, 55 ms setup, 297 ms photons, 928 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 3.58 sec total, 796 ms processing.
+[2017.09.18-19.36.31:891][375]LogStaticLightingSystem: Illumination: 8.36 sec (12 ms encoding lightmaps, 131 ms encoding shadowmaps)
+[2017.09.18-19.36.31:891][375]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.18-19.36.31:891][375]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.18-19.36.31:974][375]DumpUnbuiltLightIteractions
+[2017.09.18-19.36.31:974][375]Lights with unbuilt interactions: 0
+[2017.09.18-19.36.31:974][375]
+[2017.09.18-19.36.31:974][375]Primitives with unbuilt interactions: 0
+[2017.09.18-19.36.31:989][376]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.18-19.36.31:989][376]MapCheck: New page: MapaBasico02 - 18/09/2017 13:36:31
+[2017.09.18-19.36.31:990][376]MapCheck: Warning: BP_Vacas_106 Static mesh actor has NULL StaticMesh property 
+[2017.09.18-19.36.32:112][376]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 122,314ms to complete.
+[2017.09.18-19.36.47:854][812]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.36.47:906][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.36.47:907][812]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:36:47)
+[2017.09.18-19.36.47:907][812]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.36.47:913][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006280s)
+[2017.09.18-19.36.47:916][812]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.36.47:917][812]LogPlayLevel: PIE: World Init took: (0.003345s)
+[2017.09.18-19.36.47:917][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.010009s)
+[2017.09.18-19.36.47:946][812]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.36.47:961][812]LogInit: FAudioDevice initialized.
+[2017.09.18-19.36.47:994][812]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.36.47:996][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.36.47
+[2017.09.18-19.36.47:996][812]LogWorld: Bringing up level for play took: 0.001976
+[2017.09.18-19.36.47:999][812]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 -0,317
+[2017.09.18-19.37.50:960][876]BlueprintLog: New page: Compilar Andar
+[2017.09.18-19.37.52:650][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset" SILENT=true
+[2017.09.18-19.37.52:684][909]LogSavePackage: Save=26.63ms
+[2017.09.18-19.37.52:684][909]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/AndarF246D8C3441FE3CA82DCA9970966BEF9.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset'
+[2017.09.18-19.37.52:694][909]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset
+[2017.09.18-19.37.56:069][997]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.37.56:121][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.37.56:122][997]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:37:56)
+[2017.09.18-19.37.56:122][997]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.37.56:130][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007654s)
+[2017.09.18-19.37.56:133][997]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.37.56:133][997]LogPlayLevel: PIE: World Init took: (0.003689s)
+[2017.09.18-19.37.56:134][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.011796s)
+[2017.09.18-19.37.56:180][997]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.37.56:207][997]LogInit: FAudioDevice initialized.
+[2017.09.18-19.37.56:252][997]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.37.56:254][997]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.37.56
+[2017.09.18-19.37.56:254][997]LogWorld: Bringing up level for play took: 0.001735
+[2017.09.18-19.37.56:256][997]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 -0,06
+[2017.09.18-19.41.53:924][403]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.18-19.44.45:168][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-19.44.56:949][786]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.44.56:982][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.44.56:982][786]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:44:56)
+[2017.09.18-19.44.56:982][786]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.44.56:987][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004848s)
+[2017.09.18-19.44.56:988][786]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.44.56:989][786]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2017.09.18-19.44.56:989][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.006693s)
+[2017.09.18-19.44.57:024][786]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.44.57:044][786]LogInit: FAudioDevice initialized.
+[2017.09.18-19.44.57:075][786]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.44.57:078][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.44.57
+[2017.09.18-19.44.57:078][786]LogWorld: Bringing up level for play took: 0.002349
+[2017.09.18-19.44.57:081][786]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,765
+[2017.09.18-19.45.24:962][746]LogEditorActor: Deleted Actor: BP_Vacas_C
+[2017.09.18-19.45.25:011][746]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2017.09.18-19.45.39:246][154]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.45.39:276][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.45.39:276][154]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:45:39)
+[2017.09.18-19.45.39:276][154]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.45.39:285][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008125s)
+[2017.09.18-19.45.39:286][154]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.45.39:286][154]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2017.09.18-19.45.39:287][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.010273s)
+[2017.09.18-19.45.39:318][154]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.45.39:332][154]LogInit: FAudioDevice initialized.
+[2017.09.18-19.45.39:363][154]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.45.39:365][154]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.45.39
+[2017.09.18-19.45.39:366][154]LogWorld: Bringing up level for play took: 0.001947
+[2017.09.18-19.45.39:368][154]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 1,051
+[2017.09.18-19.49.04:786][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vacas_BehaviorTree" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset" SILENT=true
+[2017.09.18-19.49.04:812][ 56]LogSavePackage: Save=15.81ms
+[2017.09.18-19.49.04:812][ 56]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Vacas_BehaviorTreeAA51D8EE400E51160AC2E38A971FCB71.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset'
+[2017.09.18-19.49.04:823][ 56]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset
+[2017.09.18-19.49.11:106][231]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.49.11:140][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.49.11:141][231]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:49:11)
+[2017.09.18-19.49.11:141][231]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.49.11:145][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004058s)
+[2017.09.18-19.49.11:146][231]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.49.11:146][231]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2017.09.18-19.49.11:146][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.005467s)
+[2017.09.18-19.49.11:180][231]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.49.11:194][231]LogInit: FAudioDevice initialized.
+[2017.09.18-19.49.11:227][231]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.49.11:230][231]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.49.11
+[2017.09.18-19.49.11:230][231]LogWorld: Bringing up level for play took: 0.002372
+[2017.09.18-19.49.11:233][231]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,917
+[2017.09.18-19.49.23:940][651]LogEditorViewport: Clicking on Actor (LMB): BP_Vacas_C (BP_Vacas)
+[2017.09.18-19.49.36:464][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.49.36:487][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.49.36:487][ 23]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:49:36)
+[2017.09.18-19.49.36:487][ 23]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.49.36:495][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007678s)
+[2017.09.18-19.49.36:496][ 23]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.49.36:496][ 23]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2017.09.18-19.49.36:496][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.009011s)
+[2017.09.18-19.49.36:528][ 23]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.49.36:543][ 23]LogInit: FAudioDevice initialized.
+[2017.09.18-19.49.36:576][ 23]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.49.36:578][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.49.36
+[2017.09.18-19.49.36:578][ 23]LogWorld: Bringing up level for play took: 0.001847
+[2017.09.18-19.49.36:580][ 23]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,264
+[2017.09.18-19.50.05:876][925]LogSavePackage: Save=50.25ms
+[2017.09.18-19.50.05:876][925]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_Auto7BF25C93A448D3F25A6FB5B8E29A8D1DC.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto7.umap'
+[2017.09.18-19.50.05:881][925]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto7.umap
+[2017.09.18-19.50.05:885][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.111
+[2017.09.18-19.50.05:885][925]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.111
+[2017.09.18-19.50.05:891][925]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MapaBasico02_BuiltData] ([1] browsable assets)...
+[2017.09.18-19.50.05:891][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MapaBasico02_BuiltData]
+[2017.09.18-19.50.05:909][925]LogSavePackage: Save=14.45ms
+[2017.09.18-19.50.05:909][925]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_BuiltData_Auto70466083C43A58756388C3AAF3CB9F7F6.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_BuiltData_Auto7.uasset'
+[2017.09.18-19.50.05:915][925]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_BuiltData_Auto7.uasset
+[2017.09.18-19.50.05:915][925]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.09.18-19.54.42:746][943]BlueprintLog: New page: Compilar Andar
+[2017.09.18-19.57.18:785][457]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-19.57.18:865][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-19.57.18:866][457]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 13:57:18)
+[2017.09.18-19.57.18:866][457]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-19.57.18:877][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011580s)
+[2017.09.18-19.57.18:879][457]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-19.57.18:879][457]LogPlayLevel: PIE: World Init took: (0.001864s)
+[2017.09.18-19.57.18:880][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.014029s)
+[2017.09.18-19.57.18:924][457]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-19.57.18:945][457]LogInit: FAudioDevice initialized.
+[2017.09.18-19.57.18:982][457]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-19.57.18:984][457]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-16.57.18
+[2017.09.18-19.57.18:985][457]LogWorld: Bringing up level for play took: 0.002259
+[2017.09.18-19.57.18:987][457]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,671
+[2017.09.18-20.00.00:236][996]BlueprintLog: New page: Compilar BP_Vacas
+[2017.09.18-20.00.06:956][112]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-20.00.06:995][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-20.00.06:995][112]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 14:00:06)
+[2017.09.18-20.00.06:995][112]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-20.00.07:000][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004082s)
+[2017.09.18-20.00.07:000][112]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-20.00.07:001][112]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2017.09.18-20.00.07:001][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.005792s)
+[2017.09.18-20.00.07:031][112]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-20.00.07:047][112]LogInit: FAudioDevice initialized.
+[2017.09.18-20.00.07:084][112]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-20.00.07:086][112]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-17.00.07
+[2017.09.18-20.00.07:087][112]LogWorld: Bringing up level for play took: 0.002536
+[2017.09.18-20.00.07:090][112]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,774
+[2017.09.18-20.00.55:018][193]LogSavePackage: Save=53.41ms
+[2017.09.18-20.00.55:018][193]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_Auto8D5E2A4C5440AA51E47BFA7B036401587.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto8.umap'
+[2017.09.18-20.00.55:140][193]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto8.umap
+[2017.09.18-20.00.55:145][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.241
+[2017.09.18-20.00.55:145][193]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.241
+[2017.09.18-20.00.55:148][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_Vacas] ([1] browsable assets)...
+[2017.09.18-20.00.55:202][193]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Vacas.BP_Vacas]
+[2017.09.18-20.00.55:202][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Vacas]
+[2017.09.18-20.00.55:246][193]LogSavePackage: Save=29.60ms
+[2017.09.18-20.00.55:247][193]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/BP_Vacas_Auto84A8BC0D04315A71F2C14669CFA103720.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/BP_Vacas_Auto8.uasset'
+[2017.09.18-20.00.55:249][193]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/BP_Vacas_Auto8.uasset
+[2017.09.18-20.00.55:251][193]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Andar] ([1] browsable assets)...
+[2017.09.18-20.00.55:251][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Andar]
+[2017.09.18-20.00.55:251][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.09.18-20.00.55:302][193]LogSavePackage: Save=30.22ms
+[2017.09.18-20.00.55:302][193]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar_Auto855F972E0491A3BA7C7C82C94B4283BBD.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto8.uasset'
+[2017.09.18-20.00.55:304][193]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Andar_Auto8.uasset
+[2017.09.18-20.00.55:306][193]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Vacas_BehaviorTree] ([1] browsable assets)...
+[2017.09.18-20.00.55:306][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vacas_BehaviorTree]
+[2017.09.18-20.00.55:331][193]LogSavePackage: Save=15.37ms
+[2017.09.18-20.00.55:332][193]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Vacas_BehaviorTree_Auto83E5269D14A77A29EA6C49698C4F4E4B9.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Vacas_BehaviorTree_Auto8.uasset'
+[2017.09.18-20.00.55:334][193]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Vacas_BehaviorTree_Auto8.uasset
+[2017.09.18-20.00.55:334][193]LogFileHelpers: Auto-saving content packages took 0.188
+[2017.09.18-20.02.28:277][945]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/BP_VacasNovo.
+[2017.09.18-20.03.17:329][443]BlueprintLog: New page: Compilar BP_VacasNovo
+[2017.09.18-20.03.19:285][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_VacasNovo" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_VacasNovo.uasset" SILENT=true
+[2017.09.18-20.03.19:329][458]LogSavePackage: Save=38.92ms
+[2017.09.18-20.03.19:329][458]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/BP_VacasNovo5E27DE1E470D53DA6EFCCE829BC02DCC.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_VacasNovo.uasset'
+[2017.09.18-20.03.19:338][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_VacasNovo.uasset
+[2017.09.18-20.03.19:895][461]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BP_VacasNovo.
+[2017.09.18-20.03.26:249][554]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-20.03.26:291][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-20.03.26:291][554]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 14:03:26)
+[2017.09.18-20.03.26:291][554]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-20.03.26:298][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006397s)
+[2017.09.18-20.03.26:299][554]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-20.03.26:300][554]LogPlayLevel: PIE: World Init took: (0.002308s)
+[2017.09.18-20.03.26:301][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.009846s)
+[2017.09.18-20.03.26:342][554]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-20.03.26:357][554]LogInit: FAudioDevice initialized.
+[2017.09.18-20.03.26:388][554]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-20.03.26:390][554]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-17.03.26
+[2017.09.18-20.03.26:391][554]LogWorld: Bringing up level for play took: 0.002199
+[2017.09.18-20.03.26:393][554]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 0,077
+[2017.09.18-20.03.46:285][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Vacas_C (BP_Vacas)
+[2017.09.18-20.03.47:533][ 36]Cmd: DELETE
+[2017.09.18-20.03.47:533][ 36]Cmd: ACTOR DELETE
+[2017.09.18-20.03.47:535][ 36]LogEditorActor: Deleted Actor: BP_Vacas_C
+[2017.09.18-20.03.47:625][ 36]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2017.09.18-20.03.59:040][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.18-20.04.01:746][301]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.18-20.04.01:817][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.18-20.04.01:818][301]PIE: New page: Sessão de PIE : MapaBasico02 (18/09/2017 14:04:01)
+[2017.09.18-20.04.01:818][301]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico02
+[2017.09.18-20.04.01:826][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007611s)
+[2017.09.18-20.04.01:828][301]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.18-20.04.01:828][301]LogPlayLevel: PIE: World Init took: (0.002497s)
+[2017.09.18-20.04.01:829][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico02.MapaBasico02 to /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 (0.010644s)
+[2017.09.18-20.04.01:872][301]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.18-20.04.01:889][301]LogInit: FAudioDevice initialized.
+[2017.09.18-20.04.01:928][301]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.18-20.04.01:931][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.18-17.04.01
+[2017.09.18-20.04.01:931][301]LogWorld: Bringing up level for play took: 0.002795
+[2017.09.18-20.04.01:934][301]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico02 -0,382
+[2017.09.18-20.08.11:248][785]LogSavePackage: Save=74.76ms
+[2017.09.18-20.08.11:248][785]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico03671C21ED4053A9620D4BA5B32681CDDA.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap'
+[2017.09.18-20.08.11:260][785]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap
+[2017.09.18-20.08.11:266][785]LogFileHelpers: Saving map 'MapaBasico03' took 0.353
+[2017.09.18-20.08.11:616][785]LogSavePackage: Save=91.81ms
+[2017.09.18-20.08.11:616][785]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico025CA983054466B5E7E96EF2B35F4094BB.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap'
+[2017.09.18-20.08.11:642][785]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02.umap
+[2017.09.18-20.08.11:693][785]LogFileHelpers: Saving map 'MapaBasico02' took 0.422
+[2017.09.18-20.08.11:751][785]LogSavePackage: Save=48.14ms
+[2017.09.18-20.08.11:751][785]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_BuiltData5EB667FE480D0A50CA0FF483B7417806.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02_BuiltData.uasset'
+[2017.09.18-20.08.11:765][785]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico02_BuiltData.uasset
+[2017.09.18-20.08.12:380][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Vacas" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_Vacas.uasset" SILENT=true
+[2017.09.18-20.08.12:453][785]LogSavePackage: Save=48.49ms
+[2017.09.18-20.08.12:453][785]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/BP_VacasFEBE84204497A5B8CA0364B209D2E203.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_Vacas.uasset'
+[2017.09.18-20.08.12:471][785]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BP_Vacas.uasset
+[2017.09.18-20.08.12:476][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset" SILENT=true
+[2017.09.18-20.08.12:551][785]LogSavePackage: Save=39.34ms
+[2017.09.18-20.08.12:551][785]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/AndarE28F7C74417573226DE886BD06FA806E.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset'
+[2017.09.18-20.08.12:570][785]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Andar.uasset
+[2017.09.18-20.08.12:576][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vacas_BehaviorTree" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset" SILENT=true
+[2017.09.18-20.08.12:620][785]LogSavePackage: Save=21.15ms
+[2017.09.18-20.08.12:620][785]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Vacas_BehaviorTree6A689BB74A45CE4ED5FACFA762F30B37.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset'
+[2017.09.18-20.08.12:631][785]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Vacas_BehaviorTree.uasset
+[2017.09.18-20.08.22:241][ 15]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.09.18-20.08.31:281][ 15]LogSavePackage: Save=57.17ms
+[2017.09.18-20.08.31:281][ 15]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico032E5D0A004BA0EB1744729BB80BAB787F.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap'
+[2017.09.18-20.08.31:291][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap
+[2017.09.18-20.08.31:296][ 15]LogFileHelpers: Saving map 'MapaBasico03' took 0.268
+[2017.09.18-20.08.43:973][ 15]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.09.18-20.08.44:275][ 15]SourceControl: [master 24ba25a] Vacas funcionando
+[2017.09.18-20.08.44:275][ 15]SourceControl:  10 files changed, 0 insertions(+), 0 deletions(-)
+[2017.09.18-20.08.44:275][ 15]SourceControl:  create mode 100644 Content/Andar.uasset
+[2017.09.18-20.08.44:275][ 15]SourceControl:  rewrite Content/BP_Vacas.uasset (68%)
+[2017.09.18-20.08.44:275][ 15]SourceControl:  create mode 100644 Content/BP_VacasNovo.uasset
+[2017.09.18-20.08.44:276][ 15]SourceControl:  create mode 100644 Content/Maps/MapaBasico02_BuiltData.uasset
+[2017.09.18-20.08.44:276][ 15]SourceControl:  rename Content/{Untitled.umap => Maps/MapaBasico03.umap} (94%)
+[2017.09.18-20.08.44:276][ 15]SourceControl:  rewrite Content/NewBlueprint.uasset (100%)
+[2017.09.18-20.08.44:276][ 15]SourceControl:  rewrite Content/VacasController.uasset (82%)
+[2017.09.18-20.08.44:276][ 15]SourceControl:  rewrite Content/Vacas_BehaviorTree.uasset (100%)
+[2017.09.18-20.08.44:276][ 15]SourceControl:  rewrite Content/Vacas_Blackboard.uasset (94%)
+[2017.09.18-20.08.44:282][ 15]SourceControl: Commited [master 24ba25a] Vacas funcionando.
+[2017.09.18-20.14.57:338][725]LogSavePackage: Save=51.58ms
+[2017.09.18-20.14.57:338][725]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico039D01796842AC154F02B854BF7E3D7E14.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap'
+[2017.09.18-20.14.57:352][725]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico03.umap
+[2017.09.18-20.14.57:357][725]LogFileHelpers: Saving map 'MapaBasico03' took 0.233
+[2017.09.18-20.14.58:246][726]Cmd: QUIT_EDITOR
+[2017.09.18-20.14.58:886][726]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.18-20.14.58:891][726]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.18-20.14.58:965][726]LogExit: Preparing to exit.
+[2017.09.18-20.14.59:785][726]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.18-20.15.00:046][726]LogExit: Editor shut down
+[2017.09.18-20.15.00:127][726]LogExit: Transaction tracking system shut down
+[2017.09.18-20.15.00:589][726]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.18-20.15.00:590][726]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.18-20.15.00:590][726]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.18-20.15.00:590][726]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.18-20.15.00:590][726]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.18-20.15.00:849][726]LogExit: Object subsystem successfully closed.
+[2017.09.18-20.15.00:886][726]LogD3D11RHI: Shutdown
+[2017.09.18-20.15.00:887][726]LogD3D11RHI: CleanupD3DDevice
+[2017.09.18-20.15.00:963][726]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.18-20.15.01:155][726]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2017.09.18-20.15.01:155][726]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.09.18-20.15.01:155][726]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.09.18-20.15.01:191][726]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.09.18-20.15.01:191][726]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.18-20.15.01:191][726]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.18-20.15.01:191][726]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.18-20.15.01:191][726]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.18-20.15.01:201][726]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.18-20.15.01:201][726]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.18-20.15.01:201][726]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.18-20.15.01:201][726]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' was aborted.
+[2017.09.18-20.15.01:202][726]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' was aborted.
+[2017.09.18-20.15.01:202][726]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' was aborted.
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.18-20.15.01:202][726]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.18-20.15.01:203][726]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.18-20.15.01:204][726]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.18-20.15.01:204][726]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.18-20.15.01:204][726]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.18-20.15.01:204][726]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.18-20.15.01:204][726]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.18-20.15.01:410][726]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.18-20.15.01:410][726]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.18-20.15.01:410][726]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.18-20.15.01:410][726]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.18-20.15.01:410][726]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.18-20.15.01:410][726]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.18-20.15.01:411][726]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.18-20.15.01:412][726]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.18-20.15.01:412][726]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.18-20.15.01:412][726]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.18-20.15.01:412][726]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.18-20.15.01:412][726]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.18-20.15.01:412][726]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.18-20.15.01:466][726]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.18-20.15.01:466][726]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.18-20.15.01:466][726]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.18-20.15.01:466][726]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.18-20.15.01:466][726]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.18-20.15.01:467][726]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.18-20.15.01:467][726]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.18-20.15.01:467][726]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.18-20.15.01:467][726]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.18-20.15.01:467][726]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.18-20.15.01:491][726]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.18-20.15.01:493][726]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.18-20.15.01:493][726]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.18-20.15.01:493][726]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.18-20.15.01:494][726]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.18-20.15.01:494][726]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.18-20.15.01:494][726]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.18-20.15.01:500][726]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.18-20.15.01:501][726]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.18-20.15.01:501][726]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.18-20.15.01:501][726]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.18-20.15.01:657][726]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.18-20.15.01:658][726]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.18-20.15.01:659][726]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.18-20.15.01:659][726]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.18-20.15.01:659][726]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.18-20.15.01:661][726]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.18-20.15.01:762][726]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.18-20.15.01:863][726]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.18-20.15.01:863][726]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.18-20.15.01:863][726]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.18-20.15.01:863][726]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.18-20.15.01:863][726]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.18-20.15.01:863][726]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.18-20.15.01:868][726]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.18-20.15.01:869][726]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.18-20.15.01:869][726]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.18-20.15.01:869][726]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.18-20.15.01:869][726]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.18-20.15.01:869][726]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.18-20.15.01:869][726]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.18-20.15.01:874][726]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.18-20.15.01:875][726]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.18-20.15.01:886][726]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.18-20.15.01:930][726]LogDerivedDataCache: Shutdown
+[2017.09.18-20.15.01:930][726]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.18-20.15.01:931][726]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.18-20.15.01:932][726]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.18-20.15.01:932][726]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.18-20.15.01:933][726]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.18-20.15.01:934][726]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.18-20.15.01:934][726]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.18-20.15.01:935][726]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.18-20.15.01:935][726]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.18-20.15.01:935][726]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B56E7D631-4F85-2153-847D-71B4E11F1DD4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=811ac6424ce57083819e778b28662927%7C8b4cf88b8f67420d8279cce044090ff6%7C2094d10c-5ad6-4568-83fb-ae8e8d51cc31&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.18-20.15.01:939][726]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.18-20.15.01:942][726]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.18-20.15.01:942][726]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.18-20.15.01:943][726]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.18-20.15.01:943][726]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.18-20.15.01:943][726]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.18-20.15.01:943][726]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.18-20.15.01:943][726]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.18-20.15.01:955][726]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.18-20.15.01:955][726]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.18-20.15.01:955][726]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.18-20.15.01:955][726]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.18-20.15.01:956][726]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.18-20.15.01:956][726]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.18-20.15.01:956][726]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.18-20.15.01:956][726]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.18-20.15.01:956][726]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.18-20.15.01:956][726]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.18-20.15.01:956][726]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.18-20.15.01:958][726]LogExit: Exiting.
+[2017.09.18-20.15.01:992][726]Log file closed, 09/18/17 17:15:01
