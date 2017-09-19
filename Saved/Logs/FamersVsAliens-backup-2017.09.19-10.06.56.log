@@ -1,0 +1,1678 @@
+﻿Log file open, 09/19/17 09:06:42
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: FamersVsAliens
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1933163713) SRandInit(1933163714).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.182052
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.19-12.06.43:659][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.19-12.06.43:660][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.19-12.06.43:675][  0]LogInit: Computer: DESKTOP-CICTV3V
+[2017.09.19-12.06.43:675][  0]LogInit: User: Smailin
+[2017.09.19-12.06.43:675][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.19-12.06.43:675][  0]LogInit: High frequency timer resolution =3.312790 MHz
+[2017.09.19-12.06.43:676][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.19-12.06.43:676][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.19-12.06.43:676][  0]LogMemory: Process Physical Memory: 278.03 MB used, 278.03 MB peak
+[2017.09.19-12.06.43:676][  0]LogMemory: Process Virtual Memory: 274.32 MB used, 274.32 MB peak
+[2017.09.19-12.06.43:676][  0]LogMemory: Physical Memory: 5092.68 MB used,  3062.00 MB free, 8154.68 MB total
+[2017.09.19-12.06.43:676][  0]LogMemory: Virtual Memory: 654.70 MB used,  3062.00 MB free, 134217728.00 MB total
+[2017.09.19-12.06.43:844][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.09.19-12.06.43:844][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.09.19-12.06.44:617][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.19-12.06.45:179][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.09.19-12.06.45:180][  0]LogD3D11RHI:       2015/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.19-12.06.45:181][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.19-12.06.45:181][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.19-12.06.45:181][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.19-12.06.45:186][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.19-12.06.45:186][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.19-12.06.45:186][  0]LogWindows: EnumDisplayDevices:
+[2017.09.19-12.06.45:187][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:0 D:1)
+[2017.09.19-12.06.45:187][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.09.19-12.06.45:187][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.09.19-12.06.45:187][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.09.19-12.06.45:187][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.19-12.06.45:187][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.09.19-12.06.45:187][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.19-12.06.45:187][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.19-12.06.45:187][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.19-12.06.45:715][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.19-12.06.45:854][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.19-12.06.45:860][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Projetos Unreal/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/4796/).
+[2017.09.19-12.06.45:860][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Smailin/AppData/Local/Temp/UnrealShaderWorkingDir/B4CB19DE4A17AC4F32F886A57AD6774A/'.
+[2017.09.19-12.06.45:860][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.19-12.06.46:881][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.19-12.06.46:929][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.19-12.06.46:978][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.19-12.06.47:027][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.19-12.06.47:093][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.19-12.06.47:143][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.19-12.06.47:192][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.19-12.06.47:441][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.19-12.06.47:502][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.19-12.06.47:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.19-12.06.47:613][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.19-12.06.47:678][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.19-12.06.47:739][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.19-12.06.47:809][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.19-12.06.47:857][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.19-12.06.47:952][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.19-12.06.47:952][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.19-12.06.47:987][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.19-12.06.48:074][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.19-12.06.48:101][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.19-12.06.48:148][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.19-12.06.48:198][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.19-12.06.48:244][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.19-12.06.48:293][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.19-12.06.48:293][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.19-12.06.48:718][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.19-12.06.48:809][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.19-12.06.48:809][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.19-12.06.48:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.19-12.06.48:810][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.19-12.06.48:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.19-12.06.48:810][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.19-12.06.48:827][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.19-12.06.48:840][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Smailin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.19-12.06.48:852][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.19-12.06.48:852][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.19-12.06.48:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.19-12.06.48:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.19-12.06.49:173][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2017.09.19-12.06.49:293][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.19-12.06.49:443][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.19-12.06.49:729][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.19-12.06.49:765][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.19-12.06.49:765][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.19-12.06.49:765][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.19-12.06.49:765][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.19-12.06.49:765][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.19-12.06.50:160][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
+[2017.09.19-12.06.50:382][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.039264 seconds
+[2017.09.19-12.06.50:388][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.19-12.06.50:388][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.19-12.06.50:388][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.19-12.06.50:436][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.19-12.06.52:995][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.19-12.06.53:031][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.19-12.06.53:637][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.19-12.06.54:024][  0]SourceControl: Source control is disabled
+[2017.09.19-12.06.55:818][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.19-12.06.56:056][  0]LogOcInput: OculusInput pre-init called
+[2017.09.19-12.06.56:301][  0]LogEngine: Initializing Engine...
+[2017.09.19-12.06.56:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.19-12.06.56:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.19-12.06.56:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.19-12.06.56:657][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.19-12.06.56:669][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.19-12.06.56:682][  0]LogInit: FAudioDevice initialized.
+[2017.09.19-12.06.56:970][  0]LogDerivedDataCache: Saved boot cache 0.29s 93MB C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.19-12.06.56:986][  0]LogInit: Texture streaming: Enabled
+[2017.09.19-12.06.57:090][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.19-12.06.57:331][  0]LogInit: Transaction tracking system initialized
+[2017.09.19-12.06.57:620][  0]BlueprintLog: New page: Editor Load
+[2017.09.19-12.06.58:397][  0]LocalizationService: Localization service is disabled
+[2017.09.19-12.06.59:024][  0]LogConsoleResponse: Display: 
+[2017.09.19-12.06.59:257][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/' took 0.01s
+[2017.09.19-12.06.59:258][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.19-12.06.59:258][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.19-12.06.59:258][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.19-12.07.00:204][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.19-12.07.00:205][  0]LightingResults: New page: Lighting Build
+[2017.09.19-12.07.00:241][  0]MapCheck: New page: Map Check
+[2017.09.19-12.07.00:241][  0]LightingResults: New page: Lighting Build
+[2017.09.19-12.07.00:454][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.19-12.07.00:460][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.19-12.07.00:471][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.19-12.07.00:534][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.677ms to complete.
+[2017.09.19-12.07.00:534][  0]LogFileHelpers: Loading map 'Template_Default' took 0.329
+[2017.09.19-12.07.00:600][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.19-12.07.01:476][  0]LogCollectionManager: Loaded 0 collections in 0.001789 seconds
+[2017.09.19-12.07.01:682][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Saved/Collections/' took 0.01s
+[2017.09.19-12.07.01:682][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Developers/Smailin/Collections/' took 0.01s
+[2017.09.19-12.07.01:682][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Collections/' took 0.01s
+[2017.09.19-12.07.01:682][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.19-12.07.01:717][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 2386 classes and 500 folders.
+[2017.09.19-12.07.01:845][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0068 seconds. Added 0 classes and 0 folders.
+[2017.09.19-12.07.02:522][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.09.19-12.07.02:642][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.19-12.07.06:606][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.19-12.07.06:609][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.19-12.07.06:627][  0]LogSlate: Took 0.010978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.19-12.07.06:861][  0]LogRenderer: Reallocating scene render targets to support 816x456 Format 10 NumSamples 1 (Frame:1).
+[2017.09.19-12.07.07:140][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.19-12.07.07:140][  0]LogLoad: (Engine Initialization) Total time: 25.48 seconds
+[2017.09.19-12.07.07:140][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.19-12.07.07:140][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.19-12.07.07:186][  0]SourceControl: On branch master
+[2017.09.19-12.07.07:186][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.19-12.07.07:186][  0]SourceControl: Changes not staged for commit:
+[2017.09.19-12.07.07:186][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.19-12.07.07:186][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/311563bb.bin
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.19-12.07.07:186][  0]SourceControl: 	deleted:    Saved/Logs/FamersVsAliens-backup-2017.09.18-09.32.32.log
+[2017.09.19-12.07.07:186][  0]SourceControl: 	deleted:    Saved/Logs/FamersVsAliens-backup-2017.09.18-12.40.57.log
+[2017.09.19-12.07.07:186][  0]SourceControl: 	deleted:    Saved/Logs/FamersVsAliens-backup-2017.09.18-14.09.17.log
+[2017.09.19-12.07.07:186][  0]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
+[2017.09.19-12.07.07:186][  0]SourceControl: Untracked files:
+[2017.09.19-12.07.07:186][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.19-12.07.07:186][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-4A4BFD72473FC862B83A7F94064D533A/
+[2017.09.19-12.07.07:186][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-638F3A024138D05856B229A088F4B1DF/
+[2017.09.19-12.07.07:186][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-649831D94A25686794A0CA9D4AB995D0/
+[2017.09.19-12.07.07:186][  0]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.18-23.45.21.log
+[2017.09.19-12.07.07:186][  0]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.19-08.53.10.log
+[2017.09.19-12.07.07:186][  0]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.19-09.06.42.log
+[2017.09.19-12.07.07:186][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.19-12.07.07:193][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FamersVsAliens
+[2017.09.19-12.07.07:193][  0]LogTemp: CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.19-12.07.07:193][  0]LogTemp: Initial Dir: F:\UE_4.17
+[2017.09.19-12.07.07:193][  0]LogTemp: Env CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.19-12.07.07:193][  0]LogTemp: BranchPath = DESKTOP-CICTV3V/F/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-CICTV3V/F/UE_4.17/Engine/Binaries
+[2017.09.19-12.07.07:193][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.19-12.07.07:321][  1]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Smailin\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.19-12.07.07:333][  1]LogAssetRegistry: Asset discovery search completed in 18.1823 seconds
+[2017.09.19-12.07.07:351][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.19-12.07.07:351][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
+[2017.09.19-12.07.10:992][396]LogSlate: Took 0.016841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.19-12.07.51:752][345]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.19-12.07.51:932][345]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Projetos Unreal/Cow.fbx)
+[2017.09.19-12.07.52:166][345]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.19-12.07.52:166][345]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.19-12.07.52:166][345]LogFbx: ItemName: Model, ItemCount : 1
+[2017.09.19-12.07.52:166][345]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.19-12.07.52:166][345]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.19-12.07.52:166][345]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.19-12.07.52:223][345]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Cow.fbx
+[2017.09.19-12.07.52:338][345]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.08.00:747][345]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Cow.fbx
+[2017.09.19-12.08.00:754][345]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.08.00:784][345]LogFbx: Warning: Triangulating static mesh Cow.004
+[2017.09.19-12.08.00:943][345]LogStaticMesh: Building static mesh Cow...
+[2017.09.19-12.08.00:982][345]LogStaticMesh: Built static mesh [0.04s] /Game/Animações/Cow.Cow
+[2017.09.19-12.08.01:010][345]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-12.08.12:104][494]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.19-12.08.12:255][494]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.09.19-12.08.13:829][494]LogSlate: Took 0.006878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.19-12.08.15:502][609]LogRenderer: Reallocating scene render targets to support 876x568 Format 10 NumSamples 1 (Frame:1).
+[2017.09.19-12.08.19:113][878]LogSlate: Took 0.033753 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.19-12.08.24:786][305]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.19-12.09.06:746][684]LogRenderer: Reallocating scene render targets to support 1072x744 Format 10 NumSamples 1 (Frame:1).
+[2017.09.19-12.09.37:253][191]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Projetos Unreal/Farmer_01 (1).fbx)
+[2017.09.19-12.09.37:260][191]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.19-12.09.37:261][191]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.19-12.09.37:261][191]LogFbx: ItemName: Model, ItemCount : 1
+[2017.09.19-12.09.37:261][191]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.19-12.09.37:261][191]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.19-12.09.37:261][191]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.19-12.09.37:265][191]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Farmer_01 (1).fbx
+[2017.09.19-12.09.37:272][191]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.10.00:482][191]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Farmer_01 (1).fbx
+[2017.09.19-12.10.00:489][191]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.10.00:489][191]LogFbx: =================================================
+[2017.09.19-12.10.00:489][191]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.10.00:489][191]LogFbx: 	Total Deformer Count -155845808.
+[2017.09.19-12.10.00:489][191]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.10.00:489][191]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.10.00:489][191]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.10.00:489][191]LogFbx: =================================================
+[2017.09.19-12.10.00:489][191]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.10.00:489][191]LogFbx: 	Total Deformer Count -155845808.
+[2017.09.19-12.10.00:489][191]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.10.00:489][191]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.10.00:489][191]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.10.00:839][191]LogFbx: Triangulating skeletal mesh Farmer_01.002
+[2017.09.19-12.10.01:170][191]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2017.09.19-12.10.01:256][191]LogSkeletalMesh: Section 0: 1609 vertices, 1 active bones
+[2017.09.19-12.10.01:264][191]LogSkeletalMesh: Section 0: Material=0, 2326 triangles
+[2017.09.19-12.10.09:139][191]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-12.10.09:139][191]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2017.09.19-12.10.10:449][191]LogAssetTools: Warning: Failed to import 'E:/Projetos Unreal/Farmer_01 (1).fbx'. Failed to create asset '/Game/Animações/Farmer_01__1_'.
+Please see Output Log for details.
+[2017.09.19-12.16.32:290][942]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Projetos Unreal/Idle fazendeiro.fbx)
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: Model, ItemCount : 34
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: AnimationCurveNode, ItemCount : 30
+[2017.09.19-12.16.32:297][942]LogFbx: ItemName: AnimationCurve, ItemCount : 171
+[2017.09.19-12.16.32:302][942]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-12.16.32:665][942]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.16.55:838][942]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-12.16.55:857][942]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.16.55:858][942]LogFbx: =================================================
+[2017.09.19-12.16.55:858][942]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.16.55:858][942]LogFbx: 	Total Deformer Count -247261424.
+[2017.09.19-12.16.55:858][942]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.16.55:858][942]LogFbx: =================================================
+[2017.09.19-12.16.55:858][942]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.16.55:858][942]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.16.55:858][942]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.16.55:859][942]LogFbx: =================================================
+[2017.09.19-12.16.55:859][942]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.16.55:859][942]LogFbx: 	Total Deformer Count -247261424.
+[2017.09.19-12.16.55:859][942]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.16.55:859][942]LogFbx: =================================================
+[2017.09.19-12.16.55:859][942]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.16.55:859][942]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.16.55:859][942]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.16.55:859][942]LogFbx: Valid bind pose for Pose (BindPose) - Farmer_01.002
+[2017.09.19-12.16.55:860][942]LogFbx: Triangulating skeletal mesh Farmer_01.002
+[2017.09.19-12.16.56:109][942]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.09.19-12.16.56:155][942]LogSkeletalMesh: Section 0: 1609 vertices, 28 active bones
+[2017.09.19-12.16.56:157][942]LogSkeletalMesh: Section 0: Material=0, 2326 triangles
+[2017.09.19-12.16.56:190][942]LogLinker: Can't find file '/Game/Animações/Idle_fazendeiro_PhysicsAsset'
+[2017.09.19-12.16.56:190][942]LogLinker: Can't find file '/Game/Animações/Idle_fazendeiro_PhysicsAsset'
+[2017.09.19-12.16.56:317][942]LogFbx: =================================================
+[2017.09.19-12.16.56:317][942]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.16.56:317][942]LogFbx: 	Total Deformer Count -246291888.
+[2017.09.19-12.16.56:317][942]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.16.56:317][942]LogFbx: =================================================
+[2017.09.19-12.16.56:317][942]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.16.56:317][942]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.16.56:317][942]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.16.56:318][942]LogFbx: =================================================
+[2017.09.19-12.16.56:318][942]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.16.56:318][942]LogFbx: 	Total Deformer Count -246291888.
+[2017.09.19-12.16.56:318][942]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.16.56:318][942]LogFbx: =================================================
+[2017.09.19-12.16.56:318][942]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.16.56:318][942]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.16.56:318][942]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(0) Hips
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(1) Spine
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(2) Spine1
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(3) Spine2
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(4) Neck
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(5) Head
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(8) LeftArm
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(10) LeftHand
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(15) RightShoulder
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(16) RightArm
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(17) RightForeArm
+[2017.09.19-12.16.56:318][942]LogFbx: SortedLinks :(18) RightHand
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(24) LeftLeg
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(25) LeftFoot
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(29) RightLeg
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(30) RightFoot
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(31) RightToeBase
+[2017.09.19-12.16.56:319][942]LogFbx: SortedLinks :(32) RightToe_End
+[2017.09.19-12.16.56:320][942]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.19-12.16.56:345][942]LogLinker: Can't find file '/Game/Animações/Idle_fazendeiro_Anim'
+[2017.09.19-12.16.56:345][942]LogLinker: Can't find file '/Game/Animações/Idle_fazendeiro_Anim'
+[2017.09.19-12.16.56:603][942]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animações/Idle_fazendeiro_Anim.Idle_fazendeiro_Anim
+[2017.09.19-12.16.56:626][942]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-12.16.56:771][944]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.56:895][946]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.56:928][948]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.56:977][950]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.57:012][952]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.57:049][954]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.57:085][956]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.57:119][958]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.57:147][960]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.57:177][962]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:130][185]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:151][187]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:177][189]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:202][191]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:226][193]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:252][195]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:278][197]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:304][199]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:328][201]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:354][203]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:378][205]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:404][207]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:428][209]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:454][211]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:478][213]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:503][215]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:528][217]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:554][219]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:578][221]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:602][223]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:628][225]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:653][227]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:778][240]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:794][242]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:811][244]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.16.59:834][246]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.00:110][247]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.19-12.17.00:199][247]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.19-12.17.00:499][247]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.19-12.17.01:242][247]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.09.19-12.17.05:899][618]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.05:917][620]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.05:940][622]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.05:965][624]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.05:989][626]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:013][628]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:039][630]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:061][632]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:087][634]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:112][636]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:138][638]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:163][640]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:188][642]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:212][644]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:238][646]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:262][648]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:288][650]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:313][652]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:338][654]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:362][656]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:388][658]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:413][660]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:438][662]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:463][664]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:488][666]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:513][668]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:538][670]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:563][672]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:589][674]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:613][676]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:639][678]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:664][680]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:689][682]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:714][684]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:740][686]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:764][688]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:790][690]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:814][692]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:840][694]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:865][696]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:891][698]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:915][700]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:940][702]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:964][704]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.06:990][706]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:014][708]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:040][710]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:065][712]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:090][714]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:115][716]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:140][718]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:165][720]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:190][722]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:214][724]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:239][726]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:264][728]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:290][730]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:314][732]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:340][734]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:364][736]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:390][738]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:414][740]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:440][742]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:465][744]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:491][746]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:515][748]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:540][750]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:565][752]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:591][754]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:720][768]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:737][770]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:760][772]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.07:906][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.09.19-12.17.07:937][774]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.09.19-12.17.08:251][774]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.08:396][774]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.19-12.17.08:478][776]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:650][942]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:668][944]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:692][946]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:714][948]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:738][950]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:764][952]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:787][954]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:812][956]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:836][958]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:860][960]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:884][962]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:909][964]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:932][966]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:956][968]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.10:980][970]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:004][972]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:028][974]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:053][976]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:077][978]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:101][980]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:125][982]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:150][984]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:173][986]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:199][988]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:221][990]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:248][992]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:272][994]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:298][996]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:323][998]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:348][  0]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:373][  2]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:397][  4]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:421][  6]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:445][  8]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:469][ 10]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:493][ 12]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:517][ 14]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:543][ 16]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:567][ 18]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:594][ 20]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:618][ 22]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:643][ 24]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:668][ 26]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:693][ 28]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:718][ 30]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:743][ 32]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:767][ 34]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:793][ 36]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:818][ 38]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:844][ 40]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:868][ 42]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:894][ 44]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:918][ 46]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:944][ 48]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:967][ 50]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.11:994][ 52]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:018][ 54]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:043][ 56]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:068][ 58]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:211][ 73]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:228][ 75]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:246][ 77]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:271][ 79]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:297][ 81]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:321][ 83]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:347][ 85]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:370][ 87]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:394][ 89]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:418][ 91]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:442][ 93]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:466][ 95]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:489][ 97]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:513][ 99]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:537][101]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:562][103]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:586][105]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:610][107]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:635][109]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:658][111]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:682][113]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:706][115]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:730][117]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:754][119]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:778][121]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:803][123]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:827][125]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:851][127]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:875][129]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:898][131]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:923][133]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:947][135]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:971][137]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.12:995][139]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:018][141]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:042][143]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:067][145]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:091][147]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:115][149]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:140][151]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:164][153]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:188][155]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:223][158]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:244][160]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:268][162]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:291][164]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:316][166]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:343][168]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:366][170]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:391][172]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:418][174]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:442][176]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:468][178]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:492][180]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:518][182]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:542][184]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:568][186]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:592][188]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:618][190]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:752][204]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:769][206]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:788][208]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:810][210]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:837][212]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:861][214]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:887][216]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:911][218]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:937][220]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:961][222]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.13:987][224]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:011][226]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:036][228]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:059][230]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:084][232]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:109][234]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:134][236]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:156][238]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:181][240]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:204][242]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:228][244]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:252][246]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:277][248]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:301][250]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:324][252]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:349][254]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:372][256]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:396][258]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:420][260]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:444][262]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:468][264]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:492][266]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:516][268]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:541][270]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:565][272]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:589][274]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:613][276]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:637][278]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:661][280]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:685][282]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:709][284]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:733][286]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:757][288]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:781][290]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:804][292]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:828][294]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:853][296]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:877][298]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:900][300]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:924][302]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:948][304]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:972][306]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.14:997][308]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:021][310]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:044][312]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:068][314]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:092][316]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:116][318]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:141][320]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:164][322]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:189][324]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:224][327]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:243][329]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:267][331]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:291][333]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:315][335]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:339][337]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:362][339]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:387][341]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:411][343]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:435][345]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:460][347]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:483][349]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:509][351]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:532][353]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:556][355]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:580][357]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:605][359]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:630][361]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:653][363]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:677][365]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:701][367]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:725][369]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:749][371]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:773][373]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:797][375]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:821][377]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:845][379]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:869][381]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:893][383]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:917][385]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:941][387]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:964][389]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.15:989][391]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:013][393]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:037][395]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:061][397]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:085][399]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:109][401]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:133][403]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:157][405]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:181][407]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:205][409]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:230][411]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:253][413]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:277][415]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:302][417]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:325][419]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:350][421]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:375][423]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:398][425]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:423][427]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:446][429]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:471][431]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:494][433]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:519][435]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:542][437]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:566][439]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:590][441]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:615][443]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:639][445]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:663][447]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:687][449]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:711][451]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:735][453]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:759][455]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:783][457]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:807][459]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:832][461]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:857][463]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:881][465]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:905][467]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:930][469]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:953][471]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.16:977][473]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:002][475]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:026][477]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:049][479]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:074][481]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:098][483]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:122][485]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:147][487]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:171][489]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:195][491]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:220][493]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:244][495]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:267][497]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:291][499]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:316][501]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:340][503]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:364][505]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:388][507]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:413][509]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:437][511]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:461][513]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:485][515]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:513][517]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:534][519]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:559][521]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:587][523]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:610][525]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:635][527]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:662][529]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:685][531]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:710][533]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:734][535]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:760][537]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:785][539]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:809][541]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:835][543]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:862][545]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:886][547]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:912][549]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:936][551]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:962][553]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.17:986][555]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:011][557]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:036][559]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:062][561]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:086][563]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:112][565]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:136][567]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:162][569]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:323][587]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:340][589]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:363][591]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:389][593]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:413][595]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.18:439][597]LogAnimation: Warning: SkeletalMesh Farmer_01__1_ has no skeleton. This needs to fixed before an animation can be set
+[2017.09.19-12.17.23:227][599]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.19-12.17.36:251][839]LogBlueprint: Warning: [Compiler Jogador] InputAction Event references unknown Action 'Pegar' for  InputAction Pegar
+[2017.09.19-12.17.36:264][839]LogBlueprint: Warning: [Compiler Jogador] [0654.60] Compile of Jogador successful, but with 1 Warning(s) [in 361 ms] (/Game/BluePrints/Jogador.Jogador)
+[2017.09.19-12.18.05:415][959]BlueprintLog: New page: Compile Jogador
+[2017.09.19-12.18.05:462][959]LogBlueprint: Warning: [Compiler Jogador] InputAction Event references unknown Action 'Pegar' for  InputAction Pegar
+[2017.09.19-12.18.06:175][959]LogBlueprint: Warning: [Compiler Jogador] [0684.51] Compile of Jogador successful, but with 1 Warning(s) [in 760 ms] (/Game/BluePrints/Jogador.Jogador)
+[2017.09.19-12.19.02:271][621]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.015
+[2017.09.19-12.19.02:349][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Cow] ([1] browsable assets)...
+[2017.09.19-12.19.02:377][621]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Animações/Cow.Cow]
+[2017.09.19-12.19.02:377][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Cow]
+[2017.09.19-12.19.02:377][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Cow" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Cow_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.19.02:517][621]LogSavePackage: Save=131.98ms
+[2017.09.19-12.19.02:517][621]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Cow_Auto1992C0FE4464E90C6EBC0C29972C76D48.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Cow_Auto1.uasset'
+[2017.09.19-12.19.02:519][621]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Cow_Auto1.uasset
+[2017.09.19-12.19.02:520][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Farmer_01__1_] ([1] browsable assets)...
+[2017.09.19-12.19.02:540][621]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Animações/Farmer_01__1_.Farmer_01__1_]
+[2017.09.19-12.19.02:540][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Farmer_01__1_]
+[2017.09.19-12.19.02:540][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Farmer_01__1_" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.19.02:563][621]LogSavePackage: Save=21.87ms
+[2017.09.19-12.19.02:563][621]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Farmer_01__1__Auto1E73A4B25473B6F44D7863EA62BE88D94.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Auto1.uasset'
+[2017.09.19-12.19.02:564][621]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Auto1.uasset
+[2017.09.19-12.19.02:564][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Idle_fazendeiro] ([1] browsable assets)...
+[2017.09.19-12.19.02:580][621]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Animações/Idle_fazendeiro.Idle_fazendeiro]
+[2017.09.19-12.19.02:580][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Idle_fazendeiro]
+[2017.09.19-12.19.02:580][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.19.02:622][621]LogSavePackage: Save=41.11ms
+[2017.09.19-12.19.02:622][621]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_Auto159B7F2C841059B5C53EE4CA6A7B05B47.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto1.uasset'
+[2017.09.19-12.19.02:623][621]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto1.uasset
+[2017.09.19-12.19.02:624][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animações/Idle_fazendeiro_PhysicsAsset] ([1] browsable assets)...
+[2017.09.19-12.19.02:624][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Idle_fazendeiro_PhysicsAsset]
+[2017.09.19-12.19.02:646][621]LogSavePackage: Save=9.14ms
+[2017.09.19-12.19.02:646][621]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_PhysicsAsset_Auto1FC0EEF584E7F06CDA3D15F846830831D.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_PhysicsAsset_Auto1.uasset'
+[2017.09.19-12.19.02:647][621]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_PhysicsAsset_Auto1.uasset
+[2017.09.19-12.19.02:647][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Idle_fazendeiro_Anim] ([1] browsable assets)...
+[2017.09.19-12.19.02:663][621]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animações/Idle_fazendeiro_Anim.Idle_fazendeiro_Anim]
+[2017.09.19-12.19.02:663][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Idle_fazendeiro_Anim]
+[2017.09.19-12.19.02:663][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro_Anim" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Anim_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.19.02:675][621]LogSavePackage: Save=10.83ms
+[2017.09.19-12.19.02:675][621]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_Anim_Auto1371188DC40B3A2ADC26C77804D2FF776.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Anim_Auto1.uasset'
+[2017.09.19-12.19.02:676][621]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Anim_Auto1.uasset
+[2017.09.19-12.19.02:676][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animações/Farmer_01__1__Skeleton] ([1] browsable assets)...
+[2017.09.19-12.19.02:676][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Farmer_01__1__Skeleton]
+[2017.09.19-12.19.02:678][621]LogSavePackage: Save=0.90ms
+[2017.09.19-12.19.02:678][621]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Farmer_01__1__Skeleton_Auto1969910CD44CC0A6D0B7C42AC6D777965.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Skeleton_Auto1.uasset'
+[2017.09.19-12.19.02:679][621]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Skeleton_Auto1.uasset
+[2017.09.19-12.19.02:679][621]LogFileHelpers: Auto-saving content packages took 0.379
+[2017.09.19-12.23.20:562][ 33]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Projetos Unreal/Idle fazendeiro.fbx)
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: Model, ItemCount : 34
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: AnimationCurveNode, ItemCount : 30
+[2017.09.19-12.23.20:570][ 33]LogFbx: ItemName: AnimationCurve, ItemCount : 171
+[2017.09.19-12.23.20:574][ 33]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-12.23.20:593][ 33]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.32.20:289][ 33]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-12.32.20:307][ 33]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.32.20:309][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:309][ 33]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.32.20:309][ 33]LogFbx: 	Total Deformer Count -246824576.
+[2017.09.19-12.32.20:309][ 33]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.32.20:309][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:309][ 33]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.32.20:309][ 33]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.32.20:309][ 33]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.32.20:310][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:310][ 33]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.32.20:310][ 33]LogFbx: 	Total Deformer Count -246824576.
+[2017.09.19-12.32.20:310][ 33]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.32.20:310][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:310][ 33]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.32.20:310][ 33]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.32.20:310][ 33]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.32.20:310][ 33]LogFbx: Valid bind pose for Pose (BindPose) - Farmer_01.002
+[2017.09.19-12.32.20:310][ 33]LogFbx: Triangulating skeletal mesh Farmer_01.002
+[2017.09.19-12.32.20:544][ 33]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.09.19-12.32.20:586][ 33]LogSkeletalMesh: Section 0: 1609 vertices, 28 active bones
+[2017.09.19-12.32.20:587][ 33]LogSkeletalMesh: Section 0: Material=0, 2326 triangles
+[2017.09.19-12.32.20:594][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:594][ 33]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.32.20:594][ 33]LogFbx: 	Total Deformer Count -283962864.
+[2017.09.19-12.32.20:594][ 33]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.32.20:594][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:594][ 33]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.32.20:594][ 33]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.32.20:594][ 33]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.32.20:595][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:595][ 33]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.32.20:595][ 33]LogFbx: 	Total Deformer Count -283962864.
+[2017.09.19-12.32.20:595][ 33]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.32.20:595][ 33]LogFbx: =================================================
+[2017.09.19-12.32.20:595][ 33]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.32.20:595][ 33]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.32.20:595][ 33]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(0) Hips
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(1) Spine
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(2) Spine1
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(3) Spine2
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(4) Neck
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(5) Head
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(8) LeftArm
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(10) LeftHand
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(15) RightShoulder
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(16) RightArm
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(17) RightForeArm
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(18) RightHand
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(24) LeftLeg
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(25) LeftFoot
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(29) RightLeg
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(30) RightFoot
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(31) RightToeBase
+[2017.09.19-12.32.20:595][ 33]LogFbx: SortedLinks :(32) RightToe_End
+[2017.09.19-12.32.20:596][ 33]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.19-12.32.20:773][ 33]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animações/Idle_fazendeiro_Anim.Idle_fazendeiro_Anim
+[2017.09.19-12.32.20:810][ 33]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-12.32.26:985][646]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2017.09.19-12.32.40:039][ 41]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.09.19-12.32.40:074][ 41]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.09.19-12.32.56:364][326]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.09.19-12.32.56:390][326]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.09.19-12.32.56:714][326]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.19-12.33.54:002][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.19-12.33.54:049][989]LogSavePackage: Save=46.98ms
+[2017.09.19-12.33.54:049][989]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Untitled_1_Auto2CB4A004E43128B3AA67F4C83EBF03CA9.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2017.09.19-12.33.54:060][989]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2017.09.19-12.33.54:061][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.078
+[2017.09.19-12.33.54:061][989]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.078
+[2017.09.19-12.33.54:063][989]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Idle_fazendeiro_Anim] ([1] browsable assets)...
+[2017.09.19-12.33.54:090][989]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animações/Idle_fazendeiro_Anim.Idle_fazendeiro_Anim]
+[2017.09.19-12.33.54:090][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Idle_fazendeiro_Anim]
+[2017.09.19-12.33.54:090][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro_Anim" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Anim_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.33.54:108][989]LogSavePackage: Save=16.00ms
+[2017.09.19-12.33.54:108][989]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_Anim_Auto20442D4344F4CC2151A3C02A64BF6D864.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Anim_Auto2.uasset'
+[2017.09.19-12.33.54:109][989]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Anim_Auto2.uasset
+[2017.09.19-12.33.54:110][989]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animações/Idle_fazendeiro_PhysicsAsset] ([1] browsable assets)...
+[2017.09.19-12.33.54:110][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Idle_fazendeiro_PhysicsAsset]
+[2017.09.19-12.33.54:121][989]LogSavePackage: Save=10.34ms
+[2017.09.19-12.33.54:122][989]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_PhysicsAsset_Auto23BDE8C05424704768EFD1A954C8E0C17.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_PhysicsAsset_Auto2.uasset'
+[2017.09.19-12.33.54:123][989]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_PhysicsAsset_Auto2.uasset
+[2017.09.19-12.33.54:123][989]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Idle_fazendeiro] ([1] browsable assets)...
+[2017.09.19-12.33.54:140][989]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Animações/Idle_fazendeiro.Idle_fazendeiro]
+[2017.09.19-12.33.54:140][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Idle_fazendeiro]
+[2017.09.19-12.33.54:140][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.33.54:154][989]LogSavePackage: Save=13.41ms
+[2017.09.19-12.33.54:154][989]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_Auto229FC8B0348140E559AE617AD923595CE.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto2.uasset'
+[2017.09.19-12.33.54:155][989]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto2.uasset
+[2017.09.19-12.33.54:156][989]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Jogador] ([1] browsable assets)...
+[2017.09.19-12.33.54:172][989]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Jogador.Jogador]
+[2017.09.19-12.33.54:172][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Jogador]
+[2017.09.19-12.33.54:172][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Jogador" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/BluePrints/Jogador_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.33.54:269][989]LogSavePackage: Save=84.27ms
+[2017.09.19-12.33.54:270][989]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Jogador_Auto2F6343EA645DC1ADDA5FFE8A2B366222D.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/BluePrints/Jogador_Auto2.uasset'
+[2017.09.19-12.33.54:271][989]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/BluePrints/Jogador_Auto2.uasset
+[2017.09.19-12.33.54:271][989]LogFileHelpers: Auto-saving content packages took 0.209
+[2017.09.19-12.47.47:486][595]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.09.19-12.47.47:524][595]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.09.19-12.47.47:838][595]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.19-12.48.03:722][844]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0016 seconds. Added 2 classes and 3 folders.
+[2017.09.19-12.51.52:062][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.19-12.51.52:674][556]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Idle_fazendeiro)
+[2017.09.19-12.52.03:787][754]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.03:787][754]LogEditorTransaction: Undo Create Actors
+[2017.09.19-12.52.04:039][768]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.04:039][768]LogEditorTransaction: Undo Move Actors
+[2017.09.19-12.52.04:582][822]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.04:582][822]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.19-12.52.04:995][866]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.04:995][866]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.19-12.52.05:471][918]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.05:471][918]LogEditorTransaction: Undo Edit Physics Asset
+[2017.09.19-12.52.05:932][971]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.05:932][971]LogEditorTransaction: Undo Edit Physics Asset
+[2017.09.19-12.52.06:563][ 45]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.06:563][ 45]LogEditorTransaction: Undo Move Actors
+[2017.09.19-12.52.07:068][104]Cmd: TRANSACTION UNDO
+[2017.09.19-12.52.07:068][104]LogEditorTransaction: Undo Create Actors
+[2017.09.19-12.52.07:132][110]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2017.09.19-12.52.14:769][880]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.09.19-12.52.15:186][880]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.09.19-12.52.36:516][743]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Projetos Unreal/Farmer_01 (1).fbx)
+[2017.09.19-12.52.36:522][743]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.19-12.52.36:522][743]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.19-12.52.36:522][743]LogFbx: ItemName: Model, ItemCount : 1
+[2017.09.19-12.52.36:522][743]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.19-12.52.36:522][743]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.19-12.52.36:522][743]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.19-12.52.36:527][743]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Farmer_01 (1).fbx
+[2017.09.19-12.52.36:535][743]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.52.40:130][743]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Farmer_01 (1).fbx
+[2017.09.19-12.52.40:138][743]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.52.40:139][743]LogFbx: Warning: Triangulating static mesh Farmer_01.002
+[2017.09.19-12.52.40:376][743]LogStaticMesh: Building static mesh Farmer_01__1_...
+[2017.09.19-12.52.40:407][743]LogStaticMesh: Built static mesh [0.03s] /Game/Animações/Farmer_01__1_.Farmer_01__1_
+[2017.09.19-12.52.40:420][743]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-12.52.43:914][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Temp/Untitled_1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.19-12.52.43:969][ 19]LogSavePackage: Save=53.80ms
+[2017.09.19-12.52.43:969][ 19]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Untitled_1_Auto3794112514C5B6FD88C00C1991E3B780E.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2017.09.19-12.52.43:970][ 19]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2017.09.19-12.52.43:971][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.452
+[2017.09.19-12.52.43:971][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.452
+[2017.09.19-12.52.43:973][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Idle_fazendeiro] ([1] browsable assets)...
+[2017.09.19-12.52.43:989][ 19]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Animações/Idle_fazendeiro.Idle_fazendeiro]
+[2017.09.19-12.52.43:989][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Idle_fazendeiro]
+[2017.09.19-12.52.43:989][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.52.44:004][ 19]LogSavePackage: Save=13.78ms
+[2017.09.19-12.52.44:004][ 19]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_Auto32D1450C04F4B53670D657084700CA7D2.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto3.uasset'
+[2017.09.19-12.52.44:005][ 19]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Idle_fazendeiro_Auto3.uasset
+[2017.09.19-12.52.44:005][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animações/Farmer_01__1_] ([1] browsable assets)...
+[2017.09.19-12.52.44:020][ 19]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Animações/Farmer_01__1_.Farmer_01__1_]
+[2017.09.19-12.52.44:020][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animações/Farmer_01__1_]
+[2017.09.19-12.52.44:020][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Farmer_01__1_" FILE="E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.09.19-12.52.44:032][ 19]LogSavePackage: Save=10.32ms
+[2017.09.19-12.52.44:032][ 19]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Farmer_01__1__Auto3CE5F4C8448952438926D17ADAFE16891.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Auto3.uasset'
+[2017.09.19-12.52.44:032][ 19]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Saved/Autosaves/Game/Animações/Farmer_01__1__Auto3.uasset
+[2017.09.19-12.52.44:032][ 19]LogFileHelpers: Auto-saving content packages took 0.061
+[2017.09.19-12.52.48:030][380]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.09.19-12.52.56:172][ 77]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.09.19-12.53.10:027][382]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_7.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.09.19-12.53.10:052][382]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_7.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2017.09.19-12.53.11:488][493]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_8.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2017.09.19-12.53.11:515][493]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_8.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2017.09.19-12.53.11:814][493]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.19-12.53.39:881][ 99]BlueprintLog: New page: Compile Jogador
+[2017.09.19-12.53.39:909][ 99]LogBlueprint: Warning: [Compiler Jogador] InputAction Event references unknown Action 'Pegar' for  InputAction Pegar
+[2017.09.19-12.53.40:214][ 99]LogBlueprint: Warning: [Compiler Jogador] [2818.55] Compile of Jogador successful, but with 1 Warning(s) [in 333 ms] (/Game/BluePrints/Jogador.Jogador)
+[2017.09.19-12.53.55:172][874]BlueprintLog: New page: Compile Jogador
+[2017.09.19-12.55.01:065][ 81]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.Actor_9.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2017.09.19-12.55.01:101][ 81]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_32:PersistentLevel.Actor_9.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2017.09.19-12.55.10:196][838]LogEditorFactories: Performing atomic reimport of [E:/Projetos Unreal/Idle fazendeiro.fbx]
+[2017.09.19-12.55.10:217][838]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-12.55.10:236][838]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.55.10:244][838]LogFbx: =================================================
+[2017.09.19-12.55.10:244][838]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.55.10:244][838]LogFbx: 	Total Deformer Count 1257536416.
+[2017.09.19-12.55.10:244][838]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.55.10:244][838]LogFbx: =================================================
+[2017.09.19-12.55.10:244][838]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.55.10:244][838]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.55.10:244][838]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.55.10:245][838]LogFbx: =================================================
+[2017.09.19-12.55.10:245][838]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.55.10:245][838]LogFbx: 	Total Deformer Count 1257536416.
+[2017.09.19-12.55.10:245][838]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.55.10:245][838]LogFbx: =================================================
+[2017.09.19-12.55.10:245][838]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.55.10:245][838]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.55.10:245][838]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.55.10:245][838]LogFbx: Valid bind pose for Pose (BindPose) - Farmer_01.002
+[2017.09.19-12.55.10:246][838]LogFbx: Triangulating skeletal mesh Farmer_01.002
+[2017.09.19-12.55.10:549][838]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.09.19-12.55.10:643][838]LogSkeletalMesh: Section 0: 1609 vertices, 28 active bones
+[2017.09.19-12.55.10:649][838]LogSkeletalMesh: Section 0: Material=0, 2326 triangles
+[2017.09.19-12.55.10:652][838]LogEditorFactories: -- imported successfully
+[2017.09.19-12.55.10:657][838]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Dying.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Gunplay.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Idle.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Idle_Anim.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Idle_PhysicsAsset.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Idle_Skeleton.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Rifle_Run.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Strafe.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Strafe__1_.uasset'
+[2017.09.19-12.57.13:734][400]SourceControl: rm 'Content/Animações/Waving.uasset'
+[2017.09.19-12.57.47:214][173]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FamersVsAliens
+[2017.09.19-12.57.47:214][173]LogTemp: CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.19-12.57.47:214][173]LogTemp: Initial Dir: F:\UE_4.17
+[2017.09.19-12.57.47:214][173]LogTemp: Env CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.19-12.57.47:223][174]LogTemp: BranchPath = DESKTOP-CICTV3V/F/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-CICTV3V/F/UE_4.17/Engine/Binaries
+[2017.09.19-12.57.47:231][175]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Smailin\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.19-12.57.52:679][809]SourceControl: Error: fatal: Invalid path '/Temp': No such file or directory
+[2017.09.19-12.57.56:341][244]SourceControl: Error: fatal: Invalid path '/Script': No such file or directory
+[2017.09.19-12.58.06:059][384]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.19-12.58.13:216][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Cow" FILE="E:/Projetos Unreal/FamersVsAliens/Content/Animações/Cow.uasset" SILENT=true
+[2017.09.19-12.58.13:228][384]LogSavePackage: Save=10.60ms
+[2017.09.19-12.58.13:228][384]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Cow0486350444FBBEC6880F32B3137921C2.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Cow.uasset'
+[2017.09.19-12.58.13:229][384]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Content/Animações/Cow.uasset
+[2017.09.19-12.58.13:370][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Jogador" FILE="E:/Projetos Unreal/FamersVsAliens/Content/BluePrints/Jogador.uasset" SILENT=true
+[2017.09.19-12.58.13:432][384]LogSavePackage: Save=58.54ms
+[2017.09.19-12.58.13:432][384]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Jogador8F36330D45EFF26FB503159B30EA4ED9.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Content/BluePrints/Jogador.uasset'
+[2017.09.19-12.58.13:434][384]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Content/BluePrints/Jogador.uasset
+[2017.09.19-12.58.13:436][384]Cmd: MAP LOAD FILE="E:/Projetos Unreal/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.19-12.58.13:437][384]LightingResults: New page: Lighting Build
+[2017.09.19-12.58.13:438][384]LoadErrors: New page: Loading map: MapaBasico.umap
+[2017.09.19-12.58.13:438][384]MapCheck: New page: Map Check
+[2017.09.19-12.58.13:438][384]LightingResults: New page: Lighting Build
+[2017.09.19-12.58.13:461][384]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.19-12.58.13:494][384]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.19-12.58.13:557][384]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.871ms to complete.
+[2017.09.19-12.58.13:557][384]LogFileHelpers: Loading map 'MapaBasico' took 0.123
+[2017.09.19-12.58.24:751][376]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Projetos Unreal/Idle fazendeiro.fbx)
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: NodeAttribute, ItemCount : 33
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: Model, ItemCount : 34
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: AnimationCurveNode, ItemCount : 30
+[2017.09.19-12.58.24:758][376]LogFbx: ItemName: AnimationCurve, ItemCount : 171
+[2017.09.19-12.58.24:762][376]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-12.58.24:782][376]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.58.38:630][376]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-12.58.38:649][376]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-12.58.38:650][376]LogFbx: =================================================
+[2017.09.19-12.58.38:650][376]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.58.38:651][376]LogFbx: 	Total Deformer Count 152747712.
+[2017.09.19-12.58.38:651][376]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.58.38:651][376]LogFbx: =================================================
+[2017.09.19-12.58.38:651][376]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.58.38:651][376]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.58.38:651][376]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.58.38:651][376]LogFbx: =================================================
+[2017.09.19-12.58.38:651][376]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.58.38:651][376]LogFbx: 	Total Deformer Count 152747712.
+[2017.09.19-12.58.38:651][376]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.58.38:651][376]LogFbx: =================================================
+[2017.09.19-12.58.38:651][376]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.58.38:651][376]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.58.38:651][376]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.58.38:652][376]LogFbx: Valid bind pose for Pose (BindPose) - Farmer_01.002
+[2017.09.19-12.58.38:652][376]LogFbx: Triangulating skeletal mesh Farmer_01.002
+[2017.09.19-12.58.38:887][376]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.09.19-12.58.38:930][376]LogSkeletalMesh: Section 0: 1609 vertices, 28 active bones
+[2017.09.19-12.58.38:932][376]LogSkeletalMesh: Section 0: Material=0, 2326 triangles
+[2017.09.19-12.58.38:933][376]LogLinker: Can't find file '/Game/Maps/Idle_fazendeiro_Skeleton'
+[2017.09.19-12.58.38:933][376]LogLinker: Can't find file '/Game/Maps/Idle_fazendeiro_Skeleton'
+[2017.09.19-12.58.38:935][376]LogLinker: Can't find file '/Game/Maps/Idle_fazendeiro_PhysicsAsset'
+[2017.09.19-12.58.38:935][376]LogLinker: Can't find file '/Game/Maps/Idle_fazendeiro_PhysicsAsset'
+[2017.09.19-12.58.38:942][376]LogFbx: =================================================
+[2017.09.19-12.58.38:942][376]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.58.38:942][376]LogFbx: 	Total Deformer Count 155968080.
+[2017.09.19-12.58.38:942][376]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.58.38:942][376]LogFbx: =================================================
+[2017.09.19-12.58.38:942][376]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.58.38:942][376]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.58.38:942][376]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.58.38:942][376]LogFbx: =================================================
+[2017.09.19-12.58.38:942][376]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-12.58.38:942][376]LogFbx: 	Total Deformer Count 155968080.
+[2017.09.19-12.58.38:942][376]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-12.58.38:942][376]LogFbx: =================================================
+[2017.09.19-12.58.38:942][376]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-12.58.38:942][376]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-12.58.38:942][376]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-12.58.38:942][376]LogFbx: SortedLinks :(0) Hips
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(1) Spine
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(2) Spine1
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(3) Spine2
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(4) Neck
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(5) Head
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(6) HeadTop_End
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(7) LeftShoulder
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(8) LeftArm
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(9) LeftForeArm
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(10) LeftHand
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(11) LeftHandIndex1
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(12) LeftHandIndex2
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(13) LeftHandIndex3
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(14) LeftHandIndex4
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(15) RightShoulder
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(16) RightArm
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(17) RightForeArm
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(18) RightHand
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(19) RightHandIndex1
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(20) RightHandIndex2
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(21) RightHandIndex3
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(22) RightHandIndex4
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(23) LeftUpLeg
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(24) LeftLeg
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(25) LeftFoot
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(26) LeftToeBase
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(27) LeftToe_End
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(28) RightUpLeg
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(29) RightLeg
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(30) RightFoot
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(31) RightToeBase
+[2017.09.19-12.58.38:943][376]LogFbx: SortedLinks :(32) RightToe_End
+[2017.09.19-12.58.38:943][376]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.19-12.58.38:945][376]LogLinker: Can't find file '/Game/Maps/Idle_fazendeiro_Anim'
+[2017.09.19-12.58.38:946][376]LogLinker: Can't find file '/Game/Maps/Idle_fazendeiro_Anim'
+[2017.09.19-12.58.39:130][376]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Maps/Idle_fazendeiro_Anim.Idle_fazendeiro_Anim
+[2017.09.19-12.58.39:139][376]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-12.58.48:775][317]SourceControl: On branch master
+[2017.09.19-12.58.48:775][317]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.19-12.58.48:775][317]SourceControl: Changes to be committed:
+[2017.09.19-12.58.48:775][317]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.09.19-12.58.48:775][317]SourceControl: 	new file:   "Content/Anima\303\247\303\265es/Cow.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Dying.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Gunplay.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Idle.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Idle_Anim.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Idle_PhysicsAsset.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Idle_Skeleton.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Rifle_Run.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Strafe.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Strafe__1_.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: 	deleted:    "Content/Anima\303\247\303\265es/Waving.uasset"
+[2017.09.19-12.58.48:775][317]SourceControl: Changes not staged for commit:
+[2017.09.19-12.58.48:775][317]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.19-12.58.48:775][317]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.19-12.58.48:775][317]SourceControl: 	modified:   Config/DefaultEngine.ini
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Content/BluePrints/Jogador.uasset
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Intermediate/AssetRegistryCache/311563bb.bin
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/Jogador_Auto2.uasset
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.19-12.58.48:776][317]SourceControl: 	deleted:    Saved/Logs/FamersVsAliens-backup-2017.09.18-09.32.32.log
+[2017.09.19-12.58.48:776][317]SourceControl: 	deleted:    Saved/Logs/FamersVsAliens-backup-2017.09.18-12.40.57.log
+[2017.09.19-12.58.48:776][317]SourceControl: 	deleted:    Saved/Logs/FamersVsAliens-backup-2017.09.18-14.09.17.log
+[2017.09.19-12.58.48:776][317]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
+[2017.09.19-12.58.48:776][317]SourceControl: Untracked files:
+[2017.09.19-12.58.48:776][317]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Cow_Auto1.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Farmer_01__1__Auto1.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Farmer_01__1__Auto3.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Farmer_01__1__Skeleton_Auto1.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Idle_fazendeiro_Anim_Auto1.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Idle_fazendeiro_Anim_Auto2.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Idle_fazendeiro_Auto1.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Idle_fazendeiro_Auto2.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Idle_fazendeiro_Auto3.uasset"
+[2017.09.19-12.58.48:776][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Idle_fazendeiro_PhysicsAsset_Auto1.uasset"
+[2017.09.19-12.58.48:777][317]SourceControl: 	"Saved/Autosaves/Game/Anima\303\247\303\265es/Idle_fazendeiro_PhysicsAsset_Auto2.uasset"
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Backup/Jogador_2017-09-19-09-33-54.uasset
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Backup/Jogador_2017-09-19-09-58-13.uasset
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-4A4BFD72473FC862B83A7F94064D533A/
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-638F3A024138D05856B229A088F4B1DF/
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-649831D94A25686794A0CA9D4AB995D0/
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.18-23.45.21.log
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.19-08.53.10.log
+[2017.09.19-12.58.48:777][317]SourceControl: 	Saved/Logs/FamersVsAliens-backup-2017.09.19-09.06.42.log
+[2017.09.19-12.58.49:259][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro" FILE="E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro.uasset" SILENT=true
+[2017.09.19-12.58.49:287][317]LogSavePackage: Save=27.04ms
+[2017.09.19-12.58.49:287][317]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro2E95C0D94EF5FD56EC84688057BC4603.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro.uasset'
+[2017.09.19-12.58.49:289][317]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro.uasset
+[2017.09.19-12.58.49:448][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro_Anim" FILE="E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Anim.uasset" SILENT=true
+[2017.09.19-12.58.49:467][317]LogSavePackage: Save=18.38ms
+[2017.09.19-12.58.49:467][317]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_Anim6EE9F61D4E432F4524BD0B879ED9565C.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Anim.uasset'
+[2017.09.19-12.58.49:469][317]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Anim.uasset
+[2017.09.19-12.58.49:613][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro_PhysicsAsset" FILE="E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_PhysicsAsset.uasset" SILENT=true
+[2017.09.19-12.58.49:623][317]LogSavePackage: Save=8.97ms
+[2017.09.19-12.58.49:623][317]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_PhysicsAsset7BBA6CDE494C0D3F88AAE1A549064C67.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_PhysicsAsset.uasset'
+[2017.09.19-12.58.49:625][317]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_PhysicsAsset.uasset
+[2017.09.19-12.58.49:779][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animações/Idle_fazendeiro_Skeleton" FILE="E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Skeleton.uasset" SILENT=true
+[2017.09.19-12.58.49:782][317]LogSavePackage: Save=1.54ms
+[2017.09.19-12.58.49:782][317]LogSavePackage: Moving 'E:/Projetos Unreal/FamersVsAliens/Saved/Idle_fazendeiro_Skeleton557EA7514484516E7938DC9F08C5C6CB.tmp' to 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Skeleton.uasset'
+[2017.09.19-12.58.49:783][317]LogSavePackage: Display: Finished SavePackage E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Skeleton.uasset
+[2017.09.19-12.58.54:471][662]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.Actor_10.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2017.09.19-12.58.54:509][662]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.Actor_10.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2017.09.19-12.58.54:798][662]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.19-13.05.03:772][514]BlueprintLog: New page: Compile Jogador
+[2017.09.19-13.05.21:809][825]SourceControl: Error: error: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro.uasset' did not match any file(s) known to git.
+[2017.09.19-13.05.21:809][825]SourceControl: Error: error: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Anim.uasset' did not match any file(s) known to git.
+[2017.09.19-13.05.21:809][825]SourceControl: Error: error: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_PhysicsAsset.uasset' did not match any file(s) known to git.
+[2017.09.19-13.05.21:809][825]SourceControl: Error: error: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Skeleton.uasset' did not match any file(s) known to git.
+[2017.09.19-13.05.21:937][825]SourceControl: Error: fatal: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro.uasset' did not match any files
+[2017.09.19-13.05.21:938][825]LogObjectTools: Warning: SCC failed to open the selected files for deletion.
+[2017.09.19-13.05.33:291][154]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Projetos Unreal/Idle fazendeiro.fbx)
+[2017.09.19-13.05.33:660][154]LogEditorFactories: Performing atomic reimport of [E:/Projetos Unreal/Idle fazendeiro.fbx]
+[2017.09.19-13.05.33:682][154]LogFbx: Loading FBX Scene from E:/Projetos Unreal/Idle fazendeiro.fbx
+[2017.09.19-13.05.33:726][154]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.19-13.05.33:728][154]LogFbx: =================================================
+[2017.09.19-13.05.33:728][154]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-13.05.33:728][154]LogFbx: 	Total Deformer Count -456055680.
+[2017.09.19-13.05.33:728][154]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-13.05.33:728][154]LogFbx: =================================================
+[2017.09.19-13.05.33:728][154]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-13.05.33:728][154]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-13.05.33:728][154]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-13.05.33:728][154]LogFbx: =================================================
+[2017.09.19-13.05.33:728][154]LogFbx: Dumping Node START [Farmer_01.002] 
+[2017.09.19-13.05.33:728][154]LogFbx: 	Total Deformer Count -456055680.
+[2017.09.19-13.05.33:728][154]LogFbx: 		[Node 1] Skin (Type Skin).
+[2017.09.19-13.05.33:728][154]LogFbx: =================================================
+[2017.09.19-13.05.33:728][154]LogFbx: 	Attribute (Cylinder.009) Type (4).
+[2017.09.19-13.05.33:728][154]LogFbx: 		[Node Attribute Child 1] Farmer_01.002 (Type Mesh).
+[2017.09.19-13.05.33:728][154]LogFbx: Dumping Node END [Farmer_01.002]
+[2017.09.19-13.05.33:729][154]LogFbx: Valid bind pose for Pose (BindPose) - Farmer_01.002
+[2017.09.19-13.05.33:729][154]LogFbx: Triangulating skeletal mesh Farmer_01.002
+[2017.09.19-13.05.33:961][154]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2017.09.19-13.05.34:005][154]LogSkeletalMesh: Section 0: 1609 vertices, 28 active bones
+[2017.09.19-13.05.34:007][154]LogSkeletalMesh: Section 0: Material=0, 2326 triangles
+[2017.09.19-13.05.34:008][154]LogEditorFactories: -- imported successfully
+[2017.09.19-13.05.34:013][154]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.19-13.05.41:987][793]SourceControl: Error: error: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_PhysicsAsset.uasset' did not match any file(s) known to git.
+[2017.09.19-13.05.41:987][793]SourceControl: Error: error: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro.uasset' did not match any file(s) known to git.
+[2017.09.19-13.05.41:987][793]SourceControl: Error: error: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_Skeleton.uasset' did not match any file(s) known to git.
+[2017.09.19-13.05.42:107][793]SourceControl: Error: fatal: pathspec 'E:/Projetos Unreal/FamersVsAliens/Content/Animações/Idle_fazendeiro_PhysicsAsset.uasset' did not match any files
+[2017.09.19-13.05.42:108][793]LogObjectTools: Warning: SCC failed to open the selected files for deletion.
+[2017.09.19-13.05.57:959][715]Cmd: QUIT_EDITOR
+[2017.09.19-13.05.58:043][715]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.19-13.05.58:075][715]LogExit: Preparing to exit.
+[2017.09.19-13.05.59:333][715]LogExit: Editor shut down
+[2017.09.19-13.05.59:360][715]LogExit: Transaction tracking system shut down
+[2017.09.19-13.05.59:630][715]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.19-13.05.59:631][715]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/' was aborted.
+[2017.09.19-13.05.59:631][715]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.19-13.05.59:631][715]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.19-13.05.59:631][715]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.19-13.05.59:873][715]LogExit: Object subsystem successfully closed.
+[2017.09.19-13.05.59:907][715]LogD3D11RHI: Shutdown
+[2017.09.19-13.05.59:907][715]LogD3D11RHI: CleanupD3DDevice
+[2017.09.19-13.06.00:039][715]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module PhAT (548)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module AnimationEditor (546)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (544)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module SkeletonEditor (542)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (540)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (538)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.19-13.06.00:049][715]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.19-13.06.00:081][715]LogDirectoryWatcher: A directory notification for 'F:/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.19-13.06.00:090][715]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.19-13.06.00:090][715]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.19-13.06.00:090][715]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.19-13.06.00:090][715]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/Collections/' was aborted.
+[2017.09.19-13.06.00:090][715]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/Developers/Smailin/Collections/' was aborted.
+[2017.09.19-13.06.00:090][715]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Saved/Collections/' was aborted.
+[2017.09.19-13.06.00:090][715]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.19-13.06.00:091][715]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.19-13.06.00:092][715]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.19-13.06.00:923][715]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.19-13.06.00:924][715]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.19-13.06.00:977][715]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.19-13.06.00:977][715]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.19-13.06.00:977][715]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.19-13.06.00:977][715]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.19-13.06.00:977][715]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.19-13.06.00:977][715]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.19-13.06.00:978][715]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.19-13.06.00:978][715]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.19-13.06.00:978][715]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.19-13.06.00:978][715]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.19-13.06.00:986][715]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.19-13.06.00:986][715]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.19-13.06.00:986][715]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.19-13.06.00:986][715]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.19-13.06.00:986][715]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.19-13.06.00:986][715]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.19-13.06.00:986][715]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.19-13.06.00:987][715]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.19-13.06.01:108][715]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.19-13.06.01:108][715]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.19-13.06.01:108][715]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.19-13.06.01:109][715]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.19-13.06.01:111][715]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.19-13.06.01:212][715]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.19-13.06.01:313][715]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.19-13.06.01:313][715]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.19-13.06.01:313][715]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.19-13.06.01:313][715]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.19-13.06.01:313][715]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.19-13.06.01:313][715]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.19-13.06.01:315][715]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.19-13.06.01:318][715]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.19-13.06.01:319][715]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.19-13.06.01:319][715]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.19-13.06.01:319][715]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.19-13.06.01:319][715]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.19-13.06.01:324][715]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.19-13.06.01:419][715]LogDerivedDataCache: Shutdown
+[2017.09.19-13.06.01:419][715]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.19-13.06.01:419][715]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.19-13.06.01:420][715]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.19-13.06.01:421][715]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.19-13.06.01:421][715]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.19-13.06.01:421][715]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.19-13.06.01:421][715]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8CD10ABC-4E45-A4F2-1110-AD94B9C4ABF4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=5003dd6c45572c2c38c0d9a097d73abb%7C320706aa27944b06ac78b60ca7fc33d7%7Cd480b090-0f61-4843-8a83-738e139dc393&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.19-13.06.01:438][715]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.19-13.06.01:440][715]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.19-13.06.01:468][715]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.19-13.06.01:468][715]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.19-13.06.01:468][715]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.19-13.06.01:469][715]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.19-13.06.01:469][715]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.19-13.06.01:469][715]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.19-13.06.01:473][715]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.19-13.06.01:474][715]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.19-13.06.01:474][715]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.19-13.06.01:477][715]LogExit: Exiting.
+[2017.09.19-13.06.01:494][715]Log file closed, 09/19/17 10:06:01
