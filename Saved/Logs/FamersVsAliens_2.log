@@ -30764,3 +30764,6 @@ Exception rethrown at [0]:
 [2017.09.20-20.05.15:001][241]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BluePrints/EntregaVacaBP.
 [2017.09.20-20.06.27:312][519]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
 [2017.09.20-20.06.27:535][519]EditorErrors: Warning: No assets to check in!
+[2017.09.20-20.10.00:357][559]LogEditorViewport: Clicking on Actor (LMB): BP_VacasNovo_C (BP_VacasNovo)
+[2017.09.20-20.10.15:395][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.09.20-20.10.15:634][884]EditorErrors: Warning: No assets to check in!
