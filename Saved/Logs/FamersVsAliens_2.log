@@ -30762,3 +30762,5 @@ Exception rethrown at [0]:
 [2017.09.20-20.04.43:940][946]SourceControl: Commited [master b753be9] Inimigos parte 2.
 [2017.09.20-20.05.14:669][240]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BluePrints/Arma2.
 [2017.09.20-20.05.15:001][241]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BluePrints/EntregaVacaBP.
+[2017.09.20-20.06.27:312][519]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.09.20-20.06.27:535][519]EditorErrors: Warning: No assets to check in!
