@@ -30767,3 +30767,8 @@ Exception rethrown at [0]:
 [2017.09.20-20.10.00:357][559]LogEditorViewport: Clicking on Actor (LMB): BP_VacasNovo_C (BP_VacasNovo)
 [2017.09.20-20.10.15:395][884]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
 [2017.09.20-20.10.15:634][884]EditorErrors: Warning: No assets to check in!
+[2017.09.20-20.14.27:806][680]LogSavePackage: Save=52.25ms
+[2017.09.20-20.14.27:806][680]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico02_Auto881AADF614A811BA1201BEF9A12940EDF.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto8.umap'
+[2017.09.20-20.14.27:809][680]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto8.umap
+[2017.09.20-20.14.27:816][680]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.157
+[2017.09.20-20.14.27:816][680]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.157
