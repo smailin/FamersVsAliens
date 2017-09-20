@@ -30760,3 +30760,5 @@ Exception rethrown at [0]:
 [2017.09.20-20.04.43:935][946]SourceControl:  rewrite Content/BluePrints/Alien_01.uasset (87%)
 [2017.09.20-20.04.43:935][946]SourceControl:  rewrite Content/Maps/MapaBasico02_BuiltData.uasset (90%)
 [2017.09.20-20.04.43:940][946]SourceControl: Commited [master b753be9] Inimigos parte 2.
+[2017.09.20-20.05.14:669][240]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BluePrints/Arma2.
+[2017.09.20-20.05.15:001][241]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/BluePrints/EntregaVacaBP.
