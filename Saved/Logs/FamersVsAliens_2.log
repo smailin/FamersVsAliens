@@ -30772,3 +30772,4 @@ Exception rethrown at [0]:
 [2017.09.20-20.14.27:809][680]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico02_Auto8.umap
 [2017.09.20-20.14.27:816][680]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico02' took 0.157
 [2017.09.20-20.14.27:816][680]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.157
+[2017.09.20-20.17.35:581][241]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/teste_bp.
