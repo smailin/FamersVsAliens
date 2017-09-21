@@ -1,13 +1,33 @@
+<<<<<<< HEAD
 ﻿Log file open, 09/21/17 16:37:30
+=======
+<<<<<<< HEAD
+﻿Log file open, 09/21/17 00:01:44
+=======
+﻿Log file open, 09/21/17 12:08:47
+>>>>>>> cf2587861fc6942d6a64a4ee19cf1276081c6757
+>>>>>>> 2c6cd39435401411ab0ce6a792a4f949b1fef834
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: FamersVsAliens
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(-1719617843) SRandInit(-1719617843).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.168858
+=======
+<<<<<<< HEAD
+LogInit: Display: RandInit(997395707) SRandInit(997395708).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.172817
+=======
+LogInit: Display: RandInit(-768370887) SRandInit(-768370887).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.218307
+>>>>>>> cf2587861fc6942d6a64a4ee19cf1276081c6757
+>>>>>>> 2c6cd39435401411ab0ce6a792a4f949b1fef834
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -104,11 +124,1510 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
+<<<<<<< HEAD
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMapaBasico02 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: F:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.21-03.01.45:488][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-03.01.45:488][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.21-03.01.45:492][  0]LogInit: Computer: DESKTOP-CICTV3V
+[2017.09.21-03.01.45:493][  0]LogInit: User: Smailin
+[2017.09.21-03.01.45:493][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.21-03.01.45:493][  0]LogInit: High frequency timer resolution =3.312784 MHz
+[2017.09.21-03.01.45:493][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.21-03.01.45:493][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-03.01.45:493][  0]LogMemory: Process Physical Memory: 279.55 MB used, 279.55 MB peak
+[2017.09.21-03.01.45:493][  0]LogMemory: Process Virtual Memory: 286.39 MB used, 286.39 MB peak
+[2017.09.21-03.01.45:493][  0]LogMemory: Physical Memory: 5631.68 MB used,  2523.00 MB free, 8154.68 MB total
+[2017.09.21-03.01.45:493][  0]LogMemory: Virtual Memory: 666.70 MB used,  2523.00 MB free, 134217728.00 MB total
+[2017.09.21-03.01.45:642][  0]LogInit: Using OS detected language (pt-BR).
+[2017.09.21-03.01.45:642][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.09.21-03.01.45:865][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.21-03.01.46:439][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.09.21-03.01.46:439][  0]LogD3D11RHI:       2015/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.21-03.01.46:441][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.21-03.01.46:441][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.21-03.01.46:441][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.21-03.01.46:446][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.21-03.01.46:446][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.21-03.01.46:446][  0]LogWindows: EnumDisplayDevices:
+[2017.09.21-03.01.46:446][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:0 D:1)
+[2017.09.21-03.01.46:447][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.09.21-03.01.46:447][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.09.21-03.01.46:447][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.09.21-03.01.46:447][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.21-03.01.46:447][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.09.21-03.01.46:447][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.21-03.01.46:447][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.21-03.01.46:447][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.21-03.01.46:961][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.21-03.01.47:104][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.21-03.01.47:108][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Projetos Unreal/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/3236/).
+[2017.09.21-03.01.47:108][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Smailin/AppData/Local/Temp/UnrealShaderWorkingDir/37B9F9B14943C5B1247B70B9A2751476/'.
+[2017.09.21-03.01.47:108][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.21-03.01.48:061][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.21-03.01.48:111][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.21-03.01.48:159][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.21-03.01.48:199][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.21-03.01.48:199][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.21-03.01.48:614][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.21-03.01.48:707][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.21-03.01.48:707][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.21-03.01.48:707][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.21-03.01.48:707][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.21-03.01.48:707][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.21-03.01.48:707][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.21-03.01.48:723][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.21-03.01.48:736][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Smailin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.21-03.01.48:747][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.21-03.01.48:748][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.21-03.01.48:748][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-03.01.48:749][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-03.01.49:080][  0]LogAssetRegistry: FAssetRegistry took 0.0057 seconds to start up
+[2017.09.21-03.01.49:123][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.020939 seconds
+[2017.09.21-03.01.49:226][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-03.01.49:354][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.09.21-03.01.49:637][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.21-03.01.49:676][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.21-03.01.49:676][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.21-03.01.49:676][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.21-03.01.49:676][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.21-03.01.49:676][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.21-03.01.50:016][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
+[2017.09.21-03.01.50:196][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.21-03.01.51:332][  0]LogMoviePlayer: Initializing movie player
+[2017.09.21-03.01.51:391][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.21-03.01.51:650][  0]LogCollectionManager: Loaded 0 collections in 0.001432 seconds
+[2017.09.21-03.01.51:699][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Saved/Collections/' took 0.01s
+[2017.09.21-03.01.51:699][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Developers/Smailin/Collections/' took 0.01s
+[2017.09.21-03.01.51:699][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Collections/' took 0.01s
+[2017.09.21-03.01.51:699][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.21-03.01.51:700][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2017.09.21-03.01.51:851][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.21-03.01.51:886][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.21-03.01.52:302][  0]SourceControl: Controle de origem desativado
+[2017.09.21-03.01.52:302][  0]SourceControl: Controle de origem desativado
+[2017.09.21-03.01.52:350][  0]SourceControl: Controle de origem desativado
+[2017.09.21-03.01.52:593][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.21-03.01.52:806][  0]LogOcInput: OculusInput pre-init called
+[2017.09.21-03.01.52:900][  0]LogUObjectArray: 38661 objects as part of root set at end of initial load.
+[2017.09.21-03.01.52:900][  0]LogUObjectAllocator: 8461328 out of 0 bytes used by permanent object pool.
+[2017.09.21-03.01.52:900][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.21-03.01.52:999][  0]LogEngine: Initializing Engine...
+[2017.09.21-03.01.53:002][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.21-03.01.53:198][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.21-03.01.53:198][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.21-03.01.53:212][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.21-03.01.53:229][  0]LogInit: FAudioDevice initialized.
+[2017.09.21-03.01.53:251][  0]LogInit: Texture streaming: Enabled
+[2017.09.21-03.01.53:270][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.21-03.01.53:502][  0]LogSlateStyle: Warning: Não foi possível encontrar o Estilo de Widget do Slate “NormalText”. Usando FTextBlockStyle padrões no lugar.
+[2017.09.21-03.01.53:502][  0]LogSlateStyle: Warning: Não foi possível encontrar o Estilo de Widget do Slate “SpinBox”. Usando FSpinBoxStyle padrões no lugar.
+[2017.09.21-03.01.53:687][  0]LogInit: Display: Game Engine Initialized.
+[2017.09.21-03.01.53:687][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.21-03.01.53:820][  0]LogInit: Display: Starting Game.
+[2017.09.21-03.01.53:820][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMapaBasico02?Name=Player
+[2017.09.21-03.01.53:820][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMapaBasico02?Name=Player
+[2017.09.21-03.01.53:838][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-03.01.53:838][  0]LogMemory: Process Physical Memory: 806.11 MB used, 930.88 MB peak
+[2017.09.21-03.01.53:839][  0]LogMemory: Process Virtual Memory: 928.17 MB used, 998.06 MB peak
+[2017.09.21-03.01.53:839][  0]LogMemory: Physical Memory: 6082.60 MB used,  2072.07 MB free, 8154.68 MB total
+[2017.09.21-03.01.53:839][  0]LogMemory: Virtual Memory: 1542.27 MB used,  2072.07 MB free, 134217728.00 MB total
+[2017.09.21-03.01.53:839][  0]LogMemory: 
+[2017.09.21-03.01.53:839][  0]Allocator Stats for TBB: (not implemented)
+[2017.09.21-03.01.54:356][  0]LogAIModule: Creating AISystem for world MapaBasico02
+[2017.09.21-03.01.54:359][  0]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.21-03.01.54:365][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMapaBasico02.MapaBasico02 up for play (max tick rate 0) at 2017.09.21-00.01.54
+[2017.09.21-03.01.54:366][  0]LogWorld: Bringing up level for play took: 0.005674
+[2017.09.21-03.01.54:370][  0]LogScript: Warning: Accessed None trying to read property VarArma
+	Jogador_C /Temp/Autosaves/Game/Maps/UEDPCMapaBasico02.MapaBasico02:PersistentLevel.Jogador_C_0
+	Function /Game/BluePrints/Jogador.Jogador_C:ExecuteUbergraph_Jogador:0C55
+[2017.09.21-03.01.54:370][  0]LogScript: Warning: Script call stack:
+	Function /Game/BluePrints/Jogador.Jogador_C:ReceiveBeginPlay
+	Function /Game/BluePrints/Jogador.Jogador_C:ExecuteUbergraph_Jogador
+	Function /Game/BluePrints/Jogador.Jogador_C:Pegar Arma
+	Function /Game/BluePrints/Jogador.Jogador_C:ExecuteUbergraph_Jogador
+
+[2017.09.21-03.01.54:371][  0]LogLoad: Took 0.550044 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCMapaBasico02)
+[2017.09.21-03.01.54:560][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2017.09.21-03.01.54:560][  0]LogLoad: (Engine Initialization) Total time: 12.70 seconds
+[2017.09.21-03.01.54:560][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.21-03.01.54:560][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.21-03.01.54:939][  1]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.54:991][  2]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:020][  3]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:036][  4]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:052][  5]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:068][  6]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:085][  7]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:101][  8]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:116][  9]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:133][ 10]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:149][ 11]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:166][ 12]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:181][ 13]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:197][ 14]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:214][ 15]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:230][ 16]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:246][ 17]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:262][ 18]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:278][ 19]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:294][ 20]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:310][ 21]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:326][ 22]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:342][ 23]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:358][ 24]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:375][ 25]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:391][ 26]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:407][ 27]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:423][ 28]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:439][ 29]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:456][ 30]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:472][ 31]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:488][ 32]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:504][ 33]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:520][ 34]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:536][ 35]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:553][ 36]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:569][ 37]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:585][ 38]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:601][ 39]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:617][ 40]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:634][ 41]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:650][ 42]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:666][ 43]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:681][ 44]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:698][ 45]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:714][ 46]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:731][ 47]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:746][ 48]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:762][ 49]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:778][ 50]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:794][ 51]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:812][ 52]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:826][ 53]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:843][ 54]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:859][ 55]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:875][ 56]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:891][ 57]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:908][ 58]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:923][ 59]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:939][ 60]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:956][ 61]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:972][ 62]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.55:988][ 63]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:004][ 64]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:020][ 65]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:037][ 66]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:053][ 67]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:068][ 68]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:085][ 69]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:101][ 70]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:117][ 71]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:132][ 72]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:149][ 73]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:165][ 74]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:182][ 75]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:197][ 76]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:214][ 77]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:230][ 78]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:246][ 79]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:263][ 80]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.01.56:264][ 80]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:278][ 81]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:294][ 82]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:310][ 83]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:326][ 84]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:342][ 85]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:359][ 86]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.01.56:360][ 86]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:375][ 87]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:391][ 88]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:407][ 89]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:423][ 90]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:439][ 91]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:456][ 92]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:471][ 93]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:488][ 94]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:504][ 95]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:521][ 96]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:536][ 97]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:552][ 98]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:568][ 99]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:584][100]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:600][101]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:616][102]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:633][103]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:649][104]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:665][105]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:683][106]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.01.56:683][106]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:697][107]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:714][108]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:730][109]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:745][110]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:762][111]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:778][112]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:794][113]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.01.56:795][113]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:810][114]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:826][115]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:842][116]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:859][117]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:875][118]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:891][119]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:907][120]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:923][121]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:939][122]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:955][123]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:971][124]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.56:988][125]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:004][126]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:020][127]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:036][128]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:052][129]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:068][130]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:086][131]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.01.57:086][131]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:101][132]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:117][133]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:133][134]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:149][135]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:165][136]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:181][137]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:197][138]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:213][139]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.01.57:214][139]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:229][140]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:245][141]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:262][142]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:277][143]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:294][144]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:310][145]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:326][146]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:342][147]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:359][148]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:375][149]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:392][150]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:407][151]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:423][152]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:439][153]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:456][154]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:472][155]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:488][156]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:504][157]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:520][158]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:536][159]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:552][160]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:568][161]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:585][162]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:601][163]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:617][164]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:633][165]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:649][166]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:665][167]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:681][168]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:697][169]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:713][170]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:729][171]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:745][172]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:762][173]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:778][174]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:794][175]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:810][176]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:826][177]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:842][178]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:859][179]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:875][180]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:891][181]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:907][182]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:923][183]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:939][184]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:955][185]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:972][186]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.57:988][187]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:004][188]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:020][189]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:036][190]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:052][191]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:068][192]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:085][193]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:100][194]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:117][195]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:133][196]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:150][197]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:166][198]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:182][199]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:198][200]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:214][201]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:230][202]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:248][203]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:262][204]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:278][205]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:294][206]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:310][207]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:327][208]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:343][209]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:359][210]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:374][211]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:391][212]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:407][213]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:423][214]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:439][215]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:456][216]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:472][217]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:487][218]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:503][219]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:520][220]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:537][221]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:552][222]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:568][223]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:585][224]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:601][225]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:617][226]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:633][227]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:649][228]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:665][229]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:681][230]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:697][231]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:713][232]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:730][233]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:746][234]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:762][235]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:778][236]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:795][237]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:811][238]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:827][239]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:843][240]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:859][241]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:875][242]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:891][243]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:907][244]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:923][245]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:940][246]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:956][247]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:972][248]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.58:988][249]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:004][250]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:020][251]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:036][252]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:053][253]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:068][254]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:085][255]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:101][256]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:117][257]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:133][258]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:149][259]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:165][260]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:181][261]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:198][262]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:214][263]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:230][264]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:245][265]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:262][266]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:278][267]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:294][268]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:310][269]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:326][270]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:342][271]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:358][272]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:375][273]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:391][274]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:407][275]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:423][276]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:440][277]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:456][278]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:472][279]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:488][280]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:504][281]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:520][282]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:536][283]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:552][284]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:568][285]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:585][286]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:601][287]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:617][288]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:633][289]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:649][290]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:665][291]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:681][292]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:697][293]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:714][294]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:730][295]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:745][296]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:762][297]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:778][298]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:794][299]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:810][300]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:826][301]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:842][302]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:858][303]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:874][304]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:891][305]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:907][306]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:923][307]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:939][308]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:955][309]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:972][310]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.01.59:988][311]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:004][312]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:020][313]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:036][314]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:052][315]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:068][316]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:085][317]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:101][318]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:117][319]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:133][320]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:149][321]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:165][322]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:181][323]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:197][324]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:213][325]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:230][326]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:246][327]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:262][328]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:278][329]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:294][330]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:310][331]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:326][332]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:343][333]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:359][334]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:375][335]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:391][336]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:407][337]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:423][338]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:439][339]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:456][340]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:472][341]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:488][342]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:504][343]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:520][344]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:537][345]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:553][346]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:569][347]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:585][348]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:601][349]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:617][350]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:633][351]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:649][352]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:665][353]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:681][354]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:698][355]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:714][356]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:730][357]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:746][358]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:762][359]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:780][360]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:795][361]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:813][362]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:827][363]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:843][364]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:860][365]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:876][366]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:892][367]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:908][368]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:924][369]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:940][370]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:957][371]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:972][372]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.00:989][373]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:005][374]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:021][375]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:037][376]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:053][377]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:069][378]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:085][379]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:101][380]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:117][381]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:133][382]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:150][383]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:166][384]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:182][385]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:198][386]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:214][387]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:230][388]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:246][389]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:262][390]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:279][391]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:294][392]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:310][393]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:327][394]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:343][395]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:359][396]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:375][397]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:391][398]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:408][399]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:423][400]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:439][401]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:456][402]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:472][403]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:488][404]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:504][405]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:520][406]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:536][407]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:552][408]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:568][409]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:585][410]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:601][411]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:617][412]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:633][413]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:650][414]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:666][415]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:682][416]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:698][417]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:714][418]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:730][419]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:746][420]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:762][421]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:778][422]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:795][423]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:811][424]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:827][425]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:843][426]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:859][427]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:877][428]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:892][429]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:908][430]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:924][431]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:940][432]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:956][433]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:972][434]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.01:988][435]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:004][436]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:021][437]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:037][438]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:053][439]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:069][440]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:085][441]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:101][442]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:117][443]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:133][444]LogScript: Warning: Accessed None trying to read property VarArma
+	Jogador_C /Temp/Autosaves/Game/Maps/UEDPCMapaBasico02.MapaBasico02:PersistentLevel.Jogador_C_0
+	Function /Game/BluePrints/Jogador.Jogador_C:ExecuteUbergraph_Jogador:0A5A
+[2017.09.21-03.02.02:133][444]LogScript: Warning: Script call stack:
+	Function /Game/BluePrints/BP_VacasNovo.BP_VacasNovo_C:BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/BluePrints/BP_VacasNovo.BP_VacasNovo_C:ExecuteUbergraph_BP_VacasNovo
+	Function /Game/BluePrints/Jogador.Jogador_C:Pegar Vaca
+	Function /Game/BluePrints/Jogador.Jogador_C:ExecuteUbergraph_Jogador
+
+[2017.09.21-03.02.02:135][444]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:150][445]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:166][446]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:182][447]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:198][448]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:214][449]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:230][450]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:246][451]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:263][452]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:279][453]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:295][454]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:311][455]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:327][456]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:343][457]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:359][458]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:375][459]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:391][460]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:407][461]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:423][462]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:439][463]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:455][464]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:472][465]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:488][466]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:504][467]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:520][468]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:536][469]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:553][470]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:568][471]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:585][472]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:601][473]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:617][474]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:633][475]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:649][476]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:665][477]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:682][478]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:697][479]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:713][480]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:730][481]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:746][482]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:762][483]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:779][484]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:795][485]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:811][486]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:827][487]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:843][488]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:859][489]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:875][490]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:891][491]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:907][492]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:923][493]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:940][494]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:956][495]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:972][496]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.02:988][497]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:005][498]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:021][499]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:037][500]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:053][501]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:069][502]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:085][503]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:103][504]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:117][505]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:134][506]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:150][507]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:166][508]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:182][509]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:198][510]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:214][511]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:230][512]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:246][513]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:263][514]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:279][515]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:294][516]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:310][517]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.03:311][517]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:327][518]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:343][519]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:360][520]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:375][521]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:391][522]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:408][523]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:424][524]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:440][525]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:456][526]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.03:456][526]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:472][527]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:488][528]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:504][529]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:520][530]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:537][531]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:553][532]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:569][533]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:585][534]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:601][535]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:617][536]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:634][537]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:649][538]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:666][539]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:682][540]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:698][541]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:714][542]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:731][543]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:746][544]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:762][545]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:780][546]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:794][547]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:811][548]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:827][549]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:843][550]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:860][551]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:875][552]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:891][553]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:907][554]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:924][555]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:939][556]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:956][557]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:972][558]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.03:988][559]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:004][560]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:020][561]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:036][562]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:052][563]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:068][564]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:085][565]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:101][566]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:117][567]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:133][568]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:149][569]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:165][570]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:181][571]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:198][572]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:214][573]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:230][574]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:246][575]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:262][576]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:278][577]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:295][578]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:311][579]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:327][580]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:343][581]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:359][582]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:375][583]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:391][584]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:407][585]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:424][586]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:440][587]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:456][588]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:472][589]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:489][590]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:504][591]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:520][592]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:537][593]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:553][594]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:569][595]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:586][596]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:602][597]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:618][598]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:634][599]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:650][600]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:666][601]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:682][602]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:698][603]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:714][604]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:730][605]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:746][606]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:762][607]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:779][608]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:795][609]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:811][610]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:828][611]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:845][612]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:859][613]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:876][614]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:891][615]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:908][616]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:924][617]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:940][618]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:956][619]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:972][620]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.04:988][621]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:005][622]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:020][623]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:037][624]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:053][625]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:069][626]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:085][627]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:101][628]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:117][629]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:135][630]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:150][631]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:166][632]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:182][633]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:198][634]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:216][635]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:230][636]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:247][637]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:263][638]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:279][639]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:294][640]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:311][641]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:327][642]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:343][643]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:359][644]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:375][645]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:391][646]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:408][647]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:424][648]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:440][649]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:456][650]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:472][651]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:488][652]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:504][653]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:521][654]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:536][655]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:552][656]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:569][657]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:585][658]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:601][659]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:617][660]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:633][661]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:649][662]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:665][663]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:681][664]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:698][665]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:714][666]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:730][667]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:746][668]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:762][669]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:779][670]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:795][671]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:811][672]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:827][673]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:844][674]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:859][675]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:878][676]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:891][677]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:907][678]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:924][679]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:939][680]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:956][681]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:972][682]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.05:988][683]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:004][684]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:020][685]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:036][686]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:052][687]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:069][688]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:085][689]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:101][690]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:117][691]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:133][692]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:149][693]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:165][694]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:181][695]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:197][696]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:214][697]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:230][698]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:246][699]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:262][700]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:279][701]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:294][702]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:310][703]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:326][704]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:342][705]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:359][706]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:375][707]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:391][708]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:407][709]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:423][710]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:439][711]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:456][712]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:472][713]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:488][714]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:504][715]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:520][716]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:536][717]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:552][718]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:568][719]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:585][720]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:601][721]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:617][722]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:633][723]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:650][724]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:665][725]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:681][726]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:697][727]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:714][728]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:730][729]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:749][730]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:762][731]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:781][732]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:796][733]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:811][734]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:827][735]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:843][736]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:859][737]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:878][738]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:891][739]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:908][740]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:924][741]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:940][742]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:956][743]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:972][744]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.06:988][745]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:005][746]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:021][747]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:037][748]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:053][749]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:069][750]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:086][751]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:431][752]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:448][753]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:463][754]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:479][755]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:496][756]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:511][757]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:528][758]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:544][759]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:560][760]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:577][761]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:592][762]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:608][763]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:625][764]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:640][765]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:657][766]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:673][767]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:689][768]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:706][769]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:721][770]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:738][771]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:754][772]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:770][773]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:787][774]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:802][775]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:818][776]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:835][777]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:852][778]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:869][779]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:883][780]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:899][781]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:916][782]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:931][783]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:948][784]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:964][785]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:980][786]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.07:996][787]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:012][788]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:028][789]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:046][790]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:060][791]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:077][792]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:093][793]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:109][794]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:125][795]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:141][796]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:157][797]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:173][798]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:189][799]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:205][800]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:221][801]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:237][802]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:254][803]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:270][804]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:286][805]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:302][806]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:318][807]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:334][808]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:350][809]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:366][810]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:382][811]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:399][812]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:415][813]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:431][814]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:447][815]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:464][816]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:479][817]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:496][818]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:512][819]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:528][820]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:544][821]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:560][822]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:576][823]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:592][824]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:609][825]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:625][826]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:641][827]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:657][828]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:673][829]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:692][830]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:707][831]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:725][832]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:739][833]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:755][834]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:771][835]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:787][836]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:803][837]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:819][838]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:835][839]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:851][840]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:868][841]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:884][842]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:900][843]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:916][844]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:932][845]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:948][846]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:965][847]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:980][848]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.08:997][849]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:013][850]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:029][851]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:045][852]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:061][853]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:078][854]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:094][855]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:110][856]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:126][857]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:142][858]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:158][859]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:174][860]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:190][861]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:206][862]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:222][863]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:238][864]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:255][865]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:271][866]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:287][867]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:303][868]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:319][869]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:335][870]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:351][871]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:367][872]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:385][873]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:399][874]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:416][875]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:432][876]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:448][877]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:464][878]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:480][879]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:496][880]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:512][881]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:529][882]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:546][883]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:561][884]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:577][885]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:593][886]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:609][887]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:625][888]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:642][889]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:658][890]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:678][891]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:690][892]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:707][893]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:722][894]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:739][895]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:755][896]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:770][897]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:786][898]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:803][899]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:819][900]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:835][901]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:851][902]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:867][903]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:884][904]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:900][905]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:916][906]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:932][907]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:948][908]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.09:949][908]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:964][909]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:982][910]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.09:996][911]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:013][912]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:029][913]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:045][914]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:061][915]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:077][916]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:093][917]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.10:094][917]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:109][918]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:125][919]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:142][920]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:158][921]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:174][922]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:190][923]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:206][924]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:222][925]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:238][926]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:255][927]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:271][928]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:287][929]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:303][930]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:319][931]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:335][932]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.10:336][932]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:351][933]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:367][934]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:384][935]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:400][936]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:416][937]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:432][938]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:448][939]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:464][940]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.10:465][940]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:480][941]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:496][942]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:513][943]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:529][944]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:545][945]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:561][946]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:578][947]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.10:578][947]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:593][948]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:609][949]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:625][950]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:642][951]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:658][952]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:674][953]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:690][954]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:706][955]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:723][956]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.10:723][956]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:739][957]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:755][958]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:771][959]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:787][960]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:803][961]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:819][962]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:835][963]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:851][964]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:868][965]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:883][966]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:900][967]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:916][968]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:932][969]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:948][970]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.10:948][970]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:964][971]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:980][972]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.10:996][973]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:013][974]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:029][975]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:045][976]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:061][977]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:077][978]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:093][979]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.11:094][979]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:109][980]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:126][981]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:142][982]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:158][983]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:174][984]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:190][985]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:206][986]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:222][987]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.11:223][987]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:238][988]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:255][989]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:271][990]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:287][991]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:303][992]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:319][993]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:335][994]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:351][995]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:367][996]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:384][997]LogBlueprintUserMessages: Warning: ClearTimer passed a bad function (None) or object (Jogador_C_0)
+[2017.09.21-03.02.11:384][997]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:399][998]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:416][999]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:432][  0]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:448][  1]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:464][  2]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:480][  3]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:496][  4]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:512][  5]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:528][  6]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:544][  7]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:561][  8]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:577][  9]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:593][ 10]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:609][ 11]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:625][ 12]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:642][ 13]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:658][ 14]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:674][ 15]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:690][ 16]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:707][ 17]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:722][ 18]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:738][ 19]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:754][ 20]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:771][ 21]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:787][ 22]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:803][ 23]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:819][ 24]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:836][ 25]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:853][ 26]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:868][ 27]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:884][ 28]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:900][ 29]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:916][ 30]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:932][ 31]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:948][ 32]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:965][ 33]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:981][ 34]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.11:997][ 35]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:013][ 36]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:029][ 37]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:045][ 38]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:061][ 39]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:077][ 40]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:094][ 41]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:109][ 42]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:125][ 43]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:141][ 44]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:158][ 45]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:173][ 46]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:190][ 47]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:206][ 48]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:222][ 49]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:238][ 50]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:254][ 51]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:270][ 52]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:286][ 53]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:303][ 54]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:319][ 55]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:335][ 56]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:351][ 57]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:367][ 58]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:383][ 59]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:399][ 60]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:416][ 61]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:432][ 62]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:448][ 63]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:464][ 64]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:480][ 65]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:496][ 66]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:512][ 67]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:529][ 68]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:545][ 69]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:561][ 70]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:577][ 71]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:593][ 72]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:609][ 73]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:626][ 74]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:642][ 75]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:658][ 76]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:674][ 77]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:690][ 78]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:706][ 79]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:722][ 80]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:738][ 81]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:754][ 82]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:770][ 83]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:787][ 84]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:803][ 85]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:819][ 86]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:835][ 87]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:851][ 88]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:867][ 89]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:883][ 90]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:900][ 91]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:915][ 92]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:932][ 93]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:948][ 94]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:964][ 95]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:980][ 96]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.12:996][ 97]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:012][ 98]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:028][ 99]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:045][100]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:061][101]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:077][102]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:093][103]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:109][104]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:126][105]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:142][106]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:158][107]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:174][108]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:190][109]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:206][110]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:222][111]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:238][112]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:254][113]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:270][114]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:287][115]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:303][116]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:319][117]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:335][118]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:351][119]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:367][120]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:384][121]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:399][122]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:416][123]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:432][124]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:448][125]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:464][126]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:480][127]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:496][128]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:513][129]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:528][130]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:545][131]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:561][132]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:577][133]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:593][134]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:609][135]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:625][136]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:641][137]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:658][138]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:674][139]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:690][140]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:706][141]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:722][142]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:738][143]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:754][144]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:770][145]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:786][146]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:803][147]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:819][148]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:835][149]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:851][150]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:867][151]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:883][152]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:899][153]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:915][154]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:932][155]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:948][156]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:964][157]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:980][158]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.13:996][159]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:012][160]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:029][161]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:045][162]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:061][163]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:077][164]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:093][165]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:109][166]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:125][167]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:141][168]LogBlueprintUserMessages: [Jogador_C_0] 0.0
+[2017.09.21-03.02.14:280][169]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.21-03.02.14:285][169]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.21-03.02.14:290][169]LogEngine: All Windows Closed
+[2017.09.21-03.02.14:290][169]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.09.21-03.02.15:015][170]LogExit: Preparing to exit.
+[2017.09.21-03.02.15:015][170]LogMoviePlayer: Shutting down movie player
+[2017.09.21-03.02.16:020][170]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.09.21-03.02.16:020][170]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2017.09.21-03.02.16:020][170]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.09.21-03.02.16:020][170]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2017.09.21-03.02.16:037][170]LogExit: Game engine shut down
+[2017.09.21-03.02.16:104][170]LogExit: Object subsystem successfully closed.
+[2017.09.21-03.02.16:125][170]LogD3D11RHI: Shutdown
+[2017.09.21-03.02.16:125][170]LogD3D11RHI: CleanupD3DDevice
+[2017.09.21-03.02.16:127][170]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (304)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module SequenceRecorder (302)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module AutomationController (300)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module AutomationWorker (298)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module AIModule (296)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module GameplayDebugger (295)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module AITestSuite (293)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (290)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (288)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (286)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module Media (285)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module CharacterAI (282)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module SessionServices (280)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (278)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (276)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module MovieScene (274)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module Niagara (268)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module NiagaraEditor (267)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (264)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module PortalServices (262)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module PortalRpc (260)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module MessagingRpc (258)
+[2017.09.21-03.02.16:133][170]LogModuleManager: Shutting down and abandoning module ProfilerService (256)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module TaskGraph (254)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module SteamVRController (252)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (250)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module OculusInput (248)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (246)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (244)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module CableComponent (242)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (240)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module AndroidPermission (238)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module HTML5Networking (234)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (232)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module DesktopPlatform (231)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module UObjectPlugin (226)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (224)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (222)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module SourceControl (221)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (218)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (216)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module PhysXVehicles (214)
+[2017.09.21-03.02.16:240][170]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (212)
+[2017.09.21-03.02.16:241][170]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (210)
+[2017.09.21-03.02.16:241][170]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (208)
+[2017.09.21-03.02.16:241][170]LogModuleManager: Shutting down and abandoning module UdpMessaging (206)
+[2017.09.21-03.02.16:341][170]LogModuleManager: Shutting down and abandoning module TcpMessaging (204)
+[2017.09.21-03.02.16:862][170]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (202)
+[2017.09.21-03.02.16:862][170]LogModuleManager: Shutting down and abandoning module FacialAnimation (200)
+[2017.09.21-03.02.16:862][170]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (198)
+[2017.09.21-03.02.16:862][170]LogModuleManager: Shutting down and abandoning module GraphEditor (197)
+[2017.09.21-03.02.16:862][170]LogModuleManager: Shutting down and abandoning module ContentBrowser (195)
+[2017.09.21-03.02.16:862][170]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2017.09.21-03.02.16:862][170]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/Collections/' was aborted.
+[2017.09.21-03.02.16:862][170]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/Developers/Smailin/Collections/' was aborted.
+[2017.09.21-03.02.16:862][170]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Saved/Collections/' was aborted.
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (193)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (188)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module Paper2D (186)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (184)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module WmfMedia (182)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module PacketHandler (180)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (178)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (176)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module Overlay (174)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module OverlayEditor (173)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module MediaAssets (170)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module VREditor (168)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module StringTableEditor (166)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (164)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (162)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module FunctionalTesting (160)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (158)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (157)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module UMG (154)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module UMGEditor (153)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module Sequencer (152)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module MessageLog (149)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module SlateReflector (144)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module Slate (142)
+[2017.09.21-03.02.16:863][170]LogModuleManager: Shutting down and abandoning module EditorStyle (140)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module MRMesh (138)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module Messaging (136)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (134)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (132)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module XAudio2 (130)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module Networking (128)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module Core (124)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module KismetCompiler (122)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module LevelSequence (120)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module MeshUtilities (118)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (117)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (116)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (115)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (113)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (111)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module MaterialBaking (107)
+[2017.09.21-03.02.16:866][170]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2017.09.21-03.02.17:247][170]LogDerivedDataCache: Shutdown
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2017.09.21-03.02.17:247][170]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.21-03.02.17:248][170]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.21-03.02.17:248][170]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.21-03.02.17:271][170]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.21-03.02.17:273][170]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.21-03.02.17:276][170]LogExit: Exiting.
+[2017.09.21-03.02.17:279][170]Log file closed, 09/21/17 00:02:17
+=======
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.09.21-19.37.32:653][  0]LogInit: Selected Device Profile: [Windows]
 [2017.09.21-19.37.32:653][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.09.21-19.37.32:677][  0]LogInit: Computer: DESKTOP-H9VC9LG
@@ -345,3 +1864,453 @@ LogInit: Object subsystem initialized
 [2017.09.21-19.38.56:637][ 61]LogExit: Executing StaticShutdownAfterError
 [2017.09.21-19.38.56:642][ 61]LogWindows: FPlatformMisc::RequestExit(1)
 [2017.09.21-19.38.56:643][ 61]Log file closed, 09/21/17 16:38:56
+=======
+[2017.09.21-15.08.50:465][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-15.08.50:465][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.21-15.08.50:496][  0]LogInit: Computer: DESKTOP-H9VC9LG
+[2017.09.21-15.08.50:496][  0]LogInit: User: mari
+[2017.09.21-15.08.50:496][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.21-15.08.50:496][  0]LogInit: High frequency timer resolution =2.338331 MHz
+[2017.09.21-15.08.50:496][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.21-15.08.50:496][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-15.08.50:497][  0]LogMemory: Process Physical Memory: 278.32 MB used, 278.32 MB peak
+[2017.09.21-15.08.50:497][  0]LogMemory: Process Virtual Memory: 275.69 MB used, 275.69 MB peak
+[2017.09.21-15.08.50:497][  0]LogMemory: Physical Memory: 5424.78 MB used,  2673.14 MB free, 8097.92 MB total
+[2017.09.21-15.08.50:497][  0]LogMemory: Virtual Memory: 666.80 MB used,  2673.14 MB free, 134217728.00 MB total
+[2017.09.21-15.08.51:232][  0]LogInit: Using OS detected language (pt-BR).
+[2017.09.21-15.08.51:232][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.09.21-15.08.52:344][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.21-15.08.52:352][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.09.21-15.08.52:352][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.09.21-15.08.52:356][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.21-15.08.52:356][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.21-15.08.52:356][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.21-15.08.52:369][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.21-15.08.52:369][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.21-15.08.52:369][  0]LogWindows: EnumDisplayDevices:
+[2017.09.21-15.08.52:370][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.09.21-15.08.52:370][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.09.21-15.08.52:371][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.09.21-15.08.52:371][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.09.21-15.08.52:371][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2017.09.21-15.08.52:371][  0]LogD3D11RHI:   Driver Version: 20.19.15.4624 (internal:20.19.15.4624, unified:20.19.15.4624)
+[2017.09.21-15.08.52:371][  0]LogD3D11RHI:      Driver Date: 3-8-2017
+[2017.09.21-15.08.52:371][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.21-15.08.52:404][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.21-15.08.52:411][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.09.21-15.08.52:413][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/1640/).
+[2017.09.21-15.08.52:413][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mari_/AppData/Local/Temp/UnrealShaderWorkingDir/3B44EF17410027FCC5243FB894783FBB/'.
+[2017.09.21-15.08.52:413][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.21-15.08.55:217][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.21-15.08.55:508][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.21-15.08.55:866][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.21-15.08.56:246][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.21-15.08.56:533][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.21-15.08.56:841][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.21-15.08.57:130][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.21-15.08.57:398][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.21-15.08.57:645][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.21-15.08.57:870][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.21-15.08.58:090][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.21-15.08.58:343][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.21-15.08.58:650][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.21-15.08.59:025][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.21-15.08.59:363][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.21-15.09.00:029][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.21-15.09.00:029][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.21-15.09.00:337][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.21-15.09.00:864][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.21-15.09.01:049][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.21-15.09.01:316][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.21-15.09.01:574][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.21-15.09.01:826][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.21-15.09.02:136][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.21-15.09.02:137][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.21-15.09.04:800][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.21-15.09.05:109][  0]LogDerivedDataCache: Loaded boot cache 0.31s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.21-15.09.05:109][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.21-15.09.05:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.21-15.09.05:110][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.21-15.09.05:110][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.21-15.09.05:110][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.21-15.09.05:150][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.21-15.09.05:164][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mari_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.21-15.09.05:195][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.21-15.09.05:196][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.21-15.09.05:247][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-15.09.05:247][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-15.09.08:317][  0]LogAssetRegistry: FAssetRegistry took 0.0361 seconds to start up
+[2017.09.21-15.09.09:111][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-15.09.09:589][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.21-15.09.11:011][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.21-15.09.11:217][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.21-15.09.11:217][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.21-15.09.11:217][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.21-15.09.11:217][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.21-15.09.11:217][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.21-15.09.12:438][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
+[2017.09.21-15.09.13:409][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.204843 seconds
+[2017.09.21-15.09.13:447][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.21-15.09.13:447][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.21-15.09.13:447][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.21-15.09.13:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.21-15.10.13:094][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.21-15.10.13:416][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.21-15.10.20:369][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.21-15.10.22:754][  0]SourceControl: Controle de origem desativado
+[2017.09.21-15.10.31:104][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.21-15.10.34:928][  0]LogOcInput: OculusInput pre-init called
+[2017.09.21-15.10.36:536][  0]LogEngine: Initializing Engine...
+[2017.09.21-15.10.36:541][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.21-15.10.37:465][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.21-15.10.37:465][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.21-15.10.38:652][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.21-15.10.38:666][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.21-15.10.38:748][  0]LogInit: FAudioDevice initialized.
+[2017.09.21-15.10.39:084][  0]LogDerivedDataCache: Saved boot cache 0.34s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.21-15.10.39:135][  0]LogInit: Texture streaming: Enabled
+[2017.09.21-15.10.40:201][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.21-15.10.42:024][  0]LogInit: Transaction tracking system initialized
+[2017.09.21-15.10.43:136][  0]BlueprintLog: New page: Carregar Editor
+[2017.09.21-15.10.46:931][  0]LocalizationService: Localization service is disabled
+[2017.09.21-15.10.49:818][  0]LogConsoleResponse: Display: 
+[2017.09.21-15.10.50:882][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.21-15.10.50:883][  0]LogCook: Display: Mobile HDR setting 0
+[2017.09.21-15.10.50:883][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.21-15.10.50:919][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' took 0.03s
+[2017.09.21-15.11.03:125][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.21-15.11.03:127][  0]LightingResults: New page: Compilação de Iluminação
+[2017.09.21-15.11.03:322][  0]MapCheck: New page: Verificação de Mapa
+[2017.09.21-15.11.03:322][  0]LightingResults: New page: Compilação de Iluminação
+[2017.09.21-15.11.05:783][  0]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.21-15.11.05:826][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.21-15.11.06:171][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.21-15.11.06:710][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 538,656ms to complete.
+[2017.09.21-15.11.06:711][  0]LogFileHelpers: Loading map 'MapaBasico' took 3.586
+[2017.09.21-15.11.07:606][  0]LogCollectionManager: Loaded 0 collections in 0.008848 seconds
+[2017.09.21-15.11.08:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' took 0.03s
+[2017.09.21-15.11.08:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' took 0.05s
+[2017.09.21-15.11.08:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' took 0.05s
+[2017.09.21-15.11.08:393][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.21-15.11.08:450][  0]LogContentBrowser: Native class hierarchy populated in 0.0554 seconds. Added 2386 classes and 500 folders.
+[2017.09.21-15.11.09:443][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.09.21-15.11.11:934][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.09.21-15.11.12:524][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.09.21-15.11.12:998][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-15.11.13:027][  0]LogSlate: Took 0.025924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.21-15.11.13:077][  0]LogSlate: Took 0.033976 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.21-15.11.13:482][  0]LogRenderer: Reallocating scene render targets to support 656x372 Format 10 NumSamples 1 (Frame:1).
+[2017.09.21-15.11.14:623][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.09.21-15.11.14:623][  0]LogLoad: (Engine Initialization) Total time: 150.04 seconds
+[2017.09.21-15.11.14:624][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.21-15.11.14:624][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.21-15.11.14:989][  0]SourceControl: On branch master
+[2017.09.21-15.11.14:989][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.21-15.11.14:990][  0]SourceControl: Changes not staged for commit:
+[2017.09.21-15.11.14:990][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.21-15.11.14:990][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.21-15.11.14:990][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.21-15.11.14:990][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-0F18DEFA4443357482C98E86A1BE7B98/CrashReportClient.ini
+[2017.09.21-15.11.14:990][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-BF90CD1845C70973FBC30898F3EB44E8/CrashReportClient.ini
+[2017.09.21-15.11.14:990][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.21-15.11.14:990][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.21-15.11.14:990][  0]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
+[2017.09.21-15.11.14:990][  0]SourceControl: 	modified:   Saved/Logs/FamersVsAliens_2.log
+[2017.09.21-15.11.14:990][  0]SourceControl: Untracked files:
+[2017.09.21-15.11.14:990][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.21-15.11.14:990][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-22D320F9423890752CC589938EE4B2A3/
+[2017.09.21-15.11.14:990][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-DA20A9384AFD7BC22C6BB7BA09A2FF59/
+[2017.09.21-15.11.14:990][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.21-15.11.14:991][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.21-15.11.15:144][  0]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-15.11.17:713][  6]LogAssetRegistry: Asset discovery search completed in 129.4191 seconds
+[2017.09.21-15.11.17:742][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.09.21-15.11.17:742][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000396 seconds (updated 0 objects)
+[2017.09.21-17.37.15:527][793]Cmd: QUIT_EDITOR
+[2017.09.21-17.37.15:549][793]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.21-17.37.15:549][793]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.21-17.37.15:572][793]LogExit: Preparing to exit.
+[2017.09.21-17.37.16:130][793]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.21-17.37.16:389][793]LogExit: Editor shut down
+[2017.09.21-17.37.16:436][793]LogExit: Transaction tracking system shut down
+[2017.09.21-17.37.16:678][793]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.21-17.37.16:678][793]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.21-17.37.16:678][793]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.21-17.37.16:678][793]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.21-17.37.16:679][793]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.21-17.37.16:790][793]LogExit: Object subsystem successfully closed.
+[2017.09.21-17.37.16:822][793]LogD3D11RHI: Shutdown
+[2017.09.21-17.37.16:822][793]LogD3D11RHI: CleanupD3DDevice
+[2017.09.21-17.37.17:022][793]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.21-17.37.17:058][793]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.21-17.37.17:058][793]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.21-17.37.17:058][793]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.21-17.37.17:059][793]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.21-17.37.17:066][793]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' was aborted.
+[2017.09.21-17.37.17:066][793]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' was aborted.
+[2017.09.21-17.37.17:066][793]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' was aborted.
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.21-17.37.17:066][793]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.21-17.37.17:067][793]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.21-17.37.17:068][793]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.21-17.37.17:068][793]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.21-17.37.17:662][793]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.21-17.37.17:662][793]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.21-17.37.17:662][793]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.21-17.37.17:662][793]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.21-17.37.17:662][793]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.21-17.37.17:663][793]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.21-17.37.17:664][793]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.21-17.37.17:664][793]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.21-17.37.17:664][793]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.21-17.37.17:664][793]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.21-17.37.17:664][793]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.21-17.37.17:664][793]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.21-17.37.17:664][793]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.21-17.37.17:717][793]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.21-17.37.17:718][793]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.21-17.37.17:719][793]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.21-17.37.17:838][793]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.21-17.37.17:839][793]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.21-17.37.17:842][793]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.21-17.37.17:842][793]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.21-17.37.17:842][793]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.21-17.37.17:843][793]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.21-17.37.17:944][793]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.21-17.37.18:044][793]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.21-17.37.18:044][793]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.21-17.37.18:044][793]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.21-17.37.18:044][793]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.21-17.37.18:044][793]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.21-17.37.18:044][793]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.21-17.37.18:046][793]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.21-17.37.18:046][793]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.21-17.37.18:046][793]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.21-17.37.18:046][793]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.21-17.37.18:046][793]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.21-17.37.18:046][793]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.21-17.37.18:047][793]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.21-17.37.18:055][793]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.21-17.37.18:056][793]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.21-17.37.18:056][793]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.21-17.37.18:056][793]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.21-17.37.18:056][793]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.21-17.37.18:056][793]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.21-17.37.18:056][793]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.21-17.37.18:057][793]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.21-17.37.18:057][793]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.21-17.37.18:077][793]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.21-17.37.18:100][793]LogDerivedDataCache: Shutdown
+[2017.09.21-17.37.18:100][793]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.21-17.37.18:100][793]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.21-17.37.18:100][793]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.21-17.37.18:100][793]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.21-17.37.18:100][793]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.21-17.37.18:101][793]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.21-17.37.18:102][793]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.21-17.37.18:103][793]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.21-17.37.18:104][793]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.21-17.37.18:105][793]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.21-17.37.18:105][793]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.21-17.37.18:105][793]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.21-17.37.18:105][793]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.21-17.37.18:105][793]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.21-17.37.18:105][793]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.21-17.37.18:105][793]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.21-17.37.18:105][793]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.21-17.37.18:106][793]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.21-17.37.18:106][793]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.21-17.37.18:106][793]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BADCC9F0B-4584-3255-F751-C2B789985A98%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=811ac6424ce57083819e778b28662927%7C8b4cf88b8f67420d8279cce044090ff6%7C2094d10c-5ad6-4568-83fb-ae8e8d51cc31&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.21-17.37.18:138][793]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.21-17.37.18:144][793]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.21-17.37.18:144][793]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.21-17.37.18:145][793]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.21-17.37.18:145][793]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.21-17.37.18:145][793]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.21-17.37.18:145][793]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.21-17.37.18:145][793]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.21-17.37.18:153][793]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.21-17.37.18:153][793]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.21-17.37.18:153][793]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.21-17.37.18:154][793]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.21-17.37.18:159][793]LogExit: Exiting.
+[2017.09.21-17.37.18:216][793]Log file closed, 09/21/17 14:37:18
+>>>>>>> cf2587861fc6942d6a64a4ee19cf1276081c6757
+>>>>>>> 2c6cd39435401411ab0ce6a792a4f949b1fef834
