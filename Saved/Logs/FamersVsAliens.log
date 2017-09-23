@@ -1,13 +1,43 @@
+<<<<<<< HEAD
 ﻿Log file open, 09/22/17 22:15:59
+=======
+<<<<<<< HEAD
+﻿Log file open, 09/22/17 22:58:14
+=======
+<<<<<<< HEAD
+﻿Log file open, 09/22/17 21:56:15
+=======
+﻿Log file open, 09/22/17 19:04:44
+>>>>>>> parent of a43faf7... Merge branch 'master' of https://github.com/smailin/FamersVsAliens
+>>>>>>> 1bd33b86e7325d8c6bfea62292c93a656efe233d
+>>>>>>> 2f10c9f4721bccf347d8a939ef7558fc22909e9c
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: FamersVsAliens
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1075674903) SRandInit(1075674903).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.588878
+=======
+<<<<<<< HEAD
+LogInit: Display: RandInit(-1823533105) SRandInit(-1823533105).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.167070
+=======
+<<<<<<< HEAD
+LogInit: Display: RandInit(284337708) SRandInit(284337708).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.135367
+=======
+LogInit: Display: RandInit(1978198907) SRandInit(1978198907).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.367640
+>>>>>>> parent of a43faf7... Merge branch 'master' of https://github.com/smailin/FamersVsAliens
+>>>>>>> 1bd33b86e7325d8c6bfea62292c93a656efe233d
+>>>>>>> 2f10c9f4721bccf347d8a939ef7558fc22909e9c
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -104,6 +134,648 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
+<<<<<<< HEAD
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: F:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.23-01.58.14:574][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.23-01.58.14:574][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.23-01.58.14:582][  0]LogInit: Computer: DESKTOP-CICTV3V
+[2017.09.23-01.58.14:582][  0]LogInit: User: Smailin
+[2017.09.23-01.58.14:582][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.23-01.58.14:582][  0]LogInit: High frequency timer resolution =3.312784 MHz
+[2017.09.23-01.58.14:583][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.23-01.58.14:583][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.23-01.58.14:583][  0]LogMemory: Process Physical Memory: 281.13 MB used, 281.13 MB peak
+[2017.09.23-01.58.14:583][  0]LogMemory: Process Virtual Memory: 290.27 MB used, 290.27 MB peak
+[2017.09.23-01.58.14:583][  0]LogMemory: Physical Memory: 5105.30 MB used,  3049.37 MB free, 8154.68 MB total
+[2017.09.23-01.58.14:583][  0]LogMemory: Virtual Memory: 670.70 MB used,  3049.37 MB free, 134217728.00 MB total
+[2017.09.23-01.58.14:717][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.09.23-01.58.14:717][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.09.23-01.58.15:478][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.23-01.58.16:020][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.09.23-01.58.16:020][  0]LogD3D11RHI:       2015/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.23-01.58.16:022][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.23-01.58.16:022][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.23-01.58.16:022][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.23-01.58.16:027][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.23-01.58.16:027][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.23-01.58.16:027][  0]LogWindows: EnumDisplayDevices:
+[2017.09.23-01.58.16:028][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:0 D:1)
+[2017.09.23-01.58.16:028][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.09.23-01.58.16:028][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.09.23-01.58.16:028][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.09.23-01.58.16:028][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.23-01.58.16:028][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.09.23-01.58.16:028][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.23-01.58.16:028][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.23-01.58.16:028][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.23-01.58.16:553][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.23-01.58.16:698][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.23-01.58.16:701][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (E:/Projetos Unreal/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/16716/).
+[2017.09.23-01.58.16:702][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Smailin/AppData/Local/Temp/UnrealShaderWorkingDir/03EDDE7B41469C174E6C64B830C07AB7/'.
+[2017.09.23-01.58.16:702][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.23-01.58.17:653][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.23-01.58.17:701][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.23-01.58.17:748][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.23-01.58.17:796][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.23-01.58.17:847][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.23-01.58.17:895][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.23-01.58.17:948][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.23-01.58.17:999][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.23-01.58.18:040][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.23-01.58.18:087][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.23-01.58.18:134][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.23-01.58.18:180][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.23-01.58.18:226][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.23-01.58.18:273][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.23-01.58.18:319][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.23-01.58.18:412][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.23-01.58.18:412][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.23-01.58.18:448][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.23-01.58.18:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.23-01.58.18:560][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.23-01.58.18:606][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.23-01.58.18:652][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.23-01.58.18:700][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.23-01.58.18:749][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.23-01.58.18:749][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.23-01.58.19:168][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.23-01.58.19:260][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.23-01.58.19:260][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.23-01.58.19:260][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.23-01.58.19:260][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.23-01.58.19:260][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Projetos Unreal/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.23-01.58.19:260][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.23-01.58.19:277][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.23-01.58.19:290][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Smailin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.23-01.58.19:301][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.23-01.58.19:301][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.23-01.58.19:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.23-01.58.19:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.23-01.58.19:605][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.09.23-01.58.19:724][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.23-01.58.19:876][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.23-01.58.20:160][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.23-01.58.20:197][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.23-01.58.20:197][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.23-01.58.20:197][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.23-01.58.20:197][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.23-01.58.20:197][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.23-01.58.20:554][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
+[2017.09.23-01.58.20:732][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.016791 seconds
+[2017.09.23-01.58.20:738][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.23-01.58.20:738][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.23-01.58.20:738][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.23-01.58.20:785][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.23-01.58.23:335][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.23-01.58.23:372][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.23-01.58.23:984][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.23-01.58.24:371][  0]SourceControl: Source control is disabled
+[2017.09.23-01.58.25:501][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.23-01.58.25:726][  0]LogOcInput: OculusInput pre-init called
+[2017.09.23-01.58.25:991][  0]LogEngine: Initializing Engine...
+[2017.09.23-01.58.25:993][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.23-01.58.26:243][  0]LogLoad: Warning: UUserInterfaceSettings::ForceLoadResources: Failed to load cursor resource 0.
+[2017.09.23-01.58.26:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.23-01.58.26:243][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.23-01.58.26:355][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.23-01.58.26:364][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.23-01.58.26:380][  0]LogInit: FAudioDevice initialized.
+[2017.09.23-01.58.26:647][  0]LogDerivedDataCache: Saved boot cache 0.27s 93MB C:/Users/Smailin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.23-01.58.26:660][  0]LogInit: Texture streaming: Enabled
+[2017.09.23-01.58.26:752][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.23-01.58.26:947][  0]LogInit: Transaction tracking system initialized
+[2017.09.23-01.58.27:222][  0]BlueprintLog: New page: Editor Load
+[2017.09.23-01.58.27:993][  0]LocalizationService: Localization service is disabled
+[2017.09.23-01.58.28:607][  0]LogConsoleResponse: Display: 
+[2017.09.23-01.58.28:786][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.23-01.58.28:786][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.23-01.58.28:786][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.23-01.58.29:697][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/' took 0.01s
+[2017.09.23-01.58.29:745][  0]Cmd: MAP LOAD FILE="E:/Projetos Unreal/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.23-01.58.29:746][  0]LightingResults: New page: Lighting Build
+[2017.09.23-01.58.29:782][  0]MapCheck: New page: Map Check
+[2017.09.23-01.58.29:782][  0]LightingResults: New page: Lighting Build
+[2017.09.23-01.58.30:290][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
+    Property = ObjectProperty /Game/BluePrints/Alien_01.Alien_01_C:Farm
+    Item = TargetPoint /Game/Maps/MapaBasico.MapaBasico:PersistentLevel.TargetPoint_2
+[2017.09.23-01.58.30:290][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
+    Property = ObjectProperty /Game/BluePrints/Alien_01.Alien_01_C:Farm
+    Item = TargetPoint /Game/Maps/MapaBasico.MapaBasico:PersistentLevel.TargetPoint_2
+[2017.09.23-01.58.30:290][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
+    Property = ObjectProperty /Game/BluePrints/Alien_01.Alien_01_C:Farm
+    Item = TargetPoint /Game/Maps/MapaBasico.MapaBasico:PersistentLevel.TargetPoint_2
+[2017.09.23-01.58.30:551][  0]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.23-01.58.30:565][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.23-01.58.30:579][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.23-01.58.30:657][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.863ms to complete.
+[2017.09.23-01.58.30:657][  0]LogFileHelpers: Loading map 'MapaBasico' took 0.912
+[2017.09.23-01.58.30:726][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.23-01.58.30:865][  0]LogCollectionManager: Loaded 0 collections in 0.001442 seconds
+[2017.09.23-01.58.30:947][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Saved/Collections/' took 0.01s
+[2017.09.23-01.58.30:947][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Developers/Smailin/Collections/' took 0.01s
+[2017.09.23-01.58.30:947][  0]LogFileCache: Scanning file cache for directory 'E:/Projetos Unreal/FamersVsAliens/Content/Collections/' took 0.01s
+[2017.09.23-01.58.30:947][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.23-01.58.30:962][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2387 classes and 502 folders.
+[2017.09.23-01.58.31:018][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.23-01.58.31:071][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.23-01.58.31:093][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.23-01.58.31:096][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.23-01.58.31:103][  0]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.23-01.58.31:230][  0]LogRenderer: Reallocating scene render targets to support 788x472 Format 10 NumSamples 1 (Frame:1).
+[2017.09.23-01.58.31:280][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.23-01.58.31:404][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.23-01.58.31:404][  0]LogLoad: (Engine Initialization) Total time: 18.46 seconds
+[2017.09.23-01.58.31:404][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.23-01.58.31:404][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.23-01.58.31:436][  0]SourceControl: On branch master
+[2017.09.23-01.58.31:436][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.23-01.58.31:436][  0]SourceControl: Changes not staged for commit:
+[2017.09.23-01.58.31:436][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.23-01.58.31:436][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Content/BluePrints/BP_VacasNovo.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Content/BluePrints/EntregaVacaBP.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Content/Maps/MapaBasico03.umap
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Content/Maps/MapaBasico03_BuiltData.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/311563bb.bin
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/BP_VacasNovo_Auto2.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/BP_VacasNovo_Auto3.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/BP_VacasNovo_Auto4.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/BP_VacasNovo_Auto6.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/BP_VacasNovo_Auto7.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/EntregaVacaBP_Auto2.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/BluePrints/EntregaVacaBP_Auto7.uasset
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/MapaBasico03_Auto1.umap
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/MapaBasico03_Auto2.umap
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/MapaBasico03_Auto3.umap
+[2017.09.23-01.58.31:436][  0]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/MapaBasico03_Auto4.umap
+[2017.09.23-01.58.31:437][  0]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/MapaBasico03_Auto5.umap
+[2017.09.23-01.58.31:437][  0]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/MapaBasico03_Auto6.umap
+[2017.09.23-01.58.31:437][  0]SourceControl: 	modified:   Saved/Autosaves/Game/Maps/MapaBasico03_Auto7.umap
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_01_2017-09-19-22-44-16.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_2017-09-19-12-13-25.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_BlendSpace_2017-09-19-22-13-24.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_BlendSpace_2017-09-19-22-25-43.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_PhysicsAsset_2017-09-19-11-52-28.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_Skeleton_2017-09-19-11-51-55.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_Strafe_2017-09-19-11-55-53.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Alien_Strafe_dir_2017-09-19-22-10-11.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Arma_2017-09-19-14-39-48.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Arma_2017-09-20-01-27-44.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Arma_2017-09-20-01-39-30.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/BP_VacasNovo_2017-09-19-22-22-13.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/BP_VacasNovo_2017-09-19-23-33-04.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Cow_2017-09-19-23-28-05.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Cow_2017-09-19-23-34-21.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Dying_2017-09-19-11-54-58.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazen_AnimBlueprint_2017-09-19-14-04-27.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazen_AnimBlueprint_2017-09-19-14-37-01.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazen_AnimBlueprint_2017-09-19-22-35-33.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazen_AnimBlueprint_2017-09-19-22-44-16.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-13-24-27.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-13-35-24.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-13-46-45.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-14-06-30.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-14-39-48.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-15-17-22.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-15-28-39.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Rifle_Run_2017-09-19-13-24-26.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Gunplay_2017-09-19-11-55-09.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Idle_2017-09-19-12-13-25.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Idle_PhysicsAsset_2017-09-19-11-52-28.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Inimigo01_2017-09-19-11-52-27.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Inimigo01_2017-09-19-11-59-00.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-09-33-54.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-09-58-13.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-11-50-42.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-11-57-22.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-13-24-26.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-14-10-07.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-14-21-54.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-14-39-48.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-15-27-13.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-15-40-48.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-15-54-49.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-16-12-14.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-16-24-11.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-16-34-12.uasset
+[2017.09.23-01.58.31:437][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-16-47-11.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-16-56-11.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-21-03-14.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-21-14-35.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-21-22-18.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-21-37-37.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-21-47-38.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-22-00-09.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-22-22-13.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-23-06-03.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-23-07-51.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-23-17-51.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-23-25-12.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-23-33-04.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-23-34-21.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-23-43-50.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-20-00-57-37.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-20-01-09-20.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-20-01-18-27.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-20-01-39-30.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-20-13-22-27.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico02_2017-09-19-21-25-52.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico02_2017-09-19-22-22-13.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico02_2017-09-19-23-11-17.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico02_2017-09-19-23-25-12.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico02_2017-09-19-23-33-03.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico02_BuiltData_2017-09-19-21-25-52.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico02_BuiltData_2017-09-19-23-11-18.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico03_2017-09-19-12-00-04.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-11-50-43.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-11-59-28.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-12-59-18.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-13-24-26.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-14-10-07.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-14-21-54.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-14-39-48.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-15-27-13.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-15-40-48.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-15-54-49.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-12-14.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-24-11.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-34-12.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-47-11.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-56-12.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-22-35-32.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-22-44-16.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-20-00-57-37.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-20-01-09-21.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-20-01-18-28.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-20-01-39-30.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-20-13-22-27.umap
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_BuiltData_2017-09-19-14-40-56.uasset
+[2017.09.23-01.58.31:438][  0]SourceControl: 	deleted:    Saved/Backup/Mesh_Alien_2017-09-19-12-13-25.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/Mesh_Fazendeiro_2017-09-19-12-13-25.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/ProjetilDoHeroi_2017-09-19-15-54-49.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/ProjetilDoHeroi_2017-09-20-01-39-30.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/ProjetilDoHeroi_2_2017-09-20-01-36-28.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/Rifle_Run_2017-09-19-11-55-35.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/Strafe_2017-09-19-11-55-41.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/Strafe__1__2017-09-19-11-56-18.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/Vaca_ItenBlueprint_2017-09-20-01-12-36.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/Waving_2017-09-19-11-56-22.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_2017-09-19-11-50-28.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_2017-09-19-12-13-25.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_Anim_2017-09-19-11-55-19.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_Idle_2017-09-19-11-56-56.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_PhysicsAsset_2017-09-19-11-52-48.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_Skeleton_2017-09-19-14-19-35.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_Skeleton_2017-09-19-15-51-47.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_Skeleton_2017-09-19-23-17-49.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_Skeleton_2017-09-20-01-12-29.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.23-01.58.31:439][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.23-01.58.31:439][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.23-01.58.31:439][  0]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
+[2017.09.23-01.58.31:439][  0]SourceControl: Untracked files:
+[2017.09.23-01.58.31:439][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Autosaves/Game/BluePrints/EntregaVacaBP_Auto1.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Autosaves/Game/BluePrints/EntregaVacaBP_Auto3.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Autosaves/Game/BluePrints/EntregaVacaBP_Auto4.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Autosaves/Game/BluePrints/EntregaVacaBP_Auto5.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Autosaves/Game/BluePrints/EntregaVacaBP_Auto6.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/BP_VacasNovo_2017-09-22-21-34-06.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/BP_VacasNovo_2017-09-22-21-45-58.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/BP_VacasNovo_2017-09-22-21-56-18.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/BP_VacasNovo_2017-09-22-22-18-35.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/BP_VacasNovo_2017-09-22-22-37-18.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/BP_VacasNovo_2017-09-22-22-57-37.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-21-00-15.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-21-34-06.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-21-45-58.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-21-56-18.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-22-07-17.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-22-18-35.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-22-37-18.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/EntregaVacaBP_2017-09-22-22-57-37.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-21-00-14.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-21-34-06.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-21-45-57.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-21-56-17.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-22-07-17.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-22-18-34.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-22-26-58.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-22-37-17.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_2017-09-22-22-54-48.umap
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_BuiltData_2017-09-22-21-03-57.uasset
+[2017.09.23-01.58.31:439][  0]SourceControl: 	Saved/Backup/MapaBasico03_BuiltData_2017-09-22-22-26-58.uasset
+[2017.09.23-01.58.31:440][  0]SourceControl: 	Saved/Backup/MapaBasico03_BuiltData_2017-09-22-22-54-49.uasset
+[2017.09.23-01.58.31:440][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-1F81CD0340D9851B531009A16E941E1C/
+[2017.09.23-01.58.31:440][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-32155BF14C198CC2D6035A996219ECBC/
+[2017.09.23-01.58.31:440][  0]SourceControl: 	Saved/Crashes/UE4CC-Windows-1F81CD0340D9851B531009A16E941E1C_0000/
+[2017.09.23-01.58.31:440][  0]SourceControl: 	Saved/Crashes/UE4CC-Windows-1F81CD0340D9851B531009A16E941E1C_0001/
+[2017.09.23-01.58.31:440][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.23-01.58.31:440][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.23-01.58.31:543][  1]LogAssetRegistry: Asset discovery search completed in 11.9594 seconds
+[2017.09.23-01.58.31:546][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.23-01.58.31:546][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2017.09.23-01.58.32:494][ 72]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.23-01.58.35:924][423]SourceControl: fatal: F:/UE_4.17/Engine/Content/: 'F:/UE_4.17/Engine/Content/' is outside repository
+[2017.09.23-01.58.42:646][423]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.09.23-01.58.42:713][423]SourceControl: [master 290dd6b] comit
+[2017.09.23-01.58.42:713][423]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.09.23-01.58.42:713][423]SourceControl:  rewrite Content/BluePrints/EntregaVacaBP.uasset (93%)
+[2017.09.23-01.58.42:725][423]SourceControl: Commited [master 290dd6b] comit.
+[2017.09.23-01.58.45:907][733]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.23-01.58.46:075][734]Cmd: QUIT_EDITOR
+[2017.09.23-01.58.46:098][734]LogExit: Preparing to exit.
+[2017.09.23-01.58.46:547][734]LogExit: Editor shut down
+[2017.09.23-01.58.46:549][734]LogExit: Transaction tracking system shut down
+[2017.09.23-01.58.46:732][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.23-01.58.46:732][734]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/' was aborted.
+[2017.09.23-01.58.46:732][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.23-01.58.46:732][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.23-01.58.46:732][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.23-01.58.46:779][734]LogExit: Object subsystem successfully closed.
+[2017.09.23-01.58.46:797][734]LogD3D11RHI: Shutdown
+[2017.09.23-01.58.46:797][734]LogD3D11RHI: CleanupD3DDevice
+[2017.09.23-01.58.46:881][734]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.23-01.58.46:891][734]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.23-01.58.46:891][734]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.09.23-01.58.46:891][734]LogDirectoryWatcher: A directory notification for 'F:/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.09.23-01.58.46:892][734]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/Collections/' was aborted.
+[2017.09.23-01.58.46:892][734]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Content/Developers/Smailin/Collections/' was aborted.
+[2017.09.23-01.58.46:892][734]LogDirectoryWatcher: A directory notification for 'E:/Projetos Unreal/FamersVsAliens/Saved/Collections/' was aborted.
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.23-01.58.46:892][734]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.23-01.58.46:893][734]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.23-01.58.47:326][734]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.23-01.58.47:327][734]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.23-01.58.47:328][734]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.23-01.58.47:328][734]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.23-01.58.47:328][734]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.23-01.58.47:381][734]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.23-01.58.47:383][734]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.23-01.58.47:384][734]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.23-01.58.47:449][734]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.23-01.58.47:449][734]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.23-01.58.47:450][734]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.23-01.58.47:451][734]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.23-01.58.47:452][734]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.23-01.58.47:452][734]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.23-01.58.47:452][734]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.23-01.58.47:453][734]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.23-01.58.47:554][734]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.23-01.58.47:655][734]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.23-01.58.47:655][734]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.23-01.58.47:655][734]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.23-01.58.47:655][734]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.23-01.58.47:655][734]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.23-01.58.47:655][734]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.23-01.58.47:657][734]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.23-01.58.47:657][734]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.23-01.58.47:657][734]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.23-01.58.47:657][734]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.23-01.58.47:658][734]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.23-01.58.47:659][734]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.23-01.58.47:662][734]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.23-01.58.47:663][734]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.23-01.58.47:812][734]LogDerivedDataCache: Shutdown
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.23-01.58.47:812][734]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.23-01.58.47:813][734]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.23-01.58.47:813][734]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.23-01.58.47:813][734]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.23-01.58.47:813][734]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8C2CFB33-44A0-073A-70F1-D78713979808%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=5003dd6c45572c2c38c0d9a097d73abb%7C320706aa27944b06ac78b60ca7fc33d7%7Cd480b090-0f61-4843-8a83-738e139dc393&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.23-01.58.47:814][734]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.09.23-01.58.48:314][734]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.09.23-01.58.48:814][734]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.09.23-01.58.49:332][734]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.23-01.58.49:334][734]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.23-01.58.49:334][734]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.23-01.58.49:334][734]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.23-01.58.49:334][734]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.23-01.58.49:334][734]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.23-01.58.49:334][734]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.23-01.58.49:335][734]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.23-01.58.49:335][734]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.23-01.58.49:335][734]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.23-01.58.49:335][734]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.23-01.58.49:336][734]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.23-01.58.49:341][734]LogExit: Exiting.
+[2017.09.23-01.58.49:395][734]Log file closed, 09/22/17 22:58:49
+=======
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
@@ -751,6 +1423,7 @@ Exception rethrown at [0]:
 [2017.09.23-01.35.46:418][315]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
 [2017.09.23-01.35.46:465][316]LogScript: Warning: Accessed None trying to read property Farm
 	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_5
+<<<<<<< HEAD
 	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0101
 [2017.09.23-01.35.46:466][316]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
 [2017.09.23-01.35.46:572][319]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
@@ -1243,3 +1916,677 @@ Exception rethrown at [0]:
 [2017.09.23-02.10.54:388][419]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.09.23-02.10.54:437][419]LogExit: Exiting.
 [2017.09.23-02.10.54:941][419]Log file closed, 09/22/17 23:10:54
+=======
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.25:137][176]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.25:315][180]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.25:493][184]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.25:673][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.25:869][192]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:053][196]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:198][199]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_5
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.26:199][199]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:245][200]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:438][204]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:589][207]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:726][210]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_4
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.26:727][210]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:779][211]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:785][211]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_7
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.26:785][211]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.26:955][215]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.27:097][218]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_0
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.27:097][218]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.27:144][219]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.27:328][223]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.27:510][227]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.27:700][231]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.27:793][233]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_5
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.27:794][233]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.27:883][235]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.28:065][239]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.28:255][243]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.28:446][247]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.28:582][250]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.28:765][254]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.28:830][255]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_8
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.28:831][255]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.28:958][258]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.29:139][262]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.29:324][266]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.29:512][270]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.29:706][274]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.29:895][278]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.29:992][280]LogCharacterMovement: Alien_01_C_4 is stuck and failed to move! Velocity: X=95.21 Y=175.08 Z=0.00 Location: X=-86.34 Y=-159.12 Z=110.25 Normal: X=1.00 Y=-0.05 Z=-0.06 PenetrationDepth:14.046 Actor:Alien_01_C_0 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.33.30:095][282]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:144][283]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_8
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.30:145][283]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:245][285]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_2
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.30:245][285]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:246][285]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_6
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.30:247][285]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:301][286]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:447][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:641][293]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:792][296]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:853][297]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_7
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.30:854][297]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:859][297]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_9
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.30:860][297]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.30:998][300]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.31:043][301]LogCharacterMovement: Alien_01_C_5 is stuck and failed to move! Velocity: X=116.44 Y=121.76 Z=0.00 Location: X=-1201.72 Y=-206.79 Z=108.19 Normal: X=0.95 Y=0.11 Z=-0.31 PenetrationDepth:22.516 Actor:Alien_01_C_2 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.33.31:153][303]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.31:211][304]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_8
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.31:211][304]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.31:315][306]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.31:478][309]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.31:629][312]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.31:784][315]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.32:296][324]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_3
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.32:297][324]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.32:868][335]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_10
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.32:868][335]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.33:983][359]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_10
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.33:983][359]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.34:027][360]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_5
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.34:027][360]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.34:528][371]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_9
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.34:528][371]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.34:875][378]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_11
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.34:876][378]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.35:096][383]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_5
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.35:097][383]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.35:546][392]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_7
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.35:547][392]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.35:743][396]LogCharacterMovement: Alien_01_C_6 is stuck and failed to move! Velocity: X=88.12 Y=-313.85 Z=0.00 Location: X=-461.35 Y=-313.12 Z=108.04 Normal: X=-0.06 Y=0.98 Z=-0.17 PenetrationDepth:8.043 Actor:Alien_01_C_5 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.33.36:427][410]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_6
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.36:428][410]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.36:869][419]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_12
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.36:870][419]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.38:535][454]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_12
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.38:536][454]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.38:918][462]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_13
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.38:918][462]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.40:930][505]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_14
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.40:931][505]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.41:093][509]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_13
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.41:093][509]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.42:197][534]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_14
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.42:197][534]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.42:948][551]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_15
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.42:950][551]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.44:976][595]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_16
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.44:977][595]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.45:339][603]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_14
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.45:339][603]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.46:986][639]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_17
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.46:987][639]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.48:605][675]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_17
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.48:606][675]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.49:012][684]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_18
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.49:013][684]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.49:047][685]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_16
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.49:047][685]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.49:436][693]LogCharacterMovement: Alien_01_C_14 is stuck and failed to move! Velocity: X=0.12 Y=58.59 Z=0.00 Location: X=-3.66 Y=-1847.36 Z=110.28 Normal: X=0.51 Y=0.86 Z=-0.00 PenetrationDepth:9.106 Actor:Alien_01_C_16 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.33.49:986][705]LogCharacterMovement: Alien_01_C_16 is stuck and failed to move! Velocity: X=16.53 Y=480.63 Z=0.00 Location: X=-86.33 Y=-1858.59 Z=108.13 Normal: X=-0.93 Y=-0.31 Z=-0.21 PenetrationDepth:5.233 Actor:Alien_01_C_14 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.33.50:212][710]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_17
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.50:212][710]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.50:750][722]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_18
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.50:751][722]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.51:030][728]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_19
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.51:031][728]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.53:063][773]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_20
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.53:063][773]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.53:543][784]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_19
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.53:543][784]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.55:088][818]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_21
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.55:089][818]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.57:113][860]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_22
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.57:113][860]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.33.59:084][902]LogCharacterMovement: Alien_01_C_20 is stuck and failed to move! Velocity: X=19.11 Y=-47.78 Z=0.00 Location: X=-83.50 Y=208.77 Z=110.28 Normal: X=0.28 Y=-0.94 Z=-0.21 PenetrationDepth:14.084 Actor:Alien_01_C_21 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.33.59:159][903]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_23
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.33.59:159][903]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.00:016][921]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_22
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.00:017][921]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.00:195][925]LogCharacterMovement: Alien_01_C_20 is stuck and failed to move! Velocity: X=19.15 Y=-47.87 Z=0.00 Location: X=-83.50 Y=208.77 Z=110.28 Normal: X=0.28 Y=-0.94 Z=-0.21 PenetrationDepth:14.201 Actor:Alien_01_C_21 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.34.00:307][927]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_23
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.00:307][927]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.01:165][944]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_24
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.01:165][944]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.01:822][958]LogCharacterMovement: Alien_01_C_20 is stuck and failed to move! Velocity: X=19.96 Y=-49.91 Z=0.00 Location: X=-83.50 Y=208.77 Z=110.28 Normal: X=0.30 Y=-0.93 Z=-0.21 PenetrationDepth:19.346 Actor:Alien_01_C_21 Component:Helmet BoneName:None (3 other events since notify)
+[2017.09.22-23.34.01:938][960]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_23
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.01:939][960]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.03:187][986]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_25
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.03:188][986]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.03:310][989]LogCharacterMovement: Alien_01_C_21 is stuck and failed to move! Velocity: X=60.73 Y=-78.76 Z=0.00 Location: X=-150.19 Y=194.77 Z=110.28 Normal: X=0.00 Y=1.00 Z=-0.08 PenetrationDepth:8.080 Actor:Alien_01_C_23 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.34.05:220][ 31]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_26
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.05:220][ 31]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.07:249][ 76]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_27
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.07:250][ 76]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.09:261][120]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_28
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.09:261][120]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.09:966][136]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_27
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.09:966][136]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.11:277][165]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_29
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.11:278][165]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.13:297][210]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_30
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.13:297][210]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.13:327][211]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_28
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.13:327][211]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.15:339][256]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_31
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.15:340][256]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.17:157][294]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_31
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.17:157][294]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.17:349][298]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_32
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.17:349][298]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.18:220][318]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_31
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.18:220][318]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.19:246][341]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_32
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.19:247][341]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.19:388][344]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_33
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.19:389][344]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.20:301][365]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_32
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.20:302][365]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.21:433][390]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_34
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.21:433][390]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.22:505][414]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_33
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.22:505][414]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.22:627][417]LogCharacterMovement: Alien_01_C_31 is stuck and failed to move! Velocity: X=70.75 Y=-51.73 Z=0.00 Location: X=-194.98 Y=142.55 Z=110.28 Normal: X=-0.02 Y=-1.00 Z=-0.00 PenetrationDepth:6.423 Actor:Alien_01_C_32 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.34.23:034][426]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_34
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.23:034][426]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.23:449][435]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_35
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.23:449][435]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.24:100][450]LogScript: Warning: Accessed None trying to read property Farm
+	Alien_01_C /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04:PersistentLevel.Alien_01_C_34
+	Function /Game/BluePrints/Alien_01.Alien_01_C:ExecuteUbergraph_Alien_01:0106
+[2017.09.22-23.34.24:100][450]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property Farm from function: 'ExecuteUbergraph_Alien_01' from node: IA MoveTo in graph: EventGraph in object: Alien_01 with description: Accessed None trying to read property Farm
+[2017.09.22-23.34.24:694][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04' with GeneratedClass '/Game/Maps/MapaBasico04.MapaBasico04_C' with ClassGeneratedBy '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04'
+[2017.09.22-23.34.24:955][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04' with GeneratedClass '/Game/Maps/MapaBasico04.MapaBasico04_C' with ClassGeneratedBy '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04'
+[2017.09.22-23.35.02:236][949]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.09.22-23.35.03:268][991]LogEditorTransaction: Undo Mover Nó
+[2017.09.22-23.35.03:932][ 10]LogEditorTransaction: Undo Quebra Vínculo do Fixador
+[2017.09.22-23.35.04:642][ 24]LogEditorTransaction: Undo Mover Nó
+[2017.09.22-23.35.05:224][ 40]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.09.22-23.35.05:929][ 54]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.09.22-23.35.06:808][ 68]LogEditorTransaction: Undo Mover Nó
+[2017.09.22-23.35.07:483][ 87]LogEditorTransaction: Undo Adicionar Nó
+[2017.09.22-23.35.08:071][103]LogEditorTransaction: Undo Adicionar Nó
+[2017.09.22-23.35.09:694][161]LogEditorTransaction: Undo Delete current selection
+[2017.09.22-23.35.12:188][249]BlueprintLog: New page: Compilar Alien_01
+[2017.09.22-23.36.47:395][327]BlueprintLog: New page: Compilar Andar
+[2017.09.22-23.36.52:256][595]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.22-23.36.52:294][595]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04' with GeneratedClass '/Game/Maps/MapaBasico04.MapaBasico04_C' with ClassGeneratedBy '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04'
+[2017.09.22-23.36.52:294][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.22-23.36.52:294][595]PIE: New page: Sessão de PIE : MapaBasico04 (22/09/2017 17:36:52)
+[2017.09.22-23.36.52:295][595]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapaBasico04
+[2017.09.22-23.36.52:317][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022360s)
+[2017.09.22-23.36.52:318][595]LogAIModule: Creating AISystem for world MapaBasico04
+[2017.09.22-23.36.52:318][595]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2017.09.22-23.36.52:318][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapaBasico04.MapaBasico04 to /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04 (0.023787s)
+[2017.09.22-23.36.52:452][595]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.22-23.36.52:475][595]LogInit: FAudioDevice initialized.
+[2017.09.22-23.36.52:481][595]LogHardwareCursor: Error: Failed to load cursor '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/None'.  If you included a file extension or the size information '_WidthxHeight' remove them.
+[2017.09.22-23.36.52:511][595]LogLoad: Game class is 'ModoDeJogo_C'
+[2017.09.22-23.36.52:563][595]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapaBasico04.MapaBasico04 up for play (max tick rate 60) at 2017.09.22-20.36.52
+[2017.09.22-23.36.52:598][595]LogWorld: Bringing up level for play took: 0.086807
+[2017.09.22-23.36.52:603][595]PIE: Momento de início de reprodução no editor para /Game/Maps/UEDPIE_0_MapaBasico04 0,082
+[2017.09.22-23.36.52:603][595]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04' with GeneratedClass '/Game/Maps/MapaBasico04.MapaBasico04_C' with ClassGeneratedBy '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04'
+[2017.09.22-23.36.58:290][716]LogCharacterMovement: BP_VacasNovo_C_7 is stuck and failed to move! Velocity: X=-599.08 Y=-33.14 Z=0.00 Location: X=-790.58 Y=1152.44 Z=108.09 Normal: X=0.73 Y=-0.57 Z=-0.38 PenetrationDepth:25.032 Actor:Alien_01_C_1 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.37.04:108][845]LogCharacterMovement: BP_VacasNovo_C_3 is stuck and failed to move! Velocity: X=12.18 Y=87.66 Z=0.00 Location: X=-1228.79 Y=-2688.02 Z=108.37 Normal: X=-0.93 Y=-0.09 Z=-0.36 PenetrationDepth:33.331 Actor:Alien_01_C_3 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.37.14:461][ 70]LogCharacterMovement: BP_VacasNovo_C_0 is stuck and failed to move! Velocity: X=197.92 Y=566.42 Z=0.00 Location: X=-1103.50 Y=-210.94 Z=108.93 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:9.018 Actor:BP_VacasNovo_C_11 Component:Mech BoneName:None (0 other events since notify)
+[2017.09.22-23.37.17:255][130]LogCharacterMovement: Alien_01_C_8 is stuck and failed to move! Velocity: X=-64.64 Y=68.38 Z=0.00 Location: X=-891.72 Y=-2534.22 Z=108.03 Normal: X=-0.56 Y=-0.76 Z=-0.34 PenetrationDepth:0.338 Actor:Alien_01_C_4 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.37.22:088][235]LogCharacterMovement: Alien_01_C_9 is stuck and failed to move! Velocity: X=-31.55 Y=-92.55 Z=0.00 Location: X=-1084.81 Y=-1659.04 Z=108.93 Normal: X=0.78 Y=0.63 Z=-0.07 PenetrationDepth:2.154 Actor:Alien_01_C_1 Component:Helmet BoneName:None (0 other events since notify)
+[2017.09.22-23.37.23:082][256]LogCharacterMovement: Alien_01_C_9 is stuck and failed to move! Velocity: X=-193.62 Y=-567.90 Z=0.00 Location: X=-1084.81 Y=-1659.04 Z=108.93 Normal: X=0.90 Y=0.39 Z=-0.20 PenetrationDepth:1.031 Actor:Alien_01_C_1 Component:Helmet BoneName:None (20 other events since notify)
+[2017.09.22-23.37.24:132][280]LogCharacterMovement: Alien_01_C_9 is stuck and failed to move! Velocity: X=-29.10 Y=-85.40 Z=0.00 Location: X=-1084.94 Y=-1659.20 Z=108.26 Normal: X=0.91 Y=0.35 Z=-0.20 PenetrationDepth:0.129 Actor:Alien_01_C_1 Component:Helmet BoneName:None (17 other events since notify)
+[2017.09.22-23.37.25:155][303]LogCharacterMovement: Alien_01_C_9 is stuck and failed to move! Velocity: X=-28.49 Y=-83.59 Z=0.00 Location: X=-1084.94 Y=-1659.20 Z=108.26 Normal: X=0.91 Y=0.36 Z=-0.21 PenetrationDepth:1.095 Actor:Alien_01_C_1 Component:Helmet BoneName:None (16 other events since notify)
+[2017.09.22-23.37.26:190][326]LogCharacterMovement: Alien_01_C_9 is stuck and failed to move! Velocity: X=-30.16 Y=-88.51 Z=0.00 Location: X=-1084.94 Y=-1659.20 Z=108.26 Normal: X=0.91 Y=0.37 Z=-0.20 PenetrationDepth:0.220 Actor:Alien_01_C_1 Component:Helmet BoneName:None (13 other events since notify)
+[2017.09.22-23.37.27:193][348]LogCharacterMovement: Alien_01_C_9 is stuck and failed to move! Velocity: X=-31.21 Y=-91.59 Z=0.00 Location: X=-1084.94 Y=-1659.20 Z=108.26 Normal: X=0.91 Y=0.34 Z=-0.21 PenetrationDepth:0.976 Actor:Alien_01_C_1 Component:Helmet BoneName:None (15 other events since notify)
+[2017.09.22-23.37.27:897][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04' with GeneratedClass '/Game/Maps/MapaBasico04.MapaBasico04_C' with ClassGeneratedBy '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04'
+[2017.09.22-23.37.28:037][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04' with GeneratedClass '/Game/Maps/MapaBasico04.MapaBasico04_C' with ClassGeneratedBy '/Game/Maps/MapaBasico04.MapaBasico04:PersistentLevel.MapaBasico04'
+[2017.09.22-23.37.34:104][687]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.09.22-23.37.34:296][687]EditorErrors: Warning: No assets to check in!
+[2017.09.22-23.38.04:361][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Alien_01" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Alien_01.uasset" SILENT=true
+[2017.09.22-23.38.04:690][285]LogSavePackage: Save=127.18ms
+[2017.09.22-23.38.04:690][285]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Alien_017E646EE24855F5913BAE9C8257007B07.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Alien_01.uasset'
+[2017.09.22-23.38.04:729][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Alien_01.uasset
+[2017.09.22-23.38.04:734][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Andar" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Andar.uasset" SILENT=true
+[2017.09.22-23.38.05:008][285]LogSavePackage: Save=103.96ms
+[2017.09.22-23.38.05:014][285]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Andar0FE14DB44D2686308ACF1782EC103E88.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Andar.uasset'
+[2017.09.22-23.38.05:027][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Andar.uasset
+[2017.09.22-23.38.05:033][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Barreira_BP" FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Barreira_BP.uasset" SILENT=true
+[2017.09.22-23.38.05:246][285]LogSavePackage: Save=29.33ms
+[2017.09.22-23.38.05:246][285]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Barreira_BPCEB170F3442CA83AE661789974FC282C.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Barreira_BP.uasset'
+[2017.09.22-23.38.05:257][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Barreira_BP.uasset
+[2017.09.22-23.38.05:296][285]LogSavePackage: Save=27.23ms
+[2017.09.22-23.38.05:296][285]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Fazenda_Blueprint29D943D74485A23E283B039EEB66514D.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Fazenda_Blueprint.uasset'
+[2017.09.22-23.38.05:313][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/BluePrints/Fazenda_Blueprint.uasset
+[2017.09.22-23.38.18:774][285]LogSavePackage: Save=569.70ms
+[2017.09.22-23.38.18:774][285]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico04284B185B456CCB142B8586A687E90602.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico04.umap'
+[2017.09.22-23.38.18:789][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico04.umap
+[2017.09.22-23.38.18:883][285]LogFileHelpers: Saving map 'MapaBasico04' took 13.233
+[2017.09.22-23.38.19:161][285]LogSavePackage: Save=265.40ms
+[2017.09.22-23.38.19:161][285]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico04_BuiltDataC33D5BE6470112C73E9361BAF4675120.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico04_BuiltData.uasset'
+[2017.09.22-23.38.19:172][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico04_BuiltData.uasset
+[2017.09.22-23.38.20:127][285]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.22-23.38.20:282][285]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.22-23.38.21:855][286]Cmd: QUIT_EDITOR
+[2017.09.22-23.38.27:950][286]LogExit: Preparing to exit.
+[2017.09.22-23.38.35:792][286]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.22-23.38.47:812][286]LogExit: Editor shut down
+[2017.09.22-23.38.48:483][286]LogExit: Transaction tracking system shut down
+[2017.09.22-23.38.51:349][286]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.22-23.38.51:349][286]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.22-23.38.51:349][286]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.22-23.38.51:349][286]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.22-23.38.51:349][286]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.22-23.39.02:473][286]LogExit: Object subsystem successfully closed.
+[2017.09.22-23.39.03:301][286]LogD3D11RHI: Shutdown
+[2017.09.22-23.39.03:307][286]LogD3D11RHI: CleanupD3DDevice
+[2017.09.22-23.39.03:469][286]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.22-23.39.07:029][286]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2017.09.22-23.39.07:052][286]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.09.22-23.39.07:052][286]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.09.22-23.39.07:052][286]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.09.22-23.39.07:281][286]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.22-23.39.07:281][286]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.22-23.39.07:316][286]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.22-23.39.07:400][286]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.22-23.39.08:128][286]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.22-23.39.08:128][286]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.22-23.39.08:128][286]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.22-23.39.08:154][286]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' was aborted.
+[2017.09.22-23.39.08:154][286]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' was aborted.
+[2017.09.22-23.39.08:154][286]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' was aborted.
+[2017.09.22-23.39.08:154][286]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.22-23.39.08:222][286]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.22-23.39.08:222][286]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.22-23.39.08:327][286]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.22-23.39.08:327][286]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.22-23.39.08:327][286]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.22-23.39.08:327][286]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.22-23.39.08:327][286]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.22-23.39.08:327][286]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.22-23.39.08:359][286]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.22-23.39.08:359][286]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.22-23.39.08:382][286]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.22-23.39.08:402][286]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.22-23.39.08:408][286]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.22-23.39.08:408][286]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.22-23.39.08:435][286]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.22-23.39.08:449][286]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.22-23.39.08:451][286]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.22-23.39.08:467][286]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.22-23.39.08:467][286]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.22-23.39.08:467][286]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.22-23.39.08:468][286]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.22-23.39.08:468][286]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.22-23.39.08:505][286]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.22-23.39.08:527][286]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.22-23.39.08:559][286]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.22-23.39.08:599][286]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.22-23.39.08:599][286]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.22-23.39.08:599][286]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.22-23.39.08:599][286]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.22-23.39.09:009][286]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.22-23.39.09:045][286]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.22-23.39.09:045][286]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.22-23.39.09:045][286]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.22-23.39.09:131][286]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.22-23.39.09:201][286]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.22-23.39.09:212][286]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.22-23.39.09:262][286]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.22-23.39.09:262][286]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.22-23.39.09:291][286]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.22-23.39.09:296][286]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.22-23.39.09:296][286]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.22-23.39.09:305][286]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.22-23.39.09:305][286]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.22-23.39.09:324][286]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.22-23.39.09:324][286]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.22-23.39.09:324][286]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.22-23.39.09:324][286]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.22-23.39.09:324][286]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.22-23.39.09:346][286]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.22-23.39.09:404][286]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.22-23.39.09:407][286]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.22-23.39.09:418][286]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.22-23.39.09:472][286]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.22-23.39.09:991][286]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.22-23.39.10:008][286]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.22-23.39.10:021][286]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.22-23.39.10:064][286]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.22-23.39.10:064][286]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.22-23.39.10:099][286]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.22-23.39.10:102][286]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.22-23.39.10:179][286]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.22-23.39.10:179][286]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.22-23.39.10:186][286]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.22-23.39.10:342][286]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.22-23.39.10:344][286]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.22-23.39.10:345][286]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.22-23.39.10:363][286]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.22-23.39.10:400][286]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.22-23.39.10:414][286]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.22-23.39.10:419][286]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.22-23.39.11:510][286]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.22-23.39.11:510][286]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.22-23.39.11:510][286]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.22-23.39.11:510][286]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.22-23.39.11:622][286]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.22-23.39.11:628][286]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.22-23.39.11:757][286]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.22-23.39.11:787][286]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.22-23.39.11:787][286]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.22-23.39.11:787][286]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.22-23.39.11:787][286]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.22-23.39.11:796][286]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.22-23.39.11:796][286]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.22-23.39.11:796][286]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.22-23.39.11:817][286]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.22-23.39.11:817][286]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.22-23.39.11:817][286]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.22-23.39.11:843][286]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.22-23.39.11:843][286]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.22-23.39.11:856][286]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.22-23.39.11:856][286]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.22-23.39.11:857][286]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.22-23.39.11:857][286]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.22-23.39.11:857][286]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.22-23.39.12:022][286]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.22-23.39.12:080][286]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.22-23.39.12:080][286]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.22-23.39.12:091][286]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.22-23.39.12:091][286]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.22-23.39.12:108][286]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.22-23.39.12:124][286]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.22-23.39.12:137][286]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.22-23.39.12:137][286]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.22-23.39.12:137][286]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.22-23.39.12:137][286]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.22-23.39.12:137][286]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.22-23.39.12:159][286]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.22-23.39.12:170][286]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.22-23.39.12:199][286]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.22-23.39.12:229][286]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.22-23.39.12:230][286]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.22-23.39.12:263][286]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.22-23.39.12:263][286]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.22-23.39.12:263][286]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.22-23.39.12:263][286]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.22-23.39.12:279][286]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.22-23.39.12:279][286]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.22-23.39.12:279][286]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.22-23.39.12:294][286]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.22-23.39.12:395][286]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.22-23.39.12:505][286]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.22-23.39.12:551][286]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.22-23.39.12:552][286]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.22-23.39.12:552][286]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.22-23.39.12:566][286]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.22-23.39.12:566][286]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.22-23.39.12:646][286]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.22-23.39.12:646][286]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.22-23.39.12:671][286]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.22-23.39.12:701][286]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.22-23.39.12:730][286]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.22-23.39.12:730][286]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.22-23.39.12:738][286]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.22-23.39.12:743][286]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.22-23.39.12:743][286]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.22-23.39.12:743][286]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.22-23.39.12:743][286]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.22-23.39.12:766][286]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.22-23.39.12:777][286]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.22-23.39.12:777][286]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.22-23.39.12:781][286]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.22-23.39.12:783][286]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.22-23.39.12:791][286]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.22-23.39.12:791][286]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.22-23.39.12:801][286]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.22-23.39.12:832][286]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.22-23.39.12:839][286]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.22-23.39.12:839][286]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.22-23.39.13:076][286]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.22-23.39.13:076][286]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.22-23.39.13:099][286]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.22-23.39.13:099][286]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.22-23.39.13:099][286]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.22-23.39.13:099][286]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.22-23.39.13:099][286]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.22-23.39.13:131][286]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.22-23.39.13:132][286]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.22-23.39.13:132][286]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.22-23.39.13:133][286]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.22-23.39.13:165][286]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.22-23.39.13:177][286]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.22-23.39.13:177][286]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.22-23.39.13:188][286]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.22-23.39.13:188][286]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.22-23.39.13:199][286]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.22-23.39.13:210][286]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.22-23.39.13:251][286]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.22-23.39.13:288][286]LogDerivedDataCache: Shutdown
+[2017.09.22-23.39.13:288][286]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.22-23.39.13:289][286]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.22-23.39.13:421][286]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.22-23.39.13:435][286]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.22-23.39.13:450][286]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.22-23.39.13:462][286]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.22-23.39.13:475][286]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.22-23.39.13:475][286]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.22-23.39.13:475][286]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.22-23.39.13:475][286]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.22-23.39.13:488][286]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.22-23.39.13:500][286]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.22-23.39.13:501][286]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.22-23.39.13:501][286]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.22-23.39.13:512][286]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.22-23.39.13:513][286]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.22-23.39.13:513][286]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.22-23.39.13:520][286]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.22-23.39.13:521][286]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.22-23.39.13:521][286]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.22-23.39.13:521][286]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.22-23.39.13:533][286]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.22-23.39.13:533][286]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.22-23.39.13:533][286]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.22-23.39.13:533][286]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.22-23.39.13:573][286]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.22-23.39.13:580][286]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.22-23.39.13:580][286]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.22-23.39.13:587][286]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B349851A5-4392-7E74-474A-10AAE764D5A0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=811ac6424ce57083819e778b28662927%7C8b4cf88b8f67420d8279cce044090ff6%7C2094d10c-5ad6-4568-83fb-ae8e8d51cc31&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.22-23.39.13:802][286]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.22-23.39.13:886][286]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.22-23.39.13:963][286]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.22-23.39.13:964][286]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.22-23.39.14:064][286]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.22-23.39.14:064][286]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.22-23.39.14:065][286]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.22-23.39.14:065][286]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.22-23.39.14:225][286]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.22-23.39.14:249][286]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.22-23.39.14:250][286]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.22-23.39.14:275][286]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.22-23.39.14:275][286]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.22-23.39.14:275][286]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.22-23.39.14:275][286]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.22-23.39.14:284][286]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.22-23.39.14:284][286]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.22-23.39.14:290][286]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.22-23.39.14:301][286]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.22-23.39.14:371][286]LogExit: Exiting.
+[2017.09.22-23.39.14:693][286]Log file closed, 09/22/17 20:39:14
+>>>>>>> parent of a43faf7... Merge branch 'master' of https://github.com/smailin/FamersVsAliens
+>>>>>>> 1bd33b86e7325d8c6bfea62292c93a656efe233d
+>>>>>>> 2f10c9f4721bccf347d8a939ef7558fc22909e9c
