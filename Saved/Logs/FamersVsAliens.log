@@ -1,13 +1,13 @@
-﻿Log file open, 09/22/17 21:33:04
+﻿Log file open, 09/22/17 21:46:12
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: FamersVsAliens
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1329072987) SRandInit(1329072987).
+LogInit: Display: RandInit(-1128944560) SRandInit(-1128944560).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.142584
+LogStats: Stats thread started at 0.183973
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -104,338 +104,461 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.23-00.33.06:167][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.23-00.33.06:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.23-00.33.06:184][  0]LogInit: Computer: DESKTOP-H9VC9LG
-[2017.09.23-00.33.06:184][  0]LogInit: User: mari
-[2017.09.23-00.33.06:184][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.09.23-00.33.06:184][  0]LogInit: High frequency timer resolution =2.338331 MHz
-[2017.09.23-00.33.06:184][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.23-00.33.06:184][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.23-00.33.06:184][  0]LogMemory: Process Physical Memory: 278.99 MB used, 278.99 MB peak
-[2017.09.23-00.33.06:184][  0]LogMemory: Process Virtual Memory: 275.68 MB used, 275.68 MB peak
-[2017.09.23-00.33.06:184][  0]LogMemory: Physical Memory: 3892.34 MB used,  4205.58 MB free, 8097.92 MB total
-[2017.09.23-00.33.06:184][  0]LogMemory: Virtual Memory: 666.80 MB used,  4205.58 MB free, 134217728.00 MB total
-[2017.09.23-00.33.06:706][  0]LogInit: Using OS detected language (pt-BR).
-[2017.09.23-00.33.06:706][  0]LogInit: Using OS detected locale (pt-BR).
-[2017.09.23-00.33.07:467][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.23-00.33.07:477][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2017.09.23-00.33.07:477][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.09.23-00.33.07:478][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.23-00.33.07:478][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.23-00.33.07:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.23-00.33.07:487][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.23-00.33.07:487][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.23-00.33.07:487][  0]LogWindows: EnumDisplayDevices:
-[2017.09.23-00.33.07:487][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2017.09.23-00.33.07:487][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.09.23-00.33.07:487][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2017.09.23-00.33.07:488][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.09.23-00.33.07:488][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
-[2017.09.23-00.33.07:488][  0]LogD3D11RHI:   Driver Version: 20.19.15.4624 (internal:20.19.15.4624, unified:20.19.15.4624)
-[2017.09.23-00.33.07:488][  0]LogD3D11RHI:      Driver Date: 3-8-2017
-[2017.09.23-00.33.07:488][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.23-00.33.07:493][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.23-00.33.07:499][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2017.09.23-00.33.07:501][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/7336/).
-[2017.09.23-00.33.07:502][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mari_/AppData/Local/Temp/UnrealShaderWorkingDir/14DA4ACB480837FF2E5913AD84B4B1BC/'.
-[2017.09.23-00.33.07:502][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.23-00.33.08:964][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.23-00.33.09:084][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.23-00.33.09:192][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.23-00.33.09:384][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.23-00.33.09:589][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.23-00.33.09:698][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.23-00.33.09:825][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.23-00.33.09:992][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.23-00.33.10:092][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.23-00.33.10:209][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.23-00.33.10:389][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.23-00.33.10:494][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.23-00.33.10:647][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.23-00.33.10:796][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.23-00.33.10:903][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.23-00.33.11:227][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.23-00.33.11:227][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.23-00.33.11:404][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.23-00.33.11:628][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.23-00.33.11:745][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.23-00.33.11:877][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.23-00.33.11:984][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.23-00.33.12:090][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.23-00.33.12:194][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.23-00.33.12:194][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.23-00.33.13:387][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.23-00.33.13:556][  0]LogDerivedDataCache: Loaded boot cache 0.17s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.23-00.33.13:557][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.23-00.33.13:557][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.23-00.33.13:557][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.23-00.33.13:557][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.23-00.33.13:557][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.23-00.33.13:577][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.23-00.33.13:590][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mari_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.23-00.33.13:603][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.23-00.33.13:603][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.23-00.33.13:604][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.23-00.33.13:604][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.23-00.33.13:973][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
-[2017.09.23-00.33.14:239][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.23-00.33.15:016][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.23-00.33.15:126][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.23-00.33.15:126][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.23-00.33.15:126][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.23-00.33.15:126][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.23-00.33.15:126][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.23-00.33.15:129][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.23-00.33.15:807][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
-[2017.09.23-00.33.16:248][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.114226 seconds
-[2017.09.23-00.33.16:270][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.23-00.33.16:270][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.23-00.33.16:270][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.23-00.33.16:477][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.23-00.33.21:513][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.23-00.33.21:591][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.23-00.33.22:973][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.23-00.33.23:943][  0]SourceControl: Controle de origem desativado
-[2017.09.23-00.33.26:704][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.23-00.33.27:294][  0]LogOcInput: OculusInput pre-init called
-[2017.09.23-00.33.27:864][  0]LogEngine: Initializing Engine...
-[2017.09.23-00.33.27:866][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.23-00.33.28:168][  0]LogLoad: Warning: UUserInterfaceSettings::ForceLoadResources: Failed to load cursor resource 0.
-[2017.09.23-00.33.28:169][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.23-00.33.28:169][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.23-00.33.28:475][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.23-00.33.28:483][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.23-00.33.28:522][  0]LogInit: FAudioDevice initialized.
-[2017.09.23-00.33.28:824][  0]LogDerivedDataCache: Saved boot cache 0.30s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.23-00.33.28:866][  0]LogInit: Texture streaming: Enabled
-[2017.09.23-00.33.29:159][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.23-00.33.29:680][  0]LogInit: Transaction tracking system initialized
-[2017.09.23-00.33.30:471][  0]BlueprintLog: New page: Carregar Editor
-[2017.09.23-00.33.32:717][  0]LocalizationService: Localization service is disabled
-[2017.09.23-00.33.34:335][  0]LogConsoleResponse: Display: 
-[2017.09.23-00.33.34:654][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.23-00.33.34:654][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.23-00.33.34:654][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.23-00.33.35:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' took 0.02s
-[2017.09.23-00.33.37:220][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.23-00.33.37:347][  0]LightingResults: New page: Compilação de Iluminação
-[2017.09.23-00.33.37:487][  0]MapCheck: New page: Verificação de Mapa
-[2017.09.23-00.33.37:487][  0]LightingResults: New page: Compilação de Iluminação
-[2017.09.23-00.33.38:203][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
+[2017.09.23-00.46.14:696][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.23-00.46.14:696][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.23-00.46.14:763][  0]LogInit: Computer: DESKTOP-H9VC9LG
+[2017.09.23-00.46.14:763][  0]LogInit: User: mari
+[2017.09.23-00.46.14:763][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.23-00.46.14:763][  0]LogInit: High frequency timer resolution =2.338331 MHz
+[2017.09.23-00.46.14:764][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.23-00.46.14:764][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.23-00.46.14:764][  0]LogMemory: Process Physical Memory: 279.85 MB used, 279.85 MB peak
+[2017.09.23-00.46.14:764][  0]LogMemory: Process Virtual Memory: 275.71 MB used, 275.71 MB peak
+[2017.09.23-00.46.14:764][  0]LogMemory: Physical Memory: 4948.37 MB used,  3149.55 MB free, 8097.92 MB total
+[2017.09.23-00.46.14:764][  0]LogMemory: Virtual Memory: 666.80 MB used,  3149.55 MB free, 134217728.00 MB total
+[2017.09.23-00.46.15:951][  0]LogInit: Using OS detected language (pt-BR).
+[2017.09.23-00.46.15:951][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.09.23-00.46.23:658][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.23-00.46.23:667][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.09.23-00.46.23:667][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.09.23-00.46.23:669][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.23-00.46.23:669][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.23-00.46.23:669][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.23-00.46.23:675][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.23-00.46.23:676][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.23-00.46.23:676][  0]LogWindows: EnumDisplayDevices:
+[2017.09.23-00.46.23:676][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.09.23-00.46.23:676][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.09.23-00.46.23:676][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.09.23-00.46.23:676][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.09.23-00.46.23:676][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2017.09.23-00.46.23:676][  0]LogD3D11RHI:   Driver Version: 20.19.15.4624 (internal:20.19.15.4624, unified:20.19.15.4624)
+[2017.09.23-00.46.23:676][  0]LogD3D11RHI:      Driver Date: 3-8-2017
+[2017.09.23-00.46.23:676][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.23-00.46.23:682][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.23-00.46.23:687][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.09.23-00.46.23:688][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Intermediate/Shaders/WorkingDirectory/14164/).
+[2017.09.23-00.46.23:688][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mari_/AppData/Local/Temp/UnrealShaderWorkingDir/D7834AA24FBC7A30EAF523A3DAE0FCC7/'.
+[2017.09.23-00.46.23:688][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.23-00.46.30:539][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.23-00.46.30:669][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.23-00.46.30:787][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.23-00.46.30:914][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.23-00.46.31:067][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.23-00.46.31:201][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.23-00.46.31:325][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.23-00.46.31:458][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.23-00.46.31:569][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.23-00.46.31:710][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.23-00.46.31:836][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.23-00.46.31:959][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.23-00.46.32:073][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.23-00.46.32:185][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.23-00.46.32:308][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.23-00.46.32:539][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.23-00.46.32:540][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.23-00.46.32:656][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.23-00.46.32:892][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.23-00.46.32:965][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.23-00.46.33:079][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.23-00.46.33:230][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.23-00.46.33:379][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.23-00.46.33:613][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.23-00.46.33:613][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.23-00.46.34:885][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.23-00.46.35:038][  0]LogDerivedDataCache: Loaded boot cache 0.15s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.23-00.46.35:038][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.23-00.46.35:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.23-00.46.35:038][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.23-00.46.35:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.23-00.46.35:038][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.23-00.46.35:058][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.23-00.46.35:074][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mari_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.23-00.46.35:086][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.23-00.46.35:087][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.23-00.46.35:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.23-00.46.35:196][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.23-00.46.41:531][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2017.09.23-00.46.41:772][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.23-00.46.42:016][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.23-00.46.42:729][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.23-00.46.42:829][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.23-00.46.42:829][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.23-00.46.42:829][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.23-00.46.42:829][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.23-00.46.42:829][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.23-00.46.43:386][  0]LogNetVersion: FamersVsAliens , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3801939757)
+[2017.09.23-00.46.43:845][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.121170 seconds
+[2017.09.23-00.46.43:856][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.23-00.46.43:856][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.23-00.46.43:856][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.23-00.46.44:020][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.23-00.46.56:469][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.23-00.46.56:574][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.23-00.46.58:688][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.23-00.47.00:077][  0]SourceControl: Controle de origem desativado
+[2017.09.23-00.47.03:157][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.23-00.47.03:856][  0]LogOcInput: OculusInput pre-init called
+[2017.09.23-00.47.04:587][  0]LogEngine: Initializing Engine...
+[2017.09.23-00.47.04:590][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.23-00.47.05:415][  0]LogLoad: Warning: UUserInterfaceSettings::ForceLoadResources: Failed to load cursor resource 0.
+[2017.09.23-00.47.05:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.23-00.47.05:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.23-00.47.05:811][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.23-00.47.05:822][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.23-00.47.05:865][  0]LogInit: FAudioDevice initialized.
+[2017.09.23-00.47.06:204][  0]LogDerivedDataCache: Saved boot cache 0.34s 93MB C:/Users/mari_/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.23-00.47.06:222][  0]LogInit: Texture streaming: Enabled
+[2017.09.23-00.47.06:602][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.23-00.47.07:402][  0]LogInit: Transaction tracking system initialized
+[2017.09.23-00.47.08:385][  0]BlueprintLog: New page: Carregar Editor
+[2017.09.23-00.47.11:261][  0]LocalizationService: Localization service is disabled
+[2017.09.23-00.47.13:558][  0]LogConsoleResponse: Display: 
+[2017.09.23-00.47.14:657][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.23-00.47.14:657][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.23-00.47.14:657][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.23-00.47.15:206][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' took 0.02s
+[2017.09.23-00.47.19:365][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.23-00.47.19:366][  0]LightingResults: New page: Compilação de Iluminação
+[2017.09.23-00.47.19:554][  0]MapCheck: New page: Verificação de Mapa
+[2017.09.23-00.47.19:554][  0]LightingResults: New page: Compilação de Iluminação
+[2017.09.23-00.47.20:857][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
     Property = ObjectProperty /Game/BluePrints/Alien_01.Alien_01_C:Farm
     Item = TargetPoint /Game/Maps/MapaBasico.MapaBasico:PersistentLevel.TargetPoint_2
-[2017.09.23-00.33.38:204][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
+[2017.09.23-00.47.20:857][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
     Property = ObjectProperty /Game/BluePrints/Alien_01.Alien_01_C:Farm
     Item = TargetPoint /Game/Maps/MapaBasico.MapaBasico:PersistentLevel.TargetPoint_2
-[2017.09.23-00.33.38:204][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
+[2017.09.23-00.47.20:857][  0]LogProperty: Warning: Serialized Class /Script/Engine.TargetPoint for a property of BlueprintGeneratedClass /Game/BluePrints/Fazenda_Blueprint.Fazenda_Blueprint_C. Reference will be nullptred.
     Property = ObjectProperty /Game/BluePrints/Alien_01.Alien_01_C:Farm
     Item = TargetPoint /Game/Maps/MapaBasico.MapaBasico:PersistentLevel.TargetPoint_2
-[2017.09.23-00.33.39:721][  0]LogAIModule: Creating AISystem for world MapaBasico
-[2017.09.23-00.33.39:740][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.23-00.33.39:771][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.23-00.33.39:915][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 143,04ms to complete.
-[2017.09.23-00.33.39:915][  0]LogFileHelpers: Loading map 'MapaBasico' took 2.695
-[2017.09.23-00.33.39:983][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.23-00.33.39:983][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.23-00.33.40:317][  0]LogCollectionManager: Loaded 0 collections in 0.003992 seconds
-[2017.09.23-00.33.40:497][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' took 0.01s
-[2017.09.23-00.33.40:497][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' took 0.01s
-[2017.09.23-00.33.40:497][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' took 0.01s
-[2017.09.23-00.33.40:497][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.09.23-00.33.40:511][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2386 classes and 500 folders.
-[2017.09.23-00.33.40:700][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.09.23-00.33.41:982][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.09.23-00.33.42:106][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.09.23-00.33.42:373][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.09.23-00.33.42:373][  0]LogLoad: (Engine Initialization) Total time: 39.18 seconds
-[2017.09.23-00.33.42:373][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.23-00.33.42:373][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.23-00.33.42:417][  0]SourceControl: On branch master
-[2017.09.23-00.33.42:417][  0]SourceControl: Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
-[2017.09.23-00.33.42:417][  0]SourceControl:   (use "git pull" to update your local branch)
-[2017.09.23-00.33.42:417][  0]SourceControl: Changes to be committed:
-[2017.09.23-00.33.42:417][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
-[2017.09.23-00.33.42:417][  0]SourceControl: 	new file:   Content/BluePrints/Fazenda_BP.uasset
-[2017.09.23-00.33.42:417][  0]SourceControl: Changes not staged for commit:
-[2017.09.23-00.33.42:417][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2017.09.23-00.33.42:417][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.09.23-00.33.42:418][  0]SourceControl: 	modified:   Content/Maps/MapaBasico04.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/311563bb.bin
-[2017.09.23-00.33.42:418][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.09.23-00.33.42:418][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Alien_PhysicsAsset_2017-09-19-11-52-28.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Alien_Skeleton_2017-09-19-11-51-55.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Alien_Strafe_2017-09-19-11-55-53.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Arma_2017-09-19-14-39-48.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Dying_2017-09-19-11-54-58.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazen_AnimBlueprint_2017-09-19-14-04-27.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazen_AnimBlueprint_2017-09-19-14-37-01.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-13-24-27.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-13-35-24.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-13-46-45.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-14-06-30.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-14-39-48.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-15-17-22.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Blend_2017-09-19-15-28-39.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Fazendeiro_Rifle_Run_2017-09-19-13-24-26.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Gunplay_2017-09-19-11-55-09.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Idle_2017-09-19-12-13-25.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Idle_PhysicsAsset_2017-09-19-11-52-28.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Inimigo01_2017-09-19-11-52-27.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Inimigo01_2017-09-19-11-59-00.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-09-33-54.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-09-58-13.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-11-50-42.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-11-57-22.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-13-24-26.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-14-10-07.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-15-27-13.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-15-54-49.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-16-34-12.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Jogador_2017-09-19-16-47-11.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico03_2017-09-19-12-00-04.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-11-50-43.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-11-59-28.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-12-59-18.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-13-24-26.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-14-10-07.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-14-21-54.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-14-39-48.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-15-27-13.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-12-14.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-24-11.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-34-12.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-47-11.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_2017-09-19-16-56-12.umap
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/MapaBasico_BuiltData_2017-09-19-14-40-56.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Mesh_Alien_2017-09-19-12-13-25.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Rifle_Run_2017-09-19-11-55-35.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Strafe_2017-09-19-11-55-41.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Strafe__1__2017-09-19-11-56-18.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/Waving_2017-09-19-11-56-22.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	deleted:    Saved/Backup/fazendeiro_2017-09-19-11-50-28.uasset
-[2017.09.23-00.33.42:418][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
-[2017.09.23-00.33.42:418][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.09.23-00.33.42:419][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.09.23-00.33.42:419][  0]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
-[2017.09.23-00.33.42:419][  0]SourceControl: Untracked files:
-[2017.09.23-00.33.42:419][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Backup/MapaBasico04_2017-09-22-20-55-54.umap
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Backup/MapaBasico04_2017-09-22-21-30-28.umap
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-61A4C1B040430A819CD11D8411BC8B90/
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-8A1AB2234892DF9CEF1CAE951ED62D30/
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-925B99924CEF3385CC566BAC12D90941/
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-AD9C7BF048118F3867A1809E1E7BE019/
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Crashes/UE4CC-Windows-8A1AB2234892DF9CEF1CAE951ED62D30_0000/
-[2017.09.23-00.33.42:419][  0]SourceControl: 	Saved/Crashes/UE4CC-Windows-8A1AB2234892DF9CEF1CAE951ED62D30_0001/
-[2017.09.23-00.33.42:419][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.23-00.33.42:421][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.23-00.33.42:423][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.23-00.33.42:545][  0]LogSlate: Took 0.111994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.23-00.33.42:681][  0]LogRenderer: Reallocating scene render targets to support 420x356 Format 10 NumSamples 1 (Frame:1).
-[2017.09.23-00.33.43:222][  0]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.23-00.33.43:443][  2]LogAssetRegistry: Asset discovery search completed in 29.4925 seconds
-[2017.09.23-00.33.43:446][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.23-00.33.43:446][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000078 seconds (updated 0 objects)
-[2017.09.23-00.33.51:810][151]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.23-00.33.52:347][151]LogAIModule: Creating AISystem for world MapaBasico04
-[2017.09.23-00.33.52:420][151]Cmd: MAP LOAD FILE="../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Maps/MapaBasico04.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.23-00.33.52:420][151]LightingResults: New page: Compilação de Iluminação
-[2017.09.23-00.33.52:421][151]LoadErrors: New page: Carregando mapa: MapaBasico04.umap
-[2017.09.23-00.33.52:422][151]MapCheck: New page: Verificação de Mapa
-[2017.09.23-00.33.52:422][151]LightingResults: New page: Compilação de Iluminação
-[2017.09.23-00.33.52:584][151]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.23-00.33.52:672][151]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.23-00.33.52:807][151]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 134,901ms to complete.
-[2017.09.23-00.33.52:807][151]LogFileHelpers: Loading map 'MapaBasico04' took 0.388
-[2017.09.23-00.38.07:707][216]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
-[2017.09.23-00.38.08:505][216]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.23-00.38.08:619][216]LogSlate: Took 0.000776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.23-00.40.55:311][ 53]Cmd: TRANSACTION UNDO
-[2017.09.23-00.40.55:312][ 53]LogEditorTransaction: Undo Clicando nos Atores
-[2017.09.23-00.40.55:367][ 53]LogSlate: Took 0.001637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.23-00.41.58:280][ 86]MapCheck: New page: Verificação de Mapa
-[2017.09.23-00.41.58:350][ 86]Cmd: MAP REBUILD ALLVISIBLE
-[2017.09.23-00.41.58:351][ 86]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.09.23-00.41.58:897][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.09.23-00.41.59:050][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialBase_2, compiling. 
-[2017.09.23-00.41.59:062][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2017.09.23-00.41.59:083][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Barn_01_Mat, compiling. 
-[2017.09.23-00.41.59:103][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy House_01_material, compiling. 
-[2017.09.23-00.41.59:111][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rock_01_material, compiling. 
-[2017.09.23-00.41.59:143][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tree_01_material, compiling. 
-[2017.09.23-00.41.59:151][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Fence_material, compiling. 
-[2017.09.23-00.41.59:157][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2017.09.23-00.41.59:165][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alien_01_material, compiling. 
-[2017.09.23-00.41.59:172][ 86]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Alien_02_material, compiling. 
-[2017.09.23-00.42.02:892][ 86]TextureStreamingBuild: Display: Compiling optional shaders took 4.015 seconds.
-[2017.09.23-00.42.02:940][ 86]LogLevel: Display: Export Material TexCoord Scales took 0.048 seconds.
-[2017.09.23-00.42.02:966][ 86]TextureStreamingBuild: Display: Build Texture Streaming took 0.025 seconds.
-[2017.09.23-00.42.03:047][ 86]LightingResults: New page: Compilação de Iluminação - 22/09/2017 18:42:03
-[2017.09.23-00.42.03:690][ 86]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.09.23-00.42.04:295][ 86]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.09.23-00.42.04:917][ 86]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.09.23-00.42.09:411][ 86]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2017.09.23-00.42.09:827][ 86]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente 127.0.0.1:8008
-
-Server stack trace: 
-   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   em System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   em System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   em System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   em System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   em System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   em System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
-
-Exception rethrown at [0]: 
-   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   em NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   em NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
-[2017.09.23-00.42.16:232][ 86]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.09.23-00.42.16:232][ 86]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7336
-[2017.09.23-00.42.22:661][ 86]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.09.23-00.42.22:662][ 86]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.09.23-00.42.22:662][ 86]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.09.23-00.42.22:662][ 86]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.09.23-00.42.22:662][ 86]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.09.23-00.42.22:662][ 86]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.09.23-00.42.24:103][ 86]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.09.23-00.42.24:103][ 86]MapCheck: New page: MapaBasico04 - 22/09/2017 18:42:24
-[2017.09.23-00.42.24:265][ 86]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 161,37ms to complete.
-[2017.09.23-00.42.24:287][ 86]LogEditorBuildUtils: Build time 0:25
-[2017.09.23-00.42.37:707][122]Job is a success!
-[2017.09.23-00.42.39:118][123]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.09.23-00.42.39:118][123]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.09.23-00.42.39:118][123]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.09.23-00.42.39:118][123]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.09.23-00.42.39:400][123]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
-[2017.09.23-00.42.39:400][123]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2017.09.23-00.42.39:780][123]Lightmass on DESKTOP-H9VC9LG: 11.1 sec total, 669 ms importing, 164 ms setup, 1.29 sec photons, 8.66 sec processing, 0 ms extra exporting [35/35 mappings]. Threads: 34.6 sec total, 19.7 sec processing.
-[2017.09.23-00.42.39:823][123]LogStaticLightingSystem: Illumination: 36.4 sec (856 ms encoding lightmaps, 277 ms encoding shadowmaps)
-[2017.09.23-00.42.39:823][123]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
-[2017.09.23-00.42.39:823][123]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.09.23-00.42.40:651][123]DumpUnbuiltLightIteractions
-[2017.09.23-00.42.40:651][123]Lights with unbuilt interactions: 0
-[2017.09.23-00.42.40:651][123]
-[2017.09.23-00.42.40:651][123]Primitives with unbuilt interactions: 0
-[2017.09.23-00.42.40:717][124]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.09.23-00.42.40:719][124]MapCheck: New page: MapaBasico04 - 22/09/2017 18:42:40
-[2017.09.23-00.42.41:050][124]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 331,686ms to complete.
-[2017.09.23-00.43.56:725][778]LogSavePackage: Save=498.71ms
-[2017.09.23-00.43.56:725][778]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico04_Auto11ADCEC7B432C4C15E9E1A0A0464E7C5D.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico04_Auto1.umap'
-[2017.09.23-00.43.56:730][778]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico04_Auto1.umap
-[2017.09.23-00.43.56:740][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MapaBasico04' took 0.848
-[2017.09.23-00.43.56:741][778]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.848
-[2017.09.23-00.43.56:744][778]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/MapaBasico04_BuiltData] ([1] browsable assets)...
-[2017.09.23-00.43.56:744][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/MapaBasico04_BuiltData]
-[2017.09.23-00.43.56:967][778]LogSavePackage: Save=30.90ms
-[2017.09.23-00.43.56:967][778]LogSavePackage: Moving '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/MapaBasico04_BuiltData_Auto1ADE994C34071457A5CF719A2D034047F.tmp' to '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico04_BuiltData_Auto1.uasset'
-[2017.09.23-00.43.56:970][778]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Autosaves/Game/Maps/MapaBasico04_BuiltData_Auto1.uasset
-[2017.09.23-00.43.56:988][778]LogFileHelpers: Auto-saving content packages took 0.229
+[2017.09.23-00.47.22:327][  0]LogAIModule: Creating AISystem for world MapaBasico
+[2017.09.23-00.47.22:372][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.23-00.47.22:494][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.23-00.47.23:103][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 608,839ms to complete.
+[2017.09.23-00.47.23:112][  0]LogFileHelpers: Loading map 'MapaBasico' took 3.747
+[2017.09.23-00.47.23:741][  0]LogCollectionManager: Loaded 0 collections in 0.006019 seconds
+[2017.09.23-00.47.24:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' took 0.02s
+[2017.09.23-00.47.24:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' took 0.02s
+[2017.09.23-00.47.24:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' took 0.01s
+[2017.09.23-00.47.24:195][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.23-00.47.24:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0430 seconds. Added 2386 classes and 500 folders.
+[2017.09.23-00.47.24:824][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.09.23-00.47.25:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2017.09.23-00.47.25:924][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.09.23-00.47.26:566][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.09.23-00.47.26:567][  0]LogLoad: (Engine Initialization) Total time: 77.83 seconds
+[2017.09.23-00.47.26:567][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.23-00.47.26:567][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.23-00.47.26:959][  0]SourceControl: On branch master
+[2017.09.23-00.47.26:959][  0]SourceControl: Your branch is ahead of 'origin/master' by 2 commits.
+[2017.09.23-00.47.26:959][  0]SourceControl:   (use "git push" to publish your local commits)
+[2017.09.23-00.47.26:959][  0]SourceControl: Changes not staged for commit:
+[2017.09.23-00.47.26:959][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.09.23-00.47.26:959][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.23-00.47.26:959][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.23-00.47.26:959][  0]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.09.23-00.47.26:959][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.23-00.47.26:959][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.23-00.47.26:959][  0]SourceControl: 	modified:   Saved/Logs/FamersVsAliens.log
+[2017.09.23-00.47.26:959][  0]SourceControl: Untracked files:
+[2017.09.23-00.47.26:959][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.23-00.47.26:959][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-0F29CE774B52F894FC5E048083B7F59A/
+[2017.09.23-00.47.26:959][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-50B4416E410C58FC2713C897AEBC7D4A/
+[2017.09.23-00.47.26:959][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.23-00.47.26:960][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.23-00.47.26:961][  0]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.23-00.47.26:965][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.23-00.47.26:980][  0]LogSlate: Took 0.002757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.23-00.47.27:331][  0]LogRenderer: Reallocating scene render targets to support 420x356 Format 10 NumSamples 1 (Frame:1).
+[2017.09.23-00.47.28:355][  0]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.23-00.47.30:580][  4]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.23-00.47.30:580][  4]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.23-00.47.31:143][  5]Cmd: QUIT_EDITOR
+[2017.09.23-00.47.31:198][  5]LogExit: Preparing to exit.
+[2017.09.23-00.47.34:295][  5]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.23-00.47.35:315][  5]LogExit: Editor shut down
+[2017.09.23-00.47.35:321][  5]LogExit: Transaction tracking system shut down
+[2017.09.23-00.47.36:710][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.23-00.47.36:710][  5]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/' was aborted.
+[2017.09.23-00.47.36:710][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.23-00.47.36:710][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.23-00.47.36:711][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.23-00.47.38:605][  5]LogExit: Object subsystem successfully closed.
+[2017.09.23-00.47.39:106][  5]LogD3D11RHI: Shutdown
+[2017.09.23-00.47.39:117][  5]LogD3D11RHI: CleanupD3DDevice
+[2017.09.23-00.47.39:212][  5]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.23-00.47.39:972][  5]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.23-00.47.39:972][  5]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.23-00.47.39:982][  5]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.23-00.47.40:008][  5]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.23-00.47.40:044][  5]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.23-00.47.40:044][  5]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.23-00.47.40:044][  5]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.23-00.47.40:044][  5]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Collections/' was aborted.
+[2017.09.23-00.47.40:044][  5]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Content/Developers/mari/Collections/' was aborted.
+[2017.09.23-00.47.40:044][  5]LogDirectoryWatcher: A directory notification for 'C:/Users/mari_/OneDrive/Documentos/Unreal Projects/FamersVsAliens/Saved/Collections/' was aborted.
+[2017.09.23-00.47.40:045][  5]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.23-00.47.40:048][  5]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.23-00.47.40:048][  5]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.23-00.47.40:062][  5]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.23-00.47.40:063][  5]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.23-00.47.40:071][  5]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.23-00.47.40:079][  5]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.23-00.47.40:079][  5]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.23-00.47.40:079][  5]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.23-00.47.40:079][  5]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.23-00.47.40:079][  5]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.23-00.47.40:085][  5]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.23-00.47.40:086][  5]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.23-00.47.40:086][  5]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.23-00.47.40:116][  5]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.23-00.47.40:116][  5]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.23-00.47.40:116][  5]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.23-00.47.40:116][  5]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.23-00.47.40:514][  5]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.23-00.47.40:514][  5]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.23-00.47.40:514][  5]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.23-00.47.40:514][  5]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.23-00.47.40:514][  5]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.23-00.47.40:514][  5]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.23-00.47.40:515][  5]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.23-00.47.40:516][  5]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.23-00.47.40:516][  5]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.23-00.47.40:530][  5]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.23-00.47.40:531][  5]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.23-00.47.40:531][  5]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.23-00.47.40:531][  5]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.23-00.47.40:531][  5]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.23-00.47.40:585][  5]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.23-00.47.40:585][  5]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.23-00.47.40:621][  5]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.23-00.47.40:621][  5]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.23-00.47.40:621][  5]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.23-00.47.40:632][  5]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.23-00.47.40:632][  5]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.23-00.47.40:665][  5]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.23-00.47.40:665][  5]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.23-00.47.40:672][  5]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.23-00.47.40:709][  5]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.23-00.47.40:709][  5]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.23-00.47.40:710][  5]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.23-00.47.40:710][  5]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.23-00.47.40:740][  5]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.23-00.47.40:741][  5]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.23-00.47.40:741][  5]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.23-00.47.40:741][  5]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.23-00.47.40:741][  5]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.23-00.47.40:741][  5]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.23-00.47.40:741][  5]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.23-00.47.40:780][  5]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.23-00.47.40:780][  5]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.23-00.47.40:780][  5]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.23-00.47.40:780][  5]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.23-00.47.40:780][  5]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.23-00.47.40:781][  5]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.23-00.47.40:781][  5]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.23-00.47.40:796][  5]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.23-00.47.40:807][  5]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.23-00.47.40:807][  5]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.23-00.47.40:928][  5]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.23-00.47.40:929][  5]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.23-00.47.40:938][  5]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.23-00.47.40:938][  5]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.23-00.47.40:938][  5]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.23-00.47.40:938][  5]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.23-00.47.40:938][  5]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.23-00.47.40:950][  5]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.23-00.47.40:950][  5]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.23-00.47.40:950][  5]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.23-00.47.40:951][  5]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.23-00.47.40:951][  5]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.23-00.47.40:951][  5]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.23-00.47.40:964][  5]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.23-00.47.40:964][  5]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.23-00.47.40:964][  5]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.23-00.47.40:966][  5]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.23-00.47.41:067][  5]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.23-00.47.41:168][  5]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.23-00.47.41:168][  5]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.23-00.47.41:168][  5]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.23-00.47.41:168][  5]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.23-00.47.41:168][  5]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.23-00.47.41:217][  5]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.23-00.47.41:220][  5]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.23-00.47.41:221][  5]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.23-00.47.41:221][  5]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.23-00.47.41:221][  5]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.23-00.47.41:221][  5]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.23-00.47.41:221][  5]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.23-00.47.41:231][  5]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.23-00.47.41:231][  5]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.23-00.47.41:231][  5]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.23-00.47.41:231][  5]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.23-00.47.41:232][  5]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.23-00.47.41:232][  5]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.23-00.47.41:232][  5]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.23-00.47.41:232][  5]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.23-00.47.41:232][  5]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.23-00.47.41:232][  5]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.23-00.47.41:263][  5]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.23-00.47.41:264][  5]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.23-00.47.41:284][  5]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.23-00.47.41:325][  5]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.23-00.47.41:365][  5]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.23-00.47.41:373][  5]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.23-00.47.41:425][  5]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.23-00.47.41:425][  5]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.23-00.47.41:435][  5]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.23-00.47.41:482][  5]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.23-00.47.41:493][  5]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.23-00.47.41:494][  5]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.23-00.47.41:505][  5]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.23-00.47.41:505][  5]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.23-00.47.41:525][  5]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.23-00.47.41:537][  5]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.23-00.47.41:539][  5]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.23-00.47.41:665][  5]LogDerivedDataCache: Shutdown
+[2017.09.23-00.47.41:674][  5]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.23-00.47.41:674][  5]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.23-00.47.41:681][  5]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.23-00.47.41:695][  5]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.23-00.47.41:708][  5]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.23-00.47.41:722][  5]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.23-00.47.41:735][  5]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.23-00.47.41:735][  5]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.23-00.47.41:736][  5]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.23-00.47.41:747][  5]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.23-00.47.41:770][  5]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.23-00.47.41:770][  5]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.23-00.47.41:770][  5]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.23-00.47.41:770][  5]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.23-00.47.41:770][  5]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.23-00.47.41:771][  5]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.23-00.47.41:772][  5]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.23-00.47.41:773][  5]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.23-00.47.41:773][  5]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.23-00.47.41:782][  5]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.23-00.47.41:782][  5]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.23-00.47.41:782][  5]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.23-00.47.41:782][  5]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.23-00.47.41:791][  5]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.23-00.47.41:796][  5]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.23-00.47.41:802][  5]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.23-00.47.41:803][  5]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3894F38A-44DA-9B0F-F1D4-3FAE9D090AE0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=811ac6424ce57083819e778b28662927%7C8b4cf88b8f67420d8279cce044090ff6%7C2094d10c-5ad6-4568-83fb-ae8e8d51cc31&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.23-00.47.41:838][  5]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.23-00.47.41:849][  5]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.23-00.47.41:856][  5]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.23-00.47.41:856][  5]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.23-00.47.41:872][  5]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.23-00.47.41:878][  5]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.23-00.47.41:878][  5]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.23-00.47.41:878][  5]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.23-00.47.41:917][  5]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.23-00.47.41:923][  5]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.23-00.47.41:924][  5]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.23-00.47.41:927][  5]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.23-00.47.41:927][  5]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.23-00.47.41:937][  5]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.23-00.47.41:937][  5]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.23-00.47.41:959][  5]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.23-00.47.41:959][  5]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.23-00.47.41:964][  5]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.23-00.47.41:975][  5]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.23-00.47.42:006][  5]LogExit: Exiting.
+[2017.09.23-00.47.42:085][  5]Log file closed, 09/22/17 21:47:42
